@@ -1,0 +1,281 @@
+Battle,Trainer ,Pokemon (Level),Money,Held Item,Attack 1 (Damage),Attack 2 (Damage),Attack 3 (Damage),Attack 4 (Damage),EXP,Ability,Nature,HP,Atk,Def,SpA,SpD,Spd
+,Hover over cells with a black mark to see important notes.,Last Updated: 02/04/2016,,,"
+",,,,,,,,,,,,
+,Route Required Trainers,,,,,,,,,,,,,,,,
+0,[Starter Battle],Zigzagoon (2),0,-,Tackle (3),Growl,-,-,17,Pickup,-,-,-,-,-,-,-
+1,Rival Brendan 1,Treecko (5),300,-,Pound (4),Leer,-,-,69,Overgrow,Calm,19,8,8,11,11,12
+2,Youngster Calvin,Poochyena (5),80,-,Tackle (5),Howl,-,-,58,Run Away,Naughty,18,11,8,8,7,8
+3,Team Aqua Grunt (Petalburg Woods),Poochyena (9),180,-,Tackle (7),Howl,Sand Attack,-,105,Run Away,Brave,25,15,11,10,10,9
+4,Youngster Josh,Geodude (10),160,-,Tackle (9),-,-,-,183,Rock Head,Modest,29,19,26,13,12,10
+5,Leader Roxanne,Geodude (12),1500,-,Tackle,Rock Throw,Rock Tomb,Defense Curl,220,Rock Head,Docile,33,25,30,13,13,11
+,,Geodude (12),-,-,Tackle,Rock Throw,Rock Tomb,Defense Curl,220,Rock Head,Quiet,33,25,30,14,13,9
+,,Nosepass (15),-,Oran Berry,Tackle (11),Rock Tomb (22),Harden,Block,346,Sturdy,Lonely,37,24,44,22,35,17
+6,Hiker Devan,Geodude (8),320,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Calm,24,15,21,9,9,8
+,,Geodude (8),-,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Naughty,24,18,21,9,8,8
+7,Team Aqua Grunt (Rusturf Tunnel),Poochyena (11),220,-,Tackle (6),Howl,Sand Attack,-,129,Run Away,Brave,28,18,12,11,11,10
+8,Team Aqua Grunt (Slateport Museum),Carvanha (15),300,-,Rage (8),Bite,Leer,Focus Energy,282,Rough Skin,Relaxed,38,32,12,24,11,21
+9,Team Aqua Grunt (Slateport Museum),Zubat (14),280,-,Leech Life (4),Astonish (6),Supersonic,-,162,Inner Focus,Gentle,35,17,12,13,17,20
+,,Carvanha (14),-,-,Rage (6),Bite (19),Leer,Focus Energy,264,Rough Skin,Quiet,36,30,10,25,10,20
+10,Pokefan Isabel,Plusle (14),1120,Oran Berry,Quick Attack (5),Growl,Thunder Wave,Helping Hand,360,Plus,Timid,40,17,16,28,26,34
+,,Minun (14),-,Oran Berry,Quick Attack (5),Growl,Thunder Wave,Helping Hand,360,Minus,Hardy,40,16,19,26,28,31
+11,Pokefan Kabel,Minun (14),1120,Oran Berry,Quick Attack (5),Growl,Thunder Wave,Helping Hand,360,Minus,Impish,40,16,20,23,28,31
+,,Plusle (14),-,Oran Berry,Quick Attack (5),Growl,Thunder Wave,Helping Hand,360,Plus,Bold,40,17,17,28,26,31
+12,Rival Brendan 2,Slugma (18),1350,-,Ember (7),Smog,Rock Throw,Yawn,300,Flame Body,Bold,43,18,22,31,20,13
+,,Grovyle (20),-,-,Absorb (48),Quick Attack (11),Pursuit (14),Fury Cutter,603,Overgrow,Hasty,52,33,22,41,33,49
+,,Wingull (18),-,-,Water Gun (13),Wing Attack (10),Supersonic,Growl,246,Keen Eye,Modest,43,14,16,27,16,36
+13,Triathlete Alyssa,Magnemite (15),600,-,Tackle,Thundershock,Super Sonic,Metal Sound,285,Magnet Pull,Rash,32,15,26,36,18,18
+14,Psychic Edward,Abra (15),360,-,Hidden Power,-,-,-,234,Synchronise,Impish,32,11,9,32,21,32
+15,Youngster Deandre,Zigzagoon (14),224,-,Mud Slap,Headbutt (9),Metal Claw,Harden,180,Pickup,Bashful,34,13,16,13,16,21
+,,Aron (14),-,-,Metal Claw,Headbutt,Mud Slap ,Harden,288,Rock Head,Jolly,38,24,33,14,16,14
+,,Electrike (14),-,-,Tackle (5),Leer,Howl,Thunder Wave,312,Static,Adamant,35,18,16,20,16,23
+16,Pokemon Trainer Wally 1,Ralts (16),960,-,Confusion,Double Team,Growl,Teleport,240,Synchronise,Naughty,35,14,13,19,14,18
+17,Youngster Ben,Zigzagoon (17),272,-,Headbutt (12),Thunderbolt,Sand-Attack,Growl,217,Pickup,Quirky,42,18,22,18,22,28
+,,Gulpin (17),-,-,Sludge (6),Pound (6),Yawn,Amnesia,273,Liquid Ooze,Bashful,53,22,26,22,26,21
+18,Gym Leader Wattson,Voltorb (20),2400,-,Rollout (3),Selfdestruct (58),Spark,Shock Wave,441,Soundproof,Docile,50,21,29,31,31,49
+,,Electrike (20),-,-,Quick Attack (8),Shock Wave,Leer,Howl,445,Static,Serious,50,27,25,35,25,35
+,,Magneton (22),-,-,Sonicboom (20),Shock Wave,Supersonic,Thunder Wave,759,Magnet Pull,Impish,59,37,57,56,41,41
+,,Manectric (24),-,Sitrus Berry,Quick Attack (15),Shock Wave,Howl,Thunder Wave,864,Static,Brave,74,52,41,62,41,55
+19,Hiker Mike,Geodude (16),640,-,Rock Throw,Magnitude,Mud Sport,Defense Curl,294,Rock Head,Docile,38,30,37,14,14,11
+,,Geodude (16),-,-,Rock Throw,Magnitude,Mud Sport,Defense Curl,294,Rock Head,Lonely,38,33,33,14,14,11
+,,Machop (16),-,-,Low Kick,Karate Chop,Leer,Focus Energy,301,Guts,Hardy,48,30,21,16,16,16
+20,Aroma Lady Rose,Roselia (14),560,-,Absorb,Poison Sting,Stun Spore,Growth,456,Natural Cure,Serious,38,21,17,33,27,23
+,,Roselia (14),-,-,Absorb,Poison Sting,Stun Spore,Growth,456,Natural Cure,Careful,38,21,17,29,29,23
+,,Shroomish (14),-,-,Absorb,Tackle,Stun Spore,Leech Seed,195,Effect Spore,Docile,40,16,21,16,21,14
+21,Hiker Lucas,Geodude (18),720,-,Magnitude,Rock Throw,Defense Curl,Mud Sport,331,Rock Head,Bold,42,29,45,15,15,12
+,,Numel (18),-,-,Ember,Tackle,Growl,-,339,Oblivious,Mild,49,26,17,30,21,17
+22,"Team Magma Grunt (Female, Mt.Chimney)",Numel (20),400,-,Magnitude,Ember,Tackle,Growl,376,Oblivious,Hardy,54,29,21,31,23,19
+23,"Team Magma Grunt (Male, Mt.Chimney)",Zubat (20),400,-,Bite,Leech Life,Astonish,Supersonic,231,Inner Focus,Gentle,46,23,17,17,23,27
+24,Magma Admin Tabitha 1,Numel (18),880,-,Ember,Tackle,Growl,-,339,Oblivious,Lax,50,27,22,29,19,18
+,,Zubat (22),-,-,Wing Attack,Bite,Astonish,Supersonic,253,Inner Focus,Bashful,50,26,21,20,20,30
+,,Poochyena (20),-,-,Bite,Howl,Sand-Attack,Odor Sleuth,235,Run Away,Rash,45,28,20,18,18,20
+,,Numel (22),-,-,Magnitude,Ember,Tackle,Growl,414,Oblivious,Mild,59,32,20,37,26,21
+25,Magma Leader Maxie 1,Mightyena (24),2000,-,Bite (22),Sand-Attack,Roar,Odor Sleuth,657,Intimidate,Lax,71,52,46,38,34,42
+,,Zubat (24),-,-,Wing Attack,Bite,Astonish,Supersonic,277,Inner Focus,Lonely,57,33,23,23,28,35
+,,Camerupt (25),-,-,Magnitude,Ember,Tackle,Focus Energy,937,Magma Armor,Adamant,74,64,44,55,47,29
+26,Gym Leader Flannery,Numel (24),2900,-,Magnitude (52),Take Down (22),Overheat,Sunny Day,451,Oblivious,Jolly,68,39,29,36,32,29
+,,Slugma (24),-,-,Smog,Overheat,Light Screen,Sunny Day,400,Magma Armor,Calm,58,26,29,44,31,20
+,,Camerupt (26),-,-,Overheat,Tackle,Attract,Sunny Day,975,Magma Armor,Adamant,80,70,49,60,51,33
+,,Torkoal (29),-,White Herb,Body Slam (33),Overheat (49),Attract,Sunny Day,1000,White Smoke,Modest,88,56,94,69,54,25
+27,Gym Leader Brawly,Machop (16),1900,-,Karate Chop,Low Kick,Seismic Toss,Bulk Up,301,Guts,Hardy,50,32,22,18,18,18
+,,Meditite (16),-,-,Focus Punch,Light Screen,Reflect,Bulk Up,312,Pure Power,Calm,37,17,24,19,26,26
+,,Makuhita (19),-,Sitrus Berry,Arm Thrust,Vital Throw,Reversal,Bulk Up,354,Thick Fat,Lax,60,32,22,17,18,19
+28,Cooltrainer Mary,Delcatty (26),1248,-,Faint Attack (18),Shock Wave,-,-,769,Cute Charm,Rash,80,46,46,45,36,49
+29,Cooltrainer George,Slakoth (26),1248,Sitrus Berry,Shadow Ball (24),Counter,Slack Off,-,462,Truant,Brave,75,48,44,31,31,25
+30,Cooltrainer Berke,Vigoroth (26),1248,-,Slash (36),Focus Energy,-,-,702,Vital Spirit,Quirky,85,54,54,41,41,59
+31,Gym Leader Norman,Spinda (27),3100,-,Facade (19),Psybeam,Teeter Dance,Encore,490,Own Tempo,Docile,75,43,43,43,43,43
+,,Vigoroth (27),-,-,Slash,Facade,Faint Attack,Encore,729,Vital Spirit,Naive,86,54,54,41,36,66
+,,Linoone (29),-,-,Slash,Facade,Headbutt,Belly Drum,795,Pickup,Lonely,91,57,42,40,47,69
+,,Slaking (31),-,Sitrus Berry,Facade (55),Faint Attack (31),Counter,Yawn,1395,Truant,Sassy,143,113,76,73,59,68
+32,"Team Aqua Grunt (Female, Weather Institute)",Carvanha (28),560,-,Crunch,Screech,Focus Energy,Scary Face,528,Rough Skin,Mild,63,55,14,45,16,41
+33,"Team Aqua Grunt (Female, Weather Institute)",Zubat (27),540,-,Wing Attack,Bite,Astonish,Confuse Ray,312,Inner Focus,Bold,58,26,25,21,26,34
+,,Poochyena (27),-,-,Bite,Swagger,Roar,Odor Sleuth,318,Run Away,Gentle,55,34,20,21,23,23
+34,"Team Aqua Grunt (Male, Weather Institute)",Poochyena (27),540,-,Bite,Swagger,Roar,Odor Sleuth,318,Run Away,Brave,55,37,23,21,21,20
+,,Carvanha (27),-,-,Crunch,Rage,Focus Energy,Scary Face,508,Rough Skin,Careful,61,53,15,36,16,40
+35,Aqua Admin Shelly,Carvanha (28),1120,-,Crunch (30),Screech,Focus Energy,Scary Face,528,Rough Skin,Jolly,64,57,17,38,17,47
+,,Mightyena (28),-,-,Bite (24),Swagger,Roar,Odor Sleuth,768,Intimidate,Lonely,78,62,40,40,40,45
+36,Rival Brendan 3,Slugma (29),1860,-,Rock Throw,Ember (9),Harden,Amnesia,484,Magma Armor,Bold,65,27,34,49,31,20
+,,Grovyle (31),-,-,Leaf Blade,Fury Cutter,Pursuit,Screech,936,Overgrow,Gentle,77,50,34,63,55,69
+,,Pelipper (30),-,-,Wing Attack (19),Protect,Supersonic,Mist,1018,Keen Eye,Hardy,77,37,66,57,49,46
+37,"Team Aqua Grunt (Male, Mt.Pyre)",Carvanha (32),640,-,Crunch,Take Down,Scary Face,Screech,603,Rough Skin,Relaxed,70,62,18,46,17,41
+38,"Team Aqua Grunt (Male, Mt.Pyre)",Zubat (32),640,-,Air Cutter,Wing Attack,Bite,Confuse Ray,369,Inner Focus,Gentle,67,33,24,24,33,40
+39,"Team Aqua Grunts (Double battle, Mt.Pyre)",Poochyena (30),1200,-,Swagger,Roar,Scary Face,Odor Sleuth,350,Run Away,Brave,61,41,26,23,23,23
+,,Wailmer (30),-,-,Water Pulse (25),Whirlpool (7),"Rollout (5,9,18)",Astonish (10),878,Water Veil,Adamant,118,51,26,42,26,41
+,,Carvanha (30),-,-,Crunch (31),Screech,Focus Energy,Scary Face,564,Rough Skin,Gentle,67,59,17,39,18,44
+,,Zubat (30),-,-,Wing Attack (18),Bite (9),Astonish (7),Confuse Ray,344,Inner Focus,Jolly,64,32,26,20,29,41
+40,"Gym Trainers (Double battle, Fortree Gym)",Doduo (29),1392,-,Tri Attack (31),Fury Attack (35),Rage (9),Pursuit,594,Run Away,Brave,64,64,36,30,30,47
+,,Swellow (29),-,-,Wing Attack (22),Endeavor ,Quick Attack (15),Double Team,1004,Guts,Careful,79,59,45,35,42,82
+,,Pelipper (29),-,-,Wing Attack (15),Supersonic,Protect,Mist,1016,Keen Eye,Rash,79,39,68,64,45,47
+,,Xatu (29),-,-,Night Shade (29),Peck (13),Leer,Teleport,1062,Synchronize,Naughty,81,58,50,65,45,65
+41,Bird Keeper Darius,Tropius (30),960,-,Razor Leaf,Stomp,Sweet Scent,Whirlwind,1086,Chlorophyll,Lax,106,53,68,55,57,42
+42,Gym Leader Winona,Swablu (29),3300,-,Aerial Ace (13),Perish Song,Mirror Move,Safeguard,459,Natural Cure,Hasty,72,35,42,35,55,45
+,,Tropius (29),-,-,Solarbeam (148),Aerial Ace (19),Sunny Day,Synthesis,1050,Chlorophyll,Impish,103,51,66,48,62,41
+,,Pelipper (30),-,-,Aerial Ace (15),Water Gun (19),Supersonic,Protect,1053,Keen Eye,Calm,83,37,72,63,59,51
+,,Skarmory (31),-,-,Aerial Ace (22),Steel Wing (12),Fury Attack (25),Sand-Attack,1116,Keen Eye,Calm,89,55,99,37,61,56
+,,Altaria (33),-,Oran Berry,Earthquake (27),Aerial Ace (25),Dragonbreath,Dragon Dance,1329,Natural Cure,Docile,102,61,74,61,84,68
+43,"Team Magma Grunt (Male, Magma Hideout)",Poochyena (29),580,-,Swagger,Roar,Scary Face,Odor Sleuth,340,Run Away,Brave,59,39,25,22,22,22
+44,"Team Magma Grunt (Male, Magma Hideout)",Numel (29),580,-,Magnitude,Take Down,Ember,Focus Energy,546,Oblivious,Mild,73,39,25,46,31,25
+45,"Team Magma Grunt (Male, Magma Hideout)",Zubat (29),580,-,Wing Attack,Bite,Astonish,Confuse Ray,334,Inner Focus,Gentle,62,31,22,22,30,36
+46,"Team Magma Grunt (Female, Magma Hideout)",Baltoy (28),580,-,Selfdestruct,Ancientpower,Rock Tomb,Psybeam,360,Levitate,Lonely,62,30,32,28,45,36
+47,"Team Magma Grunt (Male, Magma Hideout)",Baltoy (28),580,-,Selfdestruct,Ancientpower,Rock Tomb,Psybeam,360,Levitate,Quiet,62,28,36,30,45,32
+48,"Team Magma Grunts (Double battle, Magma Hideout)",Numel (29),1160,-,Magnitude,Take Down,Ember,Focus Energy,546,Oblivious,Gentle,73,39,25,46,31,25
+,,Zubat (29),-,-,Wing Attack,Bite,Astonish,Confuse Ray,332,Inner Focus,Mild,62,31,22,22,30,36
+49,Magma Admin Tabitha 2,Numel (26),1320,-,Magnitude,Ember,Tackle,Focus Energy,489,Oblivious,Lax,69,38,30,41,27,25
+,,Mightyena (28),-,-,Bite,Swagger,Roar,Odor Sleuth,768,Intimidate,Bashful,79,57,46,41,41,46
+,,Zubat (30),-,-,Wing Attack,Bite,Astonish,Confuse Ray,346,Inner Focus,Gentle,66,34,25,25,34,40
+,,Camerupt (33),-,-,Rock Slide,Take Down,Amnesia,Focus Energy,1237,Magma Armor,Lax,92,73,59,77,51,34
+50,Magma Leader Maxie 2,Mightyena (37),3120,-,Take Down (31),Swagger,Scary Face,Roar,1014,Intimidate,Lax,105,78,69,56,50,63
+,,Crobat (38),-,-,Air Cutter (34),Wing Attack (37),Bite,Confuse Ray,1660,Inner Focus,Lonely,119,88,64,65,72,110
+,,Camerupt (39),-,-,Earthquake (67),Rock Slide,Take Down,Amnesia,1462,Magma Armor,Adamant,110,99,66,83,70,43
+51(a),"Team Aqua Grunt (Female, Aqua Hideout)",Poochyena (31),620,-,Swagger,Roar,Scary Face,Odor Sleuth,362,Run Away,Hasty,62,39,23,23,23,28
+,,Zubat (31),-,-,Air Cutter,Wing Attack,Bite,Confuse Ray,356,Inner Focus,Gentle,65,32,23,23,31,39
+51(b),"Team Aqua Grunt (Male, Aqua Hideout)",Zubat (31),620,-,Air Cutter,Wing Attack,Bite,Confuse Ray,356,Inner Focus,Gentle,65,32,23,23,31,39
+,,Carvanha (31),-,-,Crunch,Take Down,Scary Face,Screech,582,Rough Skin,Quiet,68,60,17,49,17,40
+52,"Team Aqua Grunts (Double battle, Aqua Hideout)",Zubat (32),1280,-,Air Cutter,Wing Attack,Bite,Confuse Ray,368,Inner Focus,Bold,67,29,29,24,30,40
+,,Carvanha (32),-,-,Crunch,Take Down,Scary Face,Screech,602,Rough Skin,Relaxed,70,62,18,46,17,41
+53,Aqua Admin Matt,Mightyena (34),1360,-,Swagger,Roar,Scary Face,Odor Sleuth,931,Intimidate,Bold,93,61,59,47,47,54
+,,Golbat (34),-,-,Wing Attack (22),Bite (14),Astonish (8),Confuse Ray,1245,Inner Focus,Docile,97,61,54,51,58,68
+54,Swimmer Declan,Gyarados (34),272,-,Thrash (32),Dragon Rage (40),Bite (13),Leer,1558,Intimidate,Relaxed,108,90,63,45,65,60
+55,"Gym Trainers (Double battle, Mossdeep Gym)",Kadabra (36),1728,-,Psychic (60),Future Sight (52),Role Play,Recover,1116,Synchronize,Naive,79,34,30,95,53,92
+,,Kirlia (36),-,-,Psychic,Calm Mind,Teleport,Imprison,1080,Synchronize,Gentle,77,34,30,56,52,45
+56,Psychic Macey,Natu (36),864,-,Night Shade ,Future Sight,Wish,Teleport,562,Synchronize,Relaxed,74,41,40,55,37,49
+57,Hex Maniac Sylvia,Meditite (36),864,-,Hi Jump Kick,Hidden Power,Calm Mind,Mind Reader,702,Pure Power,Relaxed,71,38,52,38,48,46
+58,Psychic Hannah,Kirlia (36),864,-,Psychic,Calm Mind,Teleport,Imprison,1080,Synchronize,Careful,77,34,34,50,52,45
+59,Gym Leaders Tate&Liza,Xatu (41),8400,-,Psychic,Calm Mind,Sunny Day,Confuse Ray,1500,Synchronize,Docile,116,78,74,95,74,95
+,,Claydol (41),-,-,Earthquake,Ancientpower,Psychic,Light Screen,1106,Levitate,Lax,112,74,113,74,103,78
+,,Lunatone (42),-,Sitrus Berry,Psychic,Hypnosis,Calm Mind,Light Screen,1350,Levitate,Impish,123,63,79,87,89,76
+,,Solrock (42),-,Sitrus Berry,Solarbeam,Psychic,Flamethrower,Sunny Day,1350,Levitate,Modest,123,87,89,69,72,76
+60,"Team Magma Grunt (Male, Space Centre)",Baltoy (32),640,-,Selfdestruct,Ancientpower,Rock Tomb,Sandstorm,397,Levitate,Quiet,67,30,40,33,49,36
+61,"Team Magma Grunt (Male, Space Centre)",Mightyena (26),600,-,Bite,Sand-Attack,Roar,Odor Sleuth,712,Intimidate,Brave,72,56,41,36,36,36
+,,Mightyena (28),-,-,Bite,Swagger,Roar,Odor Sleuth,768,Intimidate,Bashful,77,55,44,38,38,44
+,,Numel (30),-,-,Magnitude,Take Down,Ember,Focus Energy,565,Oblivious,Careful,76,41,29,39,35,26
+62,"Team Magma Grunt (Male, Space Centre)",Zubat (32),640,-,Air Cutter,Wing Attack,Bite,Confuse Ray,369,Inner Focus,Gentle,67,33,24,24,33,40
+63,"Team Magma Grunt (Male, Space Centre)",Mightyena (32),640,-,Swagger,Scary Face,Roar,Odor Sleuth,877,Intimidate,Brave,86,68,49,43,43,44
+64,"Team Magma Grunt (Male, Space Centre)",Baltoy (32),640,-,Selfdestruct,Ancientpower,Rock Tomb,Sandstorm,397,Levitate,Quiet,67,30,40,33,49,36
+65,Magma Admin Tabitha & Magma Leader Maxie,Mightyena (42),5120,-,Take Down,Swagger,Scary Face,Taunt,1152,Intimidate,Lax,118,88,78,62,55,71
+,,Camerupt (36),-,-,Rock Slide,Take Down,Amnesia,Focus Energy,1350,Magma Armor,Quirky,100,81,59,84,63,38
+,,Crobat (43),-,-,Air Cutter,Wing Attack,Confuse Ray,Mean Look,1878,Inner Focus,Lonely,133,99,72,72,81,124
+,,Mightyena (38),-,-,Take Down,Swagger,Roar,Scary Face,1040,Intimidate,Impish,105,77,68,49,55,62
+,,Camerupt (44),-,-,Earthquake,Take Down,Rock Slide,Amnesia,1650,Magma Armor,Adamant,123,110,74,94,78,48
+,,Golbat (40),-,-,Air Cutter,Wing Attack,Bite,Confuse Ray,1464,Inner Focus,Quirky,114,73,65,61,69,81
+66,Aqua Leader Archie,Mightyena (41),3440,-,Take Down (37),Swagger,Roar,Scary Face,1123,Intimidate,Brave,115,94,69,61,61,62
+,,Crobat (41),-,-,Air Cutter (31),Wing Attack (33),Bite,Confuse Ray,1791,Inner Focus,Serious,128,86,77,69,77,118
+,,Sharpedo (43),-,-,Slash (36),Swagger,Taunt,Screech,1612,Rough Skin,Mild,120,115,42,103,47,94
+67,Gym Leader Juan,Luvdisc (41),4600,-,Water Pulse,Flail,Sweet Kiss,Attract,966,Swift Swim,Adamant,96,42,59,42,68,94
+,,Kingdra (46),-,Chesto Berry,Ice Beam ,Water Pulse,Double Team,Rest,2040,Swift Swim,Naive,138,106,106,106,95,106
+,,Sealeo (43),-,-,Aurora Beam,Water Pulse,Body Slam,Encore,1179,Thick Fat,Naive,140,66,75,79,67,59
+,,Wishcash (41),-,-,Water Pulse,Earthquake,Rain Dance,Amnesia,1387,Oblivious,Hasty,151,78,66,77,73,70
+,,Crawdaunt (43),-,-,Crabhammer,Water Pulse,Taunt,Leer,1483,Hyper Cutter,Adamant,117,129,88,82,62,62
+68,Pokemon Trainer Wally 2,Altaria (44),2700,-,Dragonbreath,Aerial Ace,Dragon Dance,Safeguard,1771,Natural Cure,Jolly,127,74,92,66,105,91
+,,Delcatty (43),-,-,Faint Attack,Sing,Charm,Assist,1270,Cute Charm,Quirky,120,68,68,60,60,72
+,,Magneton (41),-,-,Tri Attack,Thunderbolt,Supersonic,Screech,1414,Magnet Pull,Impish,99,61,99,99,69,69
+,,Roselia (44),-,-,Magical Leaf,Giga Drain,Leech Seed,Toxic,1432,Natural Cure,Adamant,105,71,52,90,83,70
+,,Gardevoir (45),-,-,Psychic,Future Sight,Double Team,Calm Mind,2005,Synchronize,Naive,129,77,77,131,109,99
+69,Cooltrainer Hope,Roselia (45),2160,-,Giga Drain,Ingrain,Sweet Scent,Toxic,1465,Natural Cure,Lax,105,64,55,100,73,68
+70,Cooltrainer Shannon,Claydol (45),2160,-,Hyper Beam,Ancientpower,Cosmic Power,Sandstorm,1822,Levitate,Hasty,114,73,93,73,118,84
+71,Cooltrainer Julie,Sandslash (42),2016,-,Slash,Swift,Fury Swipes,Poison Sting,1467,Sand Veil,Bashful,120,94,102,47,56,64
+,,Ninetails (42),-,-,Ember,Quick Attack,Confuse Ray,Safeguard,1602,Flash Fire,Adamant,118,80,73,70,94,94
+,,Tropius (42),-,-,Solarbeam,Magical Leaf,Body Slam,Whirlwind,1521,Chlorophyll,Calm,140,60,79,70,91,52
+72,Cooltrainer Edgar,Cacturne (43),2064,-,Faint Attack,Needle Arm,Ingrain,Spikes,1630,Sand Veil,Naive,118,109,61,109,54,62
+,,Pelipper (43),-,-,Protect,Mist,Stockpile,Swallow,1510,Keen Eye,Naive,109,53,96,83,63,72
+73,Elite Four Sidney,Mightyena (46),4900,-,Crunch,Double Edge,Sand-Attack,Roar,1261,Intimidate,Rash,134,101,83,81,66,83
+,,Absol (49),-,Sitrus Berry,Aerial Ace,Rock Slide,Slash,Swords Dance,1827,Pressure,Bold,137,132,85,93,78,93
+,,Shiftry (48),-,-,Extrasensory,Double Team,Swagger,Torment,1861,Chlorophyll,Jolly,158,115,77,94,77,105
+,,Crawdaunt (48),-,-,Surf,Strength,Facade,Swords Dance,1656,Hyper Cutter,Naughty,132,147,101,105,64,72
+,,Cacturne (46),-,-,Faint Attack,Needle Arm,Cotton Spore,Leech Seed,1744,Sand Veil,Adamant,134,136,74,111,74,69
+74,Elite Four Phoebe,Dusclops (48),5100,-,Shadow Punch,Protect,Confuse Ray,Curse,1840,Pressure,Naughty,110,94,144,77,129,43
+,,Dusclops (51),-,Sitrus Berry,Ice Beam ,Shadow Ball,Rock Slide,Earthquake,1956,Pressure,Careful,117,92,153,73,168,46
+,,Sableye (50),-,-,Shadow Ball,Night Shade,Faint Attack,Double Team,1050,Keen Eye,Careful,125,95,95,76,93,70
+,,Banette (49),-,-,Shadow Ball,Faint Attack,Will-o-wisp,Grudge,1879,Insomnia,Calm,136,118,83,101,89,83
+,,Banette (49),-,-,Shadow Ball,Psychic ,Thunderbolt,Facade,1879,Insomnia,Naive,136,132,83,101,72,91
+75,Elite Four Glacia,Sealeo (50),5300,-,Ice Ball,Body Slam,Hail,Encore,1371,Thick Fat,Brave,165,88,90,95,90,58
+,,Glalie (50),-,-,Ice Beam,Icy Wind,Crunch,Light Screen,2002,Inner Focus,Bashful,155,100,100,100,100,100
+,,Sealeo (52),-,-,Blizzard,Double Edge,Hail,Attract,1425,Thick Fat,Hardy,171,83,93,98,93,67
+,,Glalie (52),-,-,Ice Beam,Explosion,Shadow Ball,Hail,2083,Inner Focus,Mild,160,103,92,113,103,103
+,,Walrein (53),-,Sitrus Berry,Ice Beam (252),Surf,Body Slam,Sheer Cold,2179,Thick Fat,Naive,196,106,116,122,104,99
+76,Elite Four Drake,Shelgon (52),5500,-,Rock Tomb,Double Edge,Dragon Claw,Protect,1603,Rock Head,Quiet,145,119,124,91,72,64
+,,Altaria (54),-,-,Dragonbreath,Aerial Ace,Double Edge,Dragon Dance,2175,Natural Cure,Modest,161,86,118,105,134,107
+,,Flygon (53),-,-,Dragonbreath,Earthquake,Crunch,Flamethrower,2236,Levitate,Lax,163,126,115,105,94,126
+,,Salamence (55),-,Sitrus Berry,Dragon Claw,Rock Slide,Crunch,Flamethrower,2568,Intimidate,Bold,186,153,121,143,110,132
+,,Kingdra (53),-,-,Surf,Body Slam,Dragon Dance,Smokescreen,2350,Swift Swim,Hardy,158,121,121,121,121,111
+77,Champion Wallace,Wailord (57),11600,-,Blizzard (240),Double Edge,Water Spout,Rain Dance,2515,Water Veil,Rash,278,125,73,137,65,91
+,,Tentacruel (55),-,-,Ice Beam,Sludge,Hydro Pump,Toxic,2415,Clear Body,Sassy,170,99,93,110,169,118
+,,Milotic (58),-,Sitrus Berry,Ice Beam,Surf,Toxic,Recover,2646,Marvel Scale,Gentle,196,92,102,138,183,116
+,,Gyarados (56),-,-,Surf,Hyper Beam,Earthquake,Dragon Dance,2568,Intimidate,Rash,189,162,110,97,120,113
+,,Ludicolo (56),-,-,Giga Drain,Surf,Double Team,Leech Seed,2172,Swift Swim,Hardy,172,100,100,123,134,100
+,,Wishcash (56),-,-,Surf,Hyper Beam,Earthquake,Amnesia,1896,Oblivious,Sassy,206,109,104,107,111,80
+,Other Notable Trainers,,,,,,,,,,,,,,,,
+A,Youngster Tommy,Geodude (8),128,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Timid,25,16,22,10,10,9
+,,Geodude (8),-,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Lax,25,18,24,10,9,9
+B,Hiker Marc,Geodude (8),320,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Jolly,25,18,22,9,10,9
+,,Geodude (8),-,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Modest,25,17,22,12,11,9
+C,Hiker Clark,Geodude (8),320,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Naive,24,17,21,9,8,8
+D,PKMN Trainer Steven,Skarmory (77),4680,-,Toxic,Aerial Ace,Spikes,Steel Wing,2772,Keen Eye,Modest,210,136,244,99,136,136
+,,Claydol (75),-,-,Reflect,Light Screen,AncientPower,Earthquake,3037,Levitate,Modest,198,119,185,146,208,140
+,,Aggron (76),-,-,Thunder,Earthquake,SolarBeam,Dragon Claw,3337,Sturdy,Naive,215,195,302,119,107,114
+,,Cradily (76),-,-,Giga Drain,AncientPower,Ingrain,Confuse Ray,3273,Suction Cups,Naive,240,151,176,151,171,102
+,,Armaldo (76),-,-,Water Pulse,Aerial Ace,AncientPower,Slash,3256,Battle Armour,Hasty,223,218,162,147,150,96
+,,Metagross (78),-,Sitrus Berry,Earthquake,Psychic,Meteor Mash,Shadow Ball,3510,Clear Body,Hasty,236,239,231,177,169,138
+,Spinners,,,,,,,,,,,,,,,,
+A,Bug Catcher Lyle,Wurmple (3),48,-,Tackle,String Shot,-,-,34,Sheild Dust,Lax,15,7,7,6,5,6
+,,Wurmple (3),-,-,Tackle,String Shot,-,-,34,Sheild Dust,Relaxed,15,7,7,6,6,5
+,,Wurmple (3),-,-,Tackle,String Shot,-,-,34,Sheild Dust,Bold,15,6,7,6,6,6
+,,Wurmple (3),-,-,Tackle,String Shot,-,-,34,Sheild Dust,Adamant,15,7,7,5,6,6
+B,Bug Catcher James,Nincada (6),96,-,Scratch,Leech Life,Harden,-,82,Compound Eyes,Quiet,19,10,15,8,8,8
+,,Nincada (6),-,-,Scratch,Leech Life,Harden,-,82,Compound Eyes,Careful,19,10,15,7,8,9
+C,School Kid Karen,Shroomish (9),180,-,Absorb,Tackle,Stun Spore,-,124,Effect Spore,Relaxed,29,12,16,12,15,9
+D,Hiker Clark,Geodude (8),320,-,Tackle,Defense Curl,Mud Sport,-,147,Rock Head,Naive,24,17,21,9,8,8
+E,Youngster Johnson,Shroomish (8),128,-,Absorb,Tackle,Stun Spore,-,111,Effect Spore,Docile,27,11,14,11,14,10
+,,Lotad (8),-,-,Absorb,Astonish,Growl,-,126,Swift Swim,Bold,24,8,9,11,13,9
+F,Youngster Timmy,Aron (15),208,-,Mud Slap,Headbutt,Metal Claw,Harden,307,Sturdy,Careful,40,26,35,15,18,14
+,,Electrike (13),-,-,Tackle,Leer,Howl,Thunder Wave,289,Static,Bold,33,14,16,21,15,21
+G,Picknicker Irene,Shroomish (17),272,-,Mega Drain,Tackle,Stun Spore,Leech Seed,235,Effect Spore,Rash,47,18,25,19,22,16
+,,Marill (17),-,-,Water Gun,Rollout,Defense Curl,Tailwhip,210,Thick Fat,Mild,50,11,19,12,22,18
+H,Camper Travis,Sandshrew (18),288,-,Scratch,Poison Sting,Sand-Attack,Defense Curl,358,Sand Veil,Lonely,46,35,31,12,15,19
+I,Hiker Trent,Geodude (16),640,-,Rock Throw,Magnitude,Defense Curl,Mud Sport,294,Rock Head,Docile,38,30,37,14,14,11
+,,Geodude (17),-,-,Rock Throw,Magnitude,Defense Curl,Mud Sport,213,Rock Head,Lonely,40,35,35,15,15,11
+,,Geodude (16),-,-,Rock Throw,Magnitude,Defense Curl,Mud Sport,294,Rock Head,Gentle,38,30,33,14,15,11
+J,Kindler Bryant,Numel (18),576,-,Tackle,Ember,Growl,-,339,Oblivious,Relaxed,49,26,20,28,21,15
+,,Slugma (18),-,-,Rock Throw,Ember,Smog,Yawn,300,Magma Armor,Quiet,42,19,19,33,19,10
+K,Aroma Lady Shayla,Shroomish (18),720,-,Mega Drain,Tackle,Stun Spore,Leech Seed,250,Effect Spore,Hardy,49,19,26,19,26,17
+,,Roselia (18),-,-,Mega Drain,Poison Sting,Stun Spore,Growth,585,Natural Cure,Adamant,46,28,21,36,33,28
+L,Cooltrainer Wilton,Electrike (17),816,-,Quick Attack,Leer,Howl,Thunder Wave,378,Static,Serious,42,22,20,29,20,29
+,,Wailmer (17),-,-,Water Gun,Rollout,Growl,Splash,498,Water Veil,Naive,73,30,18,30,16,29
+,,Makuhita (17),-,-,Arm Thrust,Vital Throw,Sand-Attack,Focus Energy,316,Thick Fat,Hardy,53,27,17,13,17,15
+M,Picknicker Angelina,Lombre (18),228,-,Absorb,Astonish,Nature Power,Growl,543,Swift Swim,Serious,49,23,23,26,30,23
+,,Marill (18),-,-,Water Gun,Rollout,Defense Curl,Tail Whip,223,Thick Fat,Naughty,53,13,23,12,20,19
+N,Hiker Brice,Numel (17),680,-,Ember,Tackle,Growl,-,319,Oblivious,Impish,47,25,19,24,20,16
+,,Machop (17),-,-,Low Kick,Karate Chop,Leer,Focus Energy,319,Guts,Quiet,50,32,22,17,16,14
+O,Camper Ethan,Zigzagoon (20),320,-,Headbutt,Sand-Attack,Tail Whip,Odor Sleuth,256,Pickup,Bashful,45,17,21,17,21,29
+,,Tailow (20),-,-,Quick Attack,Wing Attack,Double Team,Focus Energy,252,Guts,Hardy,46,27,17,17,17,39
+P,Bird Keeper Chester,Tailow,800,-,Quick Attack,Wing Attack,Double Team,Focus Energy,315,Guts,Lonely,55,28,22,20,20,47
+,,Swellow,-,-,Quick Attack,Wing Attack,Double Team,Focus Energy,867,Guts,Bold,65,51,31,30,30,67
+Q,"Team Aqua Grunt (Male, Weather Institute)",Poochyena (26),520,-,Bite,Swagger,Roar,Odor Sleuth,306,Run Away,Brave,54,36,23,20,20,20
+,,Zubat (26),-,-,Astonish,Bite,Wing Attack,Confuse Ray,300,Inner Focus,Serious,56,28,23,20,25,33
+,,Carvanha (26),-,-,Rage,Crunch,Scary Face,Focus Energy,489,Rough Skin,Impish,59,51,16,34,15,38
+R,Bird Keeper Colin,Wingull (28),896,-,Water Gun,Wing Attack,Supersonic,Mist,384,Keen Eye,Lax,60,21,23,35,18,52
+,,Natu (28),-,-,Peck,Night Shade,Leer,Teleport,438,Synchronize,Relaxed,60,33,33,44,30,39
+S,Beauty Jessica,Kecleon (29),2320,-,Bind,Lick,Fury Swipes,Faint Attack,819,Color Change,Bold,73,51,49,39,74,28
+,,Seviper (29),-,-,Poison Tail,Crunch,Glare,Screech,1024,Shed Skin,Naive,81,63,39,63,35,46
+T,Cooltrainer Marcel,Manectric (29),1392,-,Quick Attack,Spark,Howl,Odor Sleuth,1044,Static,Naughty,83,56,43,69,38,69
+,,Shiftry (29),-,-,Pound,Nature Power,Harden,Growth,1123,Chlorophyll,Naughty,94,72,43,60,38,54
+U,Cooltrainer Cristin,Loudred (29),1392,-,Astonish,Stomp,Supersonic,Howl,783,Soundproof,Calm,91,44,33,49,36,36
+,,Vigoroth (29),-,-,Uproar,Fury Swipes,Endure,Encore,783,Vital Spirit,Gentle,88,54,48,40,44,60
+V,Swimmer Grace,Marill (34),272,-,Water Gun,Rollout,Bubblebeam,Double-Edge,641,Thick Fat,Modest,91,16,39,19,39,32
+W,"Team Aqua Grunt (Male, Seafloor Cavern)",Poochyena (36),720,-,Take Down,Swagger,Roar,Scary Face,424,Run Away,Brave,71,48,30,26,26,27
+X,Cooltrainer Halle,Sableye (43),2064,-,Faint Attack,Shadow Ball,Knock Off ,Confuse Ray,903,Keen Eye,Naughty,96,75,69,60,54,48
+,,Absol (43),-,-,Slash,Future Sight,Swords Dance,Double Team,1501,Pressure,Hasty,108,116,50,69,56,75
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,"Hello, what are you doing down here~",,,,,,,,,,,,,,,,
