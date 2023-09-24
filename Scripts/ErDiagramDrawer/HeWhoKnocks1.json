@@ -1,0 +1,631 @@
+{
+  "entity_sets": [
+    {
+      "name": "Pokemon",
+      "coordinates": [
+        806,
+        210
+      ],
+      "num_entities": 50
+    },
+    {
+      "name": "Special Forms",
+      "coordinates": [
+        451,
+        185
+      ],
+      "num_entities": 20
+    },
+    {
+      "name": "Levels",
+      "coordinates": [
+        1213,
+        214
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "People",
+      "coordinates": [
+        238,
+        534
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Item Types",
+      "coordinates": [
+        1252,
+        709
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Items",
+      "coordinates": [
+        827,
+        891
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Mail",
+      "coordinates": [
+        1430,
+        642
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Berries",
+      "coordinates": [
+        1428,
+        708
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Pokeballs",
+      "coordinates": [
+        1431,
+        775
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Key Items",
+      "coordinates": [
+        1433,
+        850
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Battle Items",
+      "coordinates": [
+        1436,
+        917
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "TM/HM",
+      "coordinates": [
+        1441,
+        978
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Medicine",
+      "coordinates": [
+        1439,
+        1043
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Games",
+      "coordinates": [
+        651,
+        515
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Move List",
+      "coordinates": [
+        469,
+        638
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "NPC",
+      "coordinates": [
+        238,
+        624
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Player",
+      "coordinates": [
+        81,
+        692
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Natural",
+      "coordinates": [
+        547,
+        821
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Unnatural",
+      "coordinates": [
+        424,
+        763
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "HMS",
+      "coordinates": [
+        264,
+        894
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "TMS",
+      "coordinates": [
+        383,
+        895
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Routes",
+      "coordinates": [
+        965,
+        521
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Held Items",
+      "coordinates": [
+        1198,
+        1115
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Evolution Items",
+      "coordinates": [
+        673,
+        1112
+      ],
+      "num_entities": 10
+    },
+    {
+      "name": "Evolution Stones",
+      "coordinates": [
+        336,
+        1118
+      ],
+      "num_entities": 10
+    }
+  ],
+  "relationships": [
+    {
+      "name": "Gain",
+      "coordinates": [
+        1031,
+        230
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "Levels"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Evolve Into",
+      "coordinates": [
+        855,
+        89
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "Pokemon"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Catch",
+      "coordinates": [
+        551,
+        376
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "People"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Battle",
+      "coordinates": [
+        285,
+        418
+      ],
+      "entity_sets": [
+        "People",
+        "People"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Hold",
+      "coordinates": [
+        1234,
+        425
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "Held Items"
+      ],
+      "is_many": [
+        true,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "Appear in",
+      "coordinates": [
+        761,
+        381
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "Games"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Have",
+      "coordinates": [
+        674,
+        221
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "Special Forms"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        true
+      ],
+      "determines": [
+        false,
+        true
+      ]
+    },
+    {
+      "name": "Contain",
+      "coordinates": [
+        691,
+        696
+      ],
+      "entity_sets": [
+        "Move List",
+        "Games"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Contain",
+      "coordinates": [
+        865,
+        716
+      ],
+      "entity_sets": [
+        "Games",
+        "Item Types"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Have",
+      "coordinates": [
+        864,
+        544
+      ],
+      "entity_sets": [
+        "Games",
+        "Routes"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Have",
+      "coordinates": [
+        511,
+        549
+      ],
+      "entity_sets": [
+        "People",
+        "Games"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Caught in",
+      "coordinates": [
+        905,
+        380
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "Routes"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    }
+  ],
+  "inheritance": [
+    {
+      "type": "d",
+      "coordinates": [
+        133,
+        598
+      ],
+      "entity_sets": [
+        "People",
+        "Player",
+        "NPC"
+      ],
+      "inherit_from": [
+        false,
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "type": "o",
+      "coordinates": [
+        603,
+        747
+      ],
+      "entity_sets": [
+        "Move List",
+        "Natural",
+        "Unnatural"
+      ],
+      "inherit_from": [
+        false,
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "type": "d",
+      "coordinates": [
+        421,
+        844
+      ],
+      "entity_sets": [
+        "Unnatural",
+        "HMS",
+        "TMS"
+      ],
+      "inherit_from": [
+        false,
+        true,
+        true
+      ],
+      "full_participation": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "type": "d",
+      "coordinates": [
+        870,
+        1135
+      ],
+      "entity_sets": [
+        "Items",
+        "Held Items",
+        "Evolution Items"
+      ],
+      "inherit_from": [
+        false,
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "type": "d",
+      "coordinates": [
+        554,
+        1140
+      ],
+      "entity_sets": [
+        "Evolution Items",
+        "Evolution Stones"
+      ],
+      "inherit_from": [
+        false,
+        true
+      ],
+      "full_participation": [
+        true,
+        false
+      ]
+    },
+    {
+      "type": "o",
+      "coordinates": [
+        1308,
+        920
+      ],
+      "entity_sets": [
+        "Item Types",
+        "Items",
+        "Mail",
+        "Berries",
+        "Pokeballs",
+        "Key Items",
+        "Battle Items",
+        "TM/HM",
+        "Medicine"
+      ],
+      "inherit_from": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "full_participation": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}
