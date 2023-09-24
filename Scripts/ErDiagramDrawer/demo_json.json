@@ -1,0 +1,45 @@
+{
+    "entity_sets": [
+        {
+            "name": "Pokemon",
+            "coordinates": [806, 210],
+            "num_entities": 50
+        },
+        {
+            "name": "Special Forms",
+            "coordinates": [451, 185],
+            "num_entities": 20
+        },
+        {
+            "name": "Levels",
+            "coordinates": [1213, 214],
+            "num_entities": 10
+        }
+    ],
+    "relationships": [
+        {
+          "name": "Gain",
+          "coordinates": [1031, 230],
+          "entity_sets": ["Pokemon", "Levels"],
+          "is_many": [false, false],
+          "full_participation": [false, false],
+          "determines": [false, false]
+        }
+    ],
+    "inheritance": [
+        {
+          "type": "d",
+          "coordinates": [133, 598],
+          "entity_sets": ["Pokemon", "Levels", "Special Forms"],
+          "inherit_from": [false, true, true],
+          "full_participation": [true, false, false]
+        },
+        {
+          "type": "o",
+          "coordinates": [603, 747],
+          "entity_sets": ["Pokemon", "Levels", "Special Forms"],
+          "inherit_from": [false, true, true],
+          "full_participation": [true, false, false]
+        }
+    ]
+}
