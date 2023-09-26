@@ -1,12 +1,28 @@
 {
   "entity_sets": [
     {
+      "name": "Translations",
+      "coordinates": [
+        49,
+        746
+      ],
+      "num_entities": "50k"
+    },
+    {
       "name": "Cards",
       "coordinates": [
-        166,
+        177,
         13
       ],
       "num_entities": "50k"
+    },
+    {
+      "name": "Card Packs",
+      "coordinates": [
+        1126,
+        13
+      ],
+      "num_entities": 200
     },
     {
       "name": "Card Attacks",
@@ -73,10 +89,18 @@
       "num_entities": "600"
     },
     {
+      "name": "Natures",
+      "coordinates": [
+        1127,
+        282
+      ],
+      "num_entities": "26"
+    },
+    {
       "name": "People",
       "coordinates": [
-        492,
-        666
+        622,
+        530
       ],
       "num_entities": ""
     },
@@ -86,7 +110,7 @@
         1252,
         709
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Mail",
@@ -94,7 +118,7 @@
         1430,
         642
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Berries",
@@ -102,7 +126,7 @@
         1428,
         708
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Pokeballs",
@@ -110,7 +134,7 @@
         1431,
         775
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Key Items",
@@ -118,7 +142,7 @@
         1433,
         850
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Battle Items",
@@ -126,7 +150,7 @@
         1436,
         917
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "TM/HM",
@@ -134,7 +158,7 @@
         1441,
         978
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Medicine",
@@ -142,7 +166,15 @@
         1439,
         1043
       ],
-      "num_entities": 10
+      "num_entities": ""
+    },
+    {
+      "name": "Generations",
+      "coordinates": [
+        167,
+        512
+      ],
+      "num_entities": 9
     },
     {
       "name": "Games",
@@ -150,7 +182,7 @@
         926,
         512
       ],
-      "num_entities": 10
+      "num_entities": 35
     },
     {
       "name": "Moves",
@@ -171,10 +203,10 @@
     {
       "name": "Routes",
       "coordinates": [
-        1193,
-        510
+        1199,
+        514
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Evolution Items",
@@ -182,7 +214,7 @@
         1204,
         914
       ],
-      "num_entities": 10
+      "num_entities": ""
     },
     {
       "name": "Evolution Stones",
@@ -190,15 +222,38 @@
         908,
         914
       ],
-      "num_entities": 10
+      "num_entities": ""
     }
   ],
   "relationships": [
     {
       "name": "Associated",
       "coordinates": [
-        859,
-        129
+        1022,
+        40
+      ],
+      "entity_sets": [
+        "Card Packs",
+        "Pokemon Cards"
+      ],
+      "is_many": [
+        false,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        true
+      ]
+    },
+    {
+      "name": "Associated",
+      "coordinates": [
+        857,
+        130
       ],
       "entity_sets": [
         "Pokemon",
@@ -312,8 +367,8 @@
     {
       "name": "Catch",
       "coordinates": [
-        661,
-        436
+        706,
+        483
       ],
       "entity_sets": [
         "Pokemon",
@@ -335,8 +390,8 @@
     {
       "name": "Battle",
       "coordinates": [
-        406,
-        692
+        550,
+        567
       ],
       "entity_sets": [
         "People",
@@ -358,8 +413,8 @@
     {
       "name": "Appear in",
       "coordinates": [
-        976,
-        416
+        984,
+        469
       ],
       "entity_sets": [
         "Pokemon",
@@ -376,6 +431,121 @@
       "determines": [
         false,
         false
+      ]
+    },
+    {
+      "name": "Tend",
+      "coordinates": [
+        1023,
+        297
+      ],
+      "entity_sets": [
+        "Pokemon",
+        "Natures"
+      ],
+      "is_many": [
+        true,
+        false
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Includes",
+      "coordinates": [
+        671,
+        426
+      ],
+      "entity_sets": [
+        "Generations",
+        "Pokemon"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Stats",
+      "coordinates": [
+        218,
+        325
+      ],
+      "entity_sets": [
+        "Generations",
+        "Moves"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Stats",
+      "coordinates": [
+        285,
+        386
+      ],
+      "entity_sets": [
+        "Generations",
+        "Abilities"
+      ],
+      "is_many": [
+        true,
+        true
+      ],
+      "full_participation": [
+        true,
+        true
+      ],
+      "determines": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Part of",
+      "coordinates": [
+        705,
+        646
+      ],
+      "entity_sets": [
+        "Generations",
+        "Games"
+      ],
+      "is_many": [
+        false,
+        true
+      ],
+      "full_participation": [
+        true,
+        false
+      ],
+      "determines": [
+        false,
+        true
       ]
     },
     {
@@ -496,8 +666,8 @@
     {
       "name": "Cast",
       "coordinates": [
-        760,
-        691
+        822,
+        551
       ],
       "entity_sets": [
         "People",
@@ -519,8 +689,8 @@
     {
       "name": "Caught in",
       "coordinates": [
-        1233,
-        423
+        1020,
+        356
       ],
       "entity_sets": [
         "Pokemon",
@@ -537,6 +707,190 @@
       "determines": [
         false,
         false
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        129,
+        273
+      ],
+      "entity_sets": [
+        "Translations",
+        "Moves"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        745,
+        771
+      ],
+      "entity_sets": [
+        "Translations",
+        "Natures"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        720,
+        705
+      ],
+      "entity_sets": [
+        "Translations",
+        "Routes"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        93,
+        959
+      ],
+      "entity_sets": [
+        "Translations",
+        "Translations"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        744,
+        840
+      ],
+      "entity_sets": [
+        "Translations",
+        "Items"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        77,
+        508
+      ],
+      "entity_sets": [
+        "Translations",
+        "Abilities"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        228,
+        656
+      ],
+      "entity_sets": [
+        "Translations",
+        "Generations"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        741,
+        898
+      ],
+      "entity_sets": [
+        "Translations",
+        "Routes"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
       ]
     }
   ],
