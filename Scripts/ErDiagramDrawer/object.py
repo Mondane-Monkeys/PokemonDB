@@ -33,7 +33,8 @@ class Entity:
         fill_color = "lightblue" if self.selected else "white"
         canvas.create_rectangle(self.x, self.y, self.x + 100, self.y + 50, outline='black', fill=fill_color, width=2)
         canvas.create_text(self.x + 50, self.y + 25, text=self.name, font=("Helvetica", 12))
-        canvas.create_text(self.x + 70, self.y + 45, text=f"({num_entities} entities)", font=("Helvetica", 7))
+        if num_entities:
+            canvas.create_text(self.x + 70, self.y + 45, text=f"({num_entities} entities)", font=("Helvetica", 7))
 
 class Relation:
     def __init__(self, json_data, get_entity_by_name):
