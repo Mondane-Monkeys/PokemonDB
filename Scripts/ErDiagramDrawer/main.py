@@ -1,10 +1,12 @@
 import tkinter as tk
+from tkinter import filedialog
 from canvas import DiagramApp
 from loader import load_json
 
 filepath = 'er_data.json'
 
 def main():
+    filepath = filedialog.askopenfilename(defaultextension='.json')
     entities, relations, inherits = load_json(filepath)
 
     root = tk.Tk()

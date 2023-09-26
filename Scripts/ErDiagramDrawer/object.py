@@ -103,7 +103,8 @@ class Relation:
                 canvas.create_line(x1 + 50, y1 + 25, self.x, self.y, fill='black')  # noqa: E501
             # Draw 'n'/'1' at the new position
             if self.is_many[i]:
-                cardinality = 'n'
+                vars = ['n', 'm', 'l']
+                cardinality = vars[i%3]
             else:
                 cardinality = '1'
             canvas.create_text(n_x, n_y, text=cardinality, font=("Helvetica", 12))

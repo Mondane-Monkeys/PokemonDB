@@ -3,48 +3,48 @@
     {
       "name": "Cards",
       "coordinates": [
-        50,
-        50
+        166,
+        13
       ],
       "num_entities": 50
     },
     {
       "name": "Card Attacks",
       "coordinates": [
-        50,
-        50
+        411,
+        136
       ],
       "num_entities": 50
     },
     {
       "name": "Card Abilities",
       "coordinates": [
-        50,
-        50
+        412,
+        69
       ],
       "num_entities": 50
     },
     {
       "name": "Pokemon Cards",
       "coordinates": [
-        50,
-        50
+        809,
+        11
       ],
       "num_entities": 50
     },
     {
       "name": "Trainer Cards",
       "coordinates": [
-        50,
-        50
+        166,
+        160
       ],
       "num_entities": 50
     },
     {
       "name": "Energy Cards",
       "coordinates": [
-        50,
-        50
+        166,
+        88
       ],
       "num_entities": 50
     },
@@ -59,24 +59,24 @@
     {
       "name": "Special Forms",
       "coordinates": [
-        451,
-        185
+        407,
+        205
       ],
       "num_entities": 20
     },
     {
       "name": "Levels",
       "coordinates": [
-        1213,
-        214
+        1126,
+        212
       ],
       "num_entities": 10
     },
     {
       "name": "People",
       "coordinates": [
-        238,
-        534
+        492,
+        666
       ],
       "num_entities": 10
     },
@@ -91,8 +91,8 @@
     {
       "name": "Items",
       "coordinates": [
-        827,
-        891
+        987,
+        792
       ],
       "num_entities": 10
     },
@@ -161,58 +161,42 @@
       "num_entities": 10
     },
     {
-      "name": "Move List",
+      "name": "Moves",
       "coordinates": [
-        469,
-        638
-      ],
-      "num_entities": 10
-    },
-    {
-      "name": "NPC",
-      "coordinates": [
-        238,
-        624
-      ],
-      "num_entities": 10
-    },
-    {
-      "name": "Player",
-      "coordinates": [
-        81,
-        692
+        404,
+        279
       ],
       "num_entities": 10
     },
     {
       "name": "Natural",
       "coordinates": [
-        547,
-        821
+        314,
+        464
       ],
       "num_entities": 10
     },
     {
       "name": "Unnatural",
       "coordinates": [
-        424,
-        763
+        92,
+        315
       ],
       "num_entities": 10
     },
     {
       "name": "HMS",
       "coordinates": [
-        264,
-        894
+        33,
+        463
       ],
       "num_entities": 10
     },
     {
       "name": "TMS",
       "coordinates": [
-        383,
-        895
+        164,
+        465
       ],
       "num_entities": 10
     },
@@ -227,24 +211,24 @@
     {
       "name": "Held Items",
       "coordinates": [
-        1198,
-        1115
+        1123,
+        924
       ],
       "num_entities": 10
     },
     {
       "name": "Evolution Items",
       "coordinates": [
-        673,
-        1112
+        959,
+        916
       ],
       "num_entities": 10
     },
     {
       "name": "Evolution Stones",
       "coordinates": [
-        336,
-        1118
+        737,
+        921
       ],
       "num_entities": 10
     }
@@ -253,8 +237,8 @@
     {
       "name": "Associated",
       "coordinates": [
-        50,
-        50
+        859,
+        129
       ],
       "entity_sets": [
         "Pokemon",
@@ -276,8 +260,8 @@
     {
       "name": "Use",
       "coordinates": [
-        50,
-        50
+        663,
+        153
       ],
       "entity_sets": [
         "Pokemon Cards",
@@ -299,8 +283,8 @@
     {
       "name": "Have",
       "coordinates": [
-        50,
-        50
+        661,
+        88
       ],
       "entity_sets": [
         "Pokemon Cards",
@@ -320,40 +304,17 @@
       ]
     },
     {
-      "name": "Use",
-      "coordinates": [
-        50,
-        50
-      ],
-      "entity_sets": [
-        "Pokemon Cards",
-        "Card Attacks"
-      ],
-      "is_many": [
-        true,
-        true
-      ],
-      "full_participation": [
-        false,
-        true
-      ],
-      "determines": [
-        false,
-        false
-      ]
-    },
-    {
       "name": "Gain",
       "coordinates": [
-        1031,
-        230
+        1017,
+        237
       ],
       "entity_sets": [
         "Pokemon",
         "Levels"
       ],
       "is_many": [
-        false,
+        true,
         false
       ],
       "full_participation": [
@@ -368,8 +329,8 @@
     {
       "name": "Evolve Into",
       "coordinates": [
-        855,
-        89
+        1028,
+        146
       ],
       "entity_sets": [
         "Pokemon",
@@ -391,8 +352,8 @@
     {
       "name": "Catch",
       "coordinates": [
-        551,
-        376
+        544,
+        435
       ],
       "entity_sets": [
         "Pokemon",
@@ -414,8 +375,8 @@
     {
       "name": "Battle",
       "coordinates": [
-        285,
-        418
+        406,
+        692
       ],
       "entity_sets": [
         "People",
@@ -435,33 +396,10 @@
       ]
     },
     {
-      "name": "Hold",
-      "coordinates": [
-        1234,
-        425
-      ],
-      "entity_sets": [
-        "Pokemon",
-        "Held Items"
-      ],
-      "is_many": [
-        true,
-        false
-      ],
-      "full_participation": [
-        false,
-        false
-      ],
-      "determines": [
-        true,
-        false
-      ]
-    },
-    {
       "name": "Appear in",
       "coordinates": [
-        761,
-        381
+        701,
+        436
       ],
       "entity_sets": [
         "Pokemon",
@@ -483,7 +421,7 @@
     {
       "name": "Have",
       "coordinates": [
-        674,
+        669,
         221
       ],
       "entity_sets": [
@@ -504,14 +442,14 @@
       ]
     },
     {
-      "name": "Contain",
+      "name": "Use",
       "coordinates": [
-        691,
-        696
+        668,
+        291
       ],
       "entity_sets": [
-        "Move List",
-        "Games"
+        "Moves",
+        "Pokemon"
       ],
       "is_many": [
         true,
@@ -573,10 +511,10 @@
       ]
     },
     {
-      "name": "Have",
+      "name": "Cast",
       "coordinates": [
-        511,
-        549
+        699,
+        694
       ],
       "entity_sets": [
         "People",
@@ -598,8 +536,8 @@
     {
       "name": "Caught in",
       "coordinates": [
-        905,
-        380
+        1014,
+        417
       ],
       "entity_sets": [
         "Pokemon",
@@ -623,8 +561,8 @@
     {
       "type": "d",
       "coordinates": [
-        50,
-        50
+        380,
+        31
       ],
       "entity_sets": [
         "Cards",
@@ -646,35 +584,13 @@
       ]
     },
     {
-      "type": "d",
-      "coordinates": [
-        133,
-        598
-      ],
-      "entity_sets": [
-        "People",
-        "Player",
-        "NPC"
-      ],
-      "inherit_from": [
-        false,
-        true,
-        true
-      ],
-      "full_participation": [
-        true,
-        false,
-        false
-      ]
-    },
-    {
       "type": "o",
       "coordinates": [
-        603,
-        747
+        373,
+        324
       ],
       "entity_sets": [
-        "Move List",
+        "Moves",
         "Natural",
         "Unnatural"
       ],
@@ -692,8 +608,8 @@
     {
       "type": "d",
       "coordinates": [
-        421,
-        844
+        142,
+        401
       ],
       "entity_sets": [
         "Unnatural",
@@ -714,8 +630,8 @@
     {
       "type": "d",
       "coordinates": [
-        870,
-        1135
+        1038,
+        872
       ],
       "entity_sets": [
         "Items",
@@ -736,8 +652,8 @@
     {
       "type": "d",
       "coordinates": [
-        554,
-        1140
+        917,
+        942
       ],
       "entity_sets": [
         "Evolution Items",
@@ -755,8 +671,8 @@
     {
       "type": "o",
       "coordinates": [
-        1308,
-        920
+        1299,
+        822
       ],
       "entity_sets": [
         "Item Types",
