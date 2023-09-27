@@ -99,8 +99,8 @@
     {
       "name": "Levels",
       "coordinates": [
-        1126,
-        212
+        1071,
+        305
       ],
       "num_entities": "600"
     },
@@ -369,8 +369,8 @@
     {
       "name": "Gain",
       "coordinates": [
-        1027,
-        287
+        1011,
+        267
       ],
       "entity_sets": [
         "Pokemon",
@@ -1111,6 +1111,52 @@
       "entity_sets": [
         "Translations",
         "Abilities"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        340,
+        710
+      ],
+      "entity_sets": [
+        "Translations",
+        "Regions"
+      ],
+      "is_many": [
+        false,
+        false
+      ],
+      "full_participation": [
+        false,
+        false
+      ],
+      "determines": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Translate",
+      "coordinates": [
+        1055,
+        1043
+      ],
+      "entity_sets": [
+        "Translations",
+        "Types"
       ],
       "is_many": [
         false,
