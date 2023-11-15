@@ -1,0 +1,6 @@
+{
+    "get_pokemon":{
+        "parameters":[],
+        "sql_file":"get_pokemon.sql"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "CLIENT_REQUESTS": {
+        "GET /": {},
+        "GET /api/query_list": {},
+        "GET /api/query": {
+            "query_name": "example query name",
+            "parameters": [
+                {
+                    "name": "param1",
+                    "value": "pikachu"
+                },
+                {
+                    "name": "param2",
+                    "value": 1
+                }
+            ]
+        },
+        "GET /api/typeValues": {
+            "(optional) type_name": "pokemon"
+        }
+    },
+    "SERVER_RESPONSES": {
+        "GET /": "<!doctype html><html>...",
+        "GET /api/query_list": {
+            "queries": [
+                {
+                    "query_name": "example query name",
+                    "output_type": "graph/string/list/etc",
+                    "parameters": [
+                        {
+                            "type": "string/int/list/pokemon/etc",
+                            "name": "param1"
+                        },
+                        {
+                            "type": "int",
+                            "name": "param2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "GET /api/query": {
+            "status": "OK",
+            "errors": null,
+            "query_name": "example query name",
+            "results": []
+        },
+        "GET /api/typeValues": {
+            "pokemon": {
+                "id": 1,
+                "name": "Bulbasaur",
+                "image": "http://bulbapedia..."
+            }
+        }
+    }
+}
