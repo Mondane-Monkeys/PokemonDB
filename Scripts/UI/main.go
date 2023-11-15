@@ -71,7 +71,7 @@ func createTables() {
 
 func loadQueryMetadata(filename string) (map[string]QueryMetadata, error) {
 	// Load query metadata from queries.json
-	fileContent, err := os.ReadFile("testdata/hello")
+	fileContent, err := os.ReadFile(QueriesMetaPath)
 	if err != nil {
 		return nil, err
 	}
@@ -86,13 +86,32 @@ func loadQueryMetadata(filename string) (map[string]QueryMetadata, error) {
 
 // QueryMetadata represents the metadata for a query
 type QueryMetadata struct {
-	Parameters []interface{} `json:"parameters"`
-	SQLFile    string        `json:"sql_file"`
+	QueryName        string       `json:"-"`
+	Parameters       []QueryParam `json:"parameters"`
+	ReturnParameters []QueryParam `json:"return_parameters"`
+	Display          string       `json:"display,omitempty"`
+	SQLFile          string       `json:"sql_file"`
 }
 
-////////////////////////////////////
-///////////// ENDPOINT /////////////
-////////////////////////////////////
+type QueryParam struct {
+	Type    ParameterType `json:"type"`
+	Name    string        `json:"name"`
+	Order   []int         `json:"order"`
+	Options []int         `json:"options,omitempty"`
+}
+
+type ParameterType string
+
+const (
+	IntType       ParameterType = "int"
+	StringType    ParameterType = "string"
+	StringSetType ParameterType = "string_set"
+	intSetType    ParameterType = "int_set"
+)
+
+/////////////////////////////////////
+///////////// ENDPOINTs /////////////
+/////////////////////////////////////
 
 func executeQueryHandler(w http.ResponseWriter, r *http.Request) {
 	var queryRequest QueryRequest
@@ -128,8 +147,15 @@ func executeQueryHandler(w http.ResponseWriter, r *http.Request) {
 func getQueryListHandler(w http.ResponseWriter, r *http.Request) {
 	// Return the query metadata
 	fmt.Println("Endpoint hit: GET /api/get_query_list")
-	json.NewEncoder(w).Encode(queryMetadata)
-	fmt.Fprintf(w, "hello\n")
+	// json.NewEncoder(w).Encode(queryMetadata)
+	fileContent, err := os.ReadFile(QueriesMetaPath)
+	if err != nil {
+		fmt.Fprintf(w, getErrorMessage("Could not read metadata file"))
+	}
+
+	fileContentString := string(fileContent)
+	responseMessage := getOkMessage(fileContentString)
+	_, err = fmt.Fprintf(w, responseMessage)
 }
 
 func executeQuery(sqlFile string, parameters []interface{}) (interface{}, error) {
@@ -150,4 +176,17 @@ func testEndpoint(w http.ResponseWriter, r *http.Request) {
 type QueryRequest struct {
 	QueryName  string        `json:"query_name"`
 	Parameters []interface{} `json:"parameters"`
+}
+
+//////////////////////
+/// Helper Methods ///
+//////////////////////
+
+func getErrorMessage(message string) string {
+	return "{\"status\":\"error\", \"error\":\"" + message + "\"}"
+}
+
+// expects a message like "{\"key\":\"value\"}"
+func getOkMessage(message string) string {
+	return "{\"status\":\"ok\", \"error\":\"\", \"data\":\"" + message + "\"}"
 }
