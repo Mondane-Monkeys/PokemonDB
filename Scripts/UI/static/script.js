@@ -24,6 +24,7 @@ dropdownWrapper.onclick = (function (event) {
         let functionName = target.innerText
         selectQuery(functionName)
         toggleDropdown()
+        hideOutput()
         console.log(functionName)
     }
 });
@@ -40,7 +41,15 @@ function toggleDropdown() {
 function hideOutput() {
     //Add any new output elements to this function
     document.getElementById("table-output").style.display = "none"
+}
 
+function showHideLoading(show=false){
+    let loading = document.getElementById("loading")
+    if (show) {
+        loading.style.display = "flex";
+    } else {
+        loading.style.display = "none";
+    }
 }
 
 //////////////
@@ -210,8 +219,10 @@ function makeXHRRequest(method, url, data, callback) {
     var xhr = new XMLHttpRequest();
     xhr.open(method, url, true);
     xhr.setRequestHeader('Content-Type', 'application/json');
+    showHideLoading(true)
 
     xhr.onreadystatechange = function () {
+        showHideLoading(false)
         if (xhr.readyState === 4 && xhr.status === 200) {
             if (xhr.responseText) {
                 callback(JSON.parse(xhr.responseText));
