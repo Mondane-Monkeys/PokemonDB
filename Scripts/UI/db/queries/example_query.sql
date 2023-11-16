@@ -1,0 +1,1 @@
+Select id, name from pokemon where id > ?;

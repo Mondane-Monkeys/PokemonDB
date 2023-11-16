@@ -75,5 +75,28 @@
         ],
         "display": "value",
         "sql_file": "get_pokemon_id_less.sql"
+    },
+    "Pokemon with Id Greater than":{
+        "parameters": [
+            {
+                "name": "Min ID",
+                "order": [1],
+                "type": "int"
+            }
+        ],
+        "return_parameters": [
+            {
+                "name": "pokemon_id",
+                "order": [1],
+                "type": "int"
+            },
+            {
+                "name": "pokemon_name",
+                "order": [2],
+                "type": "string"
+            }
+        ],
+        "display": "value",
+        "sql_file": "example_query.sql"
     }
 }
