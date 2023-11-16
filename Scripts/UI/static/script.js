@@ -1,3 +1,15 @@
+////////////
+/// INIT ///
+////////////
+window.onload = function (){
+    //Get query list
+    makeXHRRequest('GET', '/api/get_query_list', null, function (response) {
+        queries = response["data"]
+        updateQueryList();
+        console.log('Get Query List Response:', response);
+    });
+}
+
 /////////////////////
 /// Event handlers///
 /////////////////////
@@ -35,7 +47,7 @@ function hideOutput() {
 /// Output ///
 //////////////
 function tableOutput(data){
-    if (data.length===0) {
+    if (!data || data.length===0) {
         alert("Query returned no data")
         return
     }
@@ -242,13 +254,6 @@ document.getElementById('getQueryListButton').addEventListener('click', function
         queries = response["data"]
         updateQueryList();
         console.log('Get Query List Response:', response);
-    });
-});
-
-document.getElementById('TEST').addEventListener('click', function () {
-    makeXHRRequest('GET', '/api/test', null, function (response) {
-        console.log('Get Query List Response:', response);
-        document.getElementById("text").innerText = JSON.stringify(response)
     });
 });
 
