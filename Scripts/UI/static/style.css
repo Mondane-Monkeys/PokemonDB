@@ -5,7 +5,7 @@ body {
 
 /* Dropdown Style */
 .dropbtn {
-    background-color: #04AA6D;
+    background-color: #0ba56d;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -34,7 +34,7 @@ body {
     background-color: #ddd;
 }
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #4a9c4c;
 } 
 #output-table {
     display: none;

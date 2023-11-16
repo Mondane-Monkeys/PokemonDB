@@ -4,8 +4,12 @@ Implement frontend stuff
  - handle sub-queries
     - Structure flags correctly
  - Create view models
-    - text
     - graphs
 
 Test stuff
  - Query with 1 parameter with multiple orders
+ - Wildcard strings (%%) how to implement?
+
+
+Server changes
+ - Print correct hostname to connect to
