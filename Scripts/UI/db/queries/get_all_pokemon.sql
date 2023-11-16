@@ -1,1 +1,1 @@
-SELECT id, name, FROM pokemon
+SELECT id, name FROM pokemons

@@ -3,40 +3,77 @@
         "parameters": [],
         "return_parameters":[
             {
-                "type": "int",
                 "name": "pokemon_id",
-                "order": 1
+                "order": [1],
+                "type": "int",
+                "flags":[]
             },
             {
-                "type": "string",
                 "name": "pokemon_name",
-                "order": 2
+                "order": [2],
+                "type": "string",
+                "flags":[]
             }
         ],
-        "sql_file": "get_all_pokemon.sql"
+        "display":"values",
+        "sql_file": "get_all_pokemon.sql",
+        "flags":[]
     },
-    "query_name": {
+    "get_pokemon_in": {
         "parameters": [
             {
-                "type": "int",
-                "name": "pokemon_id",
-                "order": [1,3]
+                "name": "options_int",
+                "order": [1],
+                "type": "int_set",
+                "options": [1,2,3,4,5,6,7,8,9,10],
+                "flags":[]
             },
             {
-                "type": "int_set",
-                "name": "level",
+                "name": "options_strings",
                 "order": [2],
-                "options": [1,2,3,4,5,6,7,8,9,10]
+                "type": "string_set",
+                "flags":[]
+            },
+            {
+                "name": "minID",
+                "order": [3],
+                "type": "int",
+                "flags":[]
             }
         ],
         "return_parameters": [
             {
-                "type": "int_set",
                 "name": "pokemon_id",
-                "order": [1]
+                "order": [1],
+                "type": "int_set",
+                "flags":[]
             }
         ],
         "display": "graph",
-        "sql_file": "example.sql"
+        "sql_file": "get_pokemon_in.sql",
+        "flags":[]
+    },
+    "Pokemon with IDs less than": {
+        "parameters": [
+            {
+                "name": "Min ID",
+                "order": [1],
+                "type": "int"
+            }
+        ],
+        "return_parameters": [
+            {
+                "name": "pokemon_id",
+                "order": [1],
+                "type": "int"
+            },
+            {
+                "name": "pokemon_name",
+                "order": [2],
+                "type": "string"
+            }
+        ],
+        "display": "value",
+        "sql_file": "get_pokemon_id_less.sql"
     }
 }

@@ -23,22 +23,23 @@ for example:
     "query_name": {
         "parameters": [
             {
-                "type": "int",
                 "name": "pokemon_id",
-                "order": [1,3]
+                "order": [1,3],
+                "type": "int"
             },
             {
-                "type": "int_set",
                 "name": "level",
                 "order": [2],
+                "type": "int_set",
                 "options": [1,2,3,4,5,6,7,8,9,10]
             }
         ],
         "return_parameters": [
             {
-                "type": "int_set",
                 "name": "pokemon_id",
-                "order": 1
+                "order": [1],
+                "type": "int",
+                "flags":[]
             }
         ],
         "display": "graph",
@@ -68,14 +69,16 @@ When a client wants to run a query, this is what the message should contain
 
     {
             "query":"query_name",
-            "parameters":{
+            "parameters":[
                 {
-                    "name": "pokemon_id"
-                    "value": 1
+                    "name": "pokemon_id",
+                    "value": [1]
                 },
                 {
                     "name": "level",
                     "value": [1,2,3,4,5,6]
                 }
-            }
+            ]
     }
+# General Notes
+In queries.json, "type", "options", & "flags" are used exclusively by the frontend, and will be passed with the rest of the metadata if any are present. 

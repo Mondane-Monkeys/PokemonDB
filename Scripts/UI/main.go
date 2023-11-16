@@ -1,29 +1,37 @@
 package main
 
 import (
-	"database/sql"
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"os"
+	"os/exec"
+	"reflect"
+	"sort"
+	"strings"
 
+	"github.com/jmoiron/sqlx"
 	_ "github.com/mattn/go-sqlite3"
 )
 
-var db *sql.DB
-var queryMetadata map[string]QueryMetadata
+var db *sqlx.DB
 
-const DbPath = "./db/pokemon.db"
-const SqlPath = "./db/pokemon.db"
+// var queryMetadata map[string]QueryMetadata
+
+// const DbPath = "./db/pokemon.db" //use this if persistence is desired
+const DbPath = ":memory:" //use this if persistance is not desired
+const SqlPath = "./db/pokemon.sql"
 const QueriesPath = "./db/queries"
 const QueriesMetaPath = "./db/queries.json"
+const QueriesDirectory = "./db/queries/"
 
 const port = ":8765"
 
 func main() {
 	// Open SQLite3 database
 	var err error
-	db, err = sql.Open("sqlite3", DbPath)
+	db, err = sqlx.Open("sqlite3", DbPath)
 	if err != nil {
 		fmt.Println("Error opening database:", err)
 		return
@@ -43,12 +51,16 @@ func main() {
 	fmt.Println("Query metadata", queryMetadata)
 
 	// API endpoint to execute queries
-	http.HandleFunc("/api/execute_query", executeQueryHandler)
+	http.HandleFunc("/api/query", executeQueryHandler)
 
 	// API endpoint to get query metadata
 	http.HandleFunc("/api/get_query_list", getQueryListHandler)
 
+	// handle test
 	http.HandleFunc("/api/test", testEndpoint)
+
+	// Handle update server
+	http.HandleFunc("/api/update_server", update_server)
 	http.Handle("/", http.FileServer(http.Dir("./static")))
 	fmt.Println("Server listening on ", port, "...")
 	http.ListenAndServe(port, nil)
@@ -56,7 +68,7 @@ func main() {
 
 func createTables() {
 	// Read the SQL initialization script from pokemon.sql
-	sqlScript, err := os.ReadFile("testdata/hello")
+	sqlScript, err := os.ReadFile(SqlPath)
 	if err != nil {
 		fmt.Println("Error reading pokemon.sql:", err)
 		return
@@ -66,6 +78,28 @@ func createTables() {
 	_, err = db.Exec(string(sqlScript))
 	if err != nil {
 		fmt.Println("Error executing SQL script:", err)
+	}
+	testTables()
+}
+
+func testTables() {
+	rows, err := db.Queryx("SELECT * FROM pokemon")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer rows.Close()
+
+	// Process query results
+	for rows.Next() {
+		result := map[string]interface{}{}
+		if err := rows.MapScan(result); err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println(result)
+	}
+
+	if err := rows.Err(); err != nil {
+		log.Fatal(err)
 	}
 }
 
@@ -84,30 +118,67 @@ func loadQueryMetadata(filename string) (map[string]QueryMetadata, error) {
 	return queryMetadata, nil
 }
 
+// /////////////
+// / STRUCTS ///
+// /////////////
 // QueryMetadata represents the metadata for a query
 type QueryMetadata struct {
 	QueryName        string       `json:"-"`
 	Parameters       []QueryParam `json:"parameters"`
 	ReturnParameters []QueryParam `json:"return_parameters"`
 	Display          string       `json:"display,omitempty"`
+	Flags            []string     `json:"flags,omitempty"`
 	SQLFile          string       `json:"sql_file"`
 }
 
 type QueryParam struct {
-	Type    ParameterType `json:"type"`
-	Name    string        `json:"name"`
-	Order   []int         `json:"order"`
-	Options []int         `json:"options,omitempty"`
+	Type    string   `json:"type"`
+	Name    string   `json:"name"`
+	Order   []int    `json:"order"`
+	Options []int    `json:"options,omitempty"`
+	Flags   []string `json:"flags,omitempty"`
 }
 
-type ParameterType string
+type ParsedParameters struct {
+	Order int
+	Value []string
+}
 
-const (
-	IntType       ParameterType = "int"
-	StringType    ParameterType = "string"
-	StringSetType ParameterType = "string_set"
-	intSetType    ParameterType = "int_set"
-)
+// QueryRequest represents the request format for executing a query
+type QueryRequest struct {
+	QueryName  string              `json:"query_name"`
+	Parameters []QueryRequestParam `json:"parameters"`
+}
+type QueryRequestParam struct {
+	Name  string   `json:"name"`
+	Value []string `json:"value"`
+}
+
+// UnmarshalJSON implements the json.Unmarshaler interface for QueryRequestParam
+func (q *QueryRequestParam) UnmarshalJSON(b []byte) error {
+	var temp struct {
+		Name  string        `json:"name"`
+		Value []interface{} `json:"value"`
+	}
+	if err := json.Unmarshal(b, &temp); err != nil {
+		return err
+	}
+	fmt.Println(temp.Name)
+	q.Name = temp.Name
+	q.Value = []string{}
+	for _, item := range temp.Value {
+		fmt.Printf("Type: %s\n", reflect.TypeOf(item))
+		switch item.(type) {
+		case float64:
+			fmt.Println(fmt.Sprint(item.(float64)))
+			q.Value = append(q.Value, fmt.Sprint(item.(float64)))
+			break
+		case string:
+			q.Value = append(q.Value, item.(string))
+		}
+	}
+	return nil
+}
 
 /////////////////////////////////////
 ///////////// ENDPOINTs /////////////
@@ -115,28 +186,19 @@ const (
 
 func executeQueryHandler(w http.ResponseWriter, r *http.Request) {
 	var queryRequest QueryRequest
+	fmt.Println("Endpoint hit: GET /api/get_query_list:")
+
 	if err := json.NewDecoder(r.Body).Decode(&queryRequest); err != nil {
+		errMsg := fmt.Sprintf("ERROR: Could not parse JSON body: %v", err)
+		fmt.Println(errMsg)
 		http.Error(w, "Bad Request", http.StatusBadRequest)
 		return
 	}
 
-	// Check if the query name exists in the metadata
-	metadata, ok := queryMetadata[queryRequest.QueryName]
-	if !ok {
-		http.Error(w, "Query not found", http.StatusNotFound)
-		return
-	}
-
-	// Validate the parameters
-	if len(queryRequest.Parameters) != len(metadata.Parameters) {
-		http.Error(w, "Invalid number of parameters", http.StatusBadRequest)
-		return
-	}
-
 	// Execute the query (implementation omitted for simplicity)
-	result, err := executeQuery(metadata.SQLFile, queryRequest.Parameters)
-	if err != nil {
-		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+	result, err := prepQuery(queryRequest)
+	if err > 0 {
+		http.Error(w, result, err)
 		return
 	}
 
@@ -158,24 +220,153 @@ func getQueryListHandler(w http.ResponseWriter, r *http.Request) {
 	_, err = fmt.Fprintf(w, responseMessage)
 }
 
-func executeQuery(sqlFile string, parameters []interface{}) (interface{}, error) {
-	fmt.Println("Endpoint hit: POST /api/execute_query")
-	// Implementation to execute the query (e.g., read SQL from file, bind parameters, execute)
-	// ...
-
-	// For simplicity, return a placeholder result
-	return "Query executed successfully", nil
-}
-
 func testEndpoint(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Endpoint hit: test")
 	fmt.Fprintf(w, "{\"name\":\"Bulbasaur\", \"id\":\"1\"}")
 }
 
-// QueryRequest represents the request format for executing a query
-type QueryRequest struct {
-	QueryName  string        `json:"query_name"`
-	Parameters []interface{} `json:"parameters"`
+func update_server(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("Endpoint hit: update server")
+	cmd := exec.Command("git", "pull")
+	err := cmd.Run()
+	if err != nil {
+		log.Printf("Error running Git pull: %s\n", err)
+		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+		return
+	}
+
+	w.WriteHeader(http.StatusOK)
+}
+
+// ////////////////
+// / Handle SQL ///
+// ////////////////
+func prepQuery(queryRequest QueryRequest) (out string, errCode int) {
+	fullmeta, err := loadQueryMetadata(SqlPath)
+	// Check if the query name exists in the metadata
+	metadata, ok := fullmeta[queryRequest.QueryName]
+	if !ok {
+		fmt.Println("Query not found: ", queryRequest.QueryName)
+		return "Query not found", http.StatusNotFound
+	}
+
+	// Validate the parameters
+	if len(queryRequest.Parameters) != len(metadata.Parameters) {
+		return "Invalid number of parameters", http.StatusBadRequest
+	}
+
+	result, err := executeQuery(metadata.SQLFile, metadata.Parameters, queryRequest.Parameters, len(metadata.ReturnParameters))
+	fmt.Println(result)
+	if err != nil {
+
+		return fmt.Sprintf("Internal Server Error: ", err), http.StatusInternalServerError
+	}
+	return mapToJson(result), -1
+}
+
+func executeQuery(sqlFile string, QuearyParam []QueryParam, reqParams []QueryRequestParam, columnCount int) ([]map[string]interface{}, error) {
+	fmt.Println("Endpoint hit: POST /api/execute_query")
+
+	query, err := os.ReadFile(QueriesDirectory + sqlFile)
+	if err != nil {
+		log.Println("Could not read query ", err)
+		return nil, err
+	}
+
+	values := flattenParameters(QuearyParam, reqParams)
+	parsedQuery := handleListInputs(string(query), values)
+	rows, err := db.Queryx(parsedQuery, flattenToAny(values)...)
+	// rows, err := db.Query(string(query), values...)
+	if err != nil {
+		log.Println("Query failed ", err)
+		return nil, err
+	}
+	defer rows.Close()
+
+	// Process query resultscolumnCount
+	var output []map[string]interface{}
+	for rows.Next() {
+		result := map[string]interface{}{}
+		err := rows.MapScan(result)
+		if err != nil {
+			log.Println("Query failed2 ", err)
+			return nil, err
+		}
+		output = append(output, result)
+	}
+	fmt.Println("Query executed successfully")
+	return output, nil
+}
+
+func flattenParameters(meta []QueryParam, req []QueryRequestParam) [][]string {
+	var flattened []ParsedParameters
+	for _, param := range meta {
+		value := getParamByName(param.Name, req)
+		for _, num := range param.Order {
+			flattened = append(flattened, ParsedParameters{Order: num, Value: value})
+		}
+	}
+
+	sort.Slice(flattened, func(i, j int) bool {
+		return flattened[i].Order < flattened[j].Order
+	})
+
+	var values [][]string
+	for _, v := range flattened {
+		values = append(values, v.Value)
+	}
+
+	return values
+}
+func getParamByName(name string, reqs []QueryRequestParam) []string {
+	for _, value := range reqs {
+		if value.Name == name {
+			return value.Value
+		}
+	}
+	return nil
+}
+
+func handleListInputs(query string, params [][]string) string {
+	var result strings.Builder
+	fmt.Println("Padding query: " + query)
+
+	countIndex := 0
+	for _, char := range query {
+		if char == '?' && countIndex < len(params) {
+			// Replace '?' with the desired number of repetitions
+			result.WriteString(strings.Repeat("?,", len(params[countIndex])-1) + "?")
+			countIndex++
+		} else {
+			// Keep the character as is
+			result.WriteRune(char)
+		}
+	}
+
+	return result.String()
+}
+
+func flattenToAny(arg [][]string) []interface{} {
+	var result []interface{}
+	for _, slice := range arg {
+		for _, s := range slice {
+			result = append(result, s)
+		}
+	}
+	return result
+}
+
+func mapToJson(data []map[string]interface{}) string {
+	// Convert the data to JSON
+	jsonBytes, err := json.Marshal(data)
+	if err != nil {
+		return "error"
+	}
+
+	// Convert JSON bytes to a string
+	jsonString := string(jsonBytes)
+
+	return jsonString
 }
 
 //////////////////////
@@ -188,5 +379,5 @@ func getErrorMessage(message string) string {
 
 // expects a message like "{\"key\":\"value\"}"
 func getOkMessage(message string) string {
-	return "{\"status\":\"ok\", \"error\":\"\", \"data\":\"" + message + "\"}"
+	return "{\"status\":\"ok\", \"error\":\"\", \"data\":" + message + "}"
 }

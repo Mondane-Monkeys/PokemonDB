@@ -1,0 +1,1 @@
+SELECT id, name, name as n2 FROM pokemon where id in (?) or name in (?) and id>?;

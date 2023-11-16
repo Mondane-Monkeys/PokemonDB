@@ -1,0 +1,11 @@
+Implement frontend stuff
+ - Display all fields
+    - set-select (check boxes?)
+ - handle sub-queries
+    - Structure flags correctly
+ - Create view models
+    - text
+    - graphs
+
+Test stuff
+ - Query with 1 parameter with multiple orders

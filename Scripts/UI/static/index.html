@@ -1,55 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XHR Requests Example</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon DB</title>
 </head>
+
 <body>
-    <button id="executeQueryButton">Execute Query</button>
+    <button id="updateServerButton">Update Server</button>
     <button id="getQueryListButton">Get Query List</button>
     <button id="TEST">TEST</button>
     <div id="text"></div>
-
-    <script>
-        function makeXHRRequest(method, url, data, callback) {
-            var xhr = new XMLHttpRequest();
-            xhr.open(method, url, true);
-            xhr.setRequestHeader('Content-Type', 'application/json');
-
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    callback(JSON.parse(xhr.responseText));
-                }
-            };
-
-            xhr.send(JSON.stringify(data));
-        }
-
-        document.getElementById('executeQueryButton').addEventListener('click', function () {
-            var executeQueryData = {
-                query_name: 'get_pokemon.sql',
-                parameters: []
-            };
-
-            makeXHRRequest('GET', '/api/execute_query', executeQueryData, function (response) {
-                console.log('Execute Query Response:', response);
-            });
-        });
-
-        document.getElementById('getQueryListButton').addEventListener('click', function () {
-            makeXHRRequest('GET', '/api/get_query_list', null, function (response) {
-                console.log('Get Query List Response:', response);
-            });
-        });
-
-        document.getElementById('TEST').addEventListener('click', function () {
-            makeXHRRequest('GET', '/api/test', null, function (response) {
-                console.log('Get Query List Response:', response);
-                document.getElementById("text").innerText = JSON.stringify(response)
-            });
-        });
-    </script>
-
+    <div class="dropdown" id="dropdown">
+        <button class="dropbtn">Queries</button>
+        <div class="drop-content" id="queries-list">
+            <div class="drop-option">test</div>
+        </div>
+    </div>
+    <ul id="query-inputs"></ul>
+    <div id="output">
+        <table id="table-output"></table>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(45, 60, 82);
+    color: rgb(255, 223, 186);
+}
+
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.drop-option {
+    color: black;
+    background-color: aqua;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-option:hover {
+    background-color: #ddd;
+}
+/* 
+.dropdown:hover .drop-content {
+    display: block;
+}
+*/
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} 
+
+#output-table {
+    display: none;
+    background-color: aquamarine;
+}
+
+/* https://www.w3schools.com/html/html_tables.asp */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    background-color: rgb(104, 112, 69);
+ }
+ tr:nth-child(odd) {
+    background-color: #67683b;
+ }
+
+ td,
+ th {
+    border: 1px solid rgb(41, 38, 68);
+    text-align: left;
+    padding: 8px;
+    word-wrap: break-all;
+    overflow-wrap: anywhere;
+}
+
+td:last-child{
+    width:0.5%; 
+ }

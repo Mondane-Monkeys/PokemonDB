@@ -2,7 +2,7 @@
     "CLIENT_REQUESTS": {
         "GET /": {},
         "GET /api/query_list": {},
-        "GET /api/query": {
+        "POST /api/query": {
             "query_name": "example query name",
             "parameters": [
                 {
@@ -15,7 +15,7 @@
                 }
             ]
         },
-        "GET /api/typeValues": {
+        "POST /api/typeValues": {
             "(optional) type_name": "pokemon"
         }
     },
