@@ -229,8 +229,10 @@ function makeXHRRequest(method, url, data, callback) {
             } else {
                 callback(null)
             }
-        } else {
+        } else if (xhr.readyState===4 && xhr.status === 500){
             alert(xhr.responseText)
+        } else if (xhr.readyState===4 && xhr.status === 404){
+            alert("Query not found")
         }
     };
     msg = JSON.stringify(data)
