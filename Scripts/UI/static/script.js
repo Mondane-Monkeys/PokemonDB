@@ -229,6 +229,8 @@ function makeXHRRequest(method, url, data, callback) {
             } else {
                 callback(null)
             }
+        } else {
+            alert(xhr.responseText)
         }
     };
     msg = JSON.stringify(data)
