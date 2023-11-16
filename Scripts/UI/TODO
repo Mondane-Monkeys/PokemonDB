@@ -13,3 +13,61 @@ Test stuff
 
 Server changes
  - Print correct hostname to connect to
+
+Import Data (No reference tables)
+   card_packs
+   card_colors
+   types
+   moves (just type)
+   abilities
+   egg_groups
+   go_moves (type)
+   exp_level_thresholds
+   type_effectiveness (type)
+   status_effects
+   regions
+   generations (regions)
+   locations (region)
+   items (generation only)
+   natures
+   languages
+
+
+Import Data (dependant tables)
+   card_metadata
+   trainer_cards
+   energy_cards
+   energy_card_contents
+   pkmn_cards
+   retreat_cost
+   pkmn_card_evolutions
+   card_attacks
+   card_attack_costs
+   pokemon
+   go_stats
+   pokemon_evolution_condition
+   pokemon_abilities
+   pokemon_moves
+   pokemon_egg_groups
+   move_effects
+   type_immunity
+   games
+   starters
+   trainers
+   catch_locations
+   game_pokemon
+   trainer_teams
+   berry_locations
+   berry_effects
+   game_locations
+   game_items
+   language_translations
+   move_translations
+   type_translations
+   ability_translations
+   generation_translations
+   region_translations
+   game_translations
+   item_translations
+   nature_translations
+   location_translations

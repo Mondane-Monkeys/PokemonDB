@@ -1,5 +1,3 @@
-
-
 CREATE TABLE IF NOT EXISTS card_packs(
    name TEXT PRIMARY KEY,
    release_date TEXT
@@ -406,6 +404,63 @@ CREATE TABLE IF NOT EXISTS location_translations(
    FOREIGN KEY (location_id) REFERENCES locations(id),
    PRIMARY KEY (location_id, language_id)
 );
+--NO DEPENDANCIES
+-- card_packs
+-- card_colors
+-- types
+-- moves (just type)
+-- abilities
+-- egg_groups
+-- go_moves (type)
+-- exp_level_thresholds
+-- type_effectiveness (type)
+-- status_effects
+-- regions
+-- generations (regions)
+-- locations (region)
+-- items (generation only)
+-- natures
+-- languages
+
+--HAS DEPENDANCIES
+-- card_metadata
+-- trainer_cards
+-- energy_cards
+-- energy_card_contents
+-- pkmn_cards
+-- retreat_cost
+-- pkmn_card_evolutions
+-- card_attacks
+-- card_attack_costs
+-- pokemon
+-- go_stats
+-- pokemon_evolution_condition
+-- pokemon_abilities
+-- pokemon_moves
+-- pokemon_egg_groups
+-- move_effects
+-- type_immunity
+-- games
+-- starters
+-- trainers
+-- catch_locations
+-- game_pokemon
+-- trainer_teams
+-- berry_locations
+-- berry_effects
+-- game_locations
+-- game_items
+-- language_translations
+-- move_translations
+-- type_translations
+-- ability_translations
+-- generation_translations
+-- region_translations
+-- game_translations
+-- item_translations
+-- nature_translations
+-- location_translations
+-- POKEMON
 INSERT OR IGNORE INTO pokemon (id, name) values (1, 'Bulbasaur');
 INSERT OR IGNORE INTO pokemon (id, name) values (2, 'Ivysaur');
 INSERT OR IGNORE INTO pokemon (id, name) values (3, 'Venusaur');
