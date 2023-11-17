@@ -2562,6 +2562,15 @@ INSERT INTO regions (id,name) VALUES ('7','alola');
 INSERT INTO regions (id,name) VALUES ('8','galar');
 
 -- generations (regions)
+INSERT INTO generations (id,region_id,name) VALUES ('1','1','generation-i');
+INSERT INTO generations (id,region_id,name) VALUES ('2','2','generation-ii');
+INSERT INTO generations (id,region_id,name) VALUES ('3','3','generation-iii');
+INSERT INTO generations (id,region_id,name) VALUES ('4','4','generation-iv');
+INSERT INTO generations (id,region_id,name) VALUES ('5','5','generation-v');
+INSERT INTO generations (id,region_id,name) VALUES ('6','6','generation-vi');
+INSERT INTO generations (id,region_id,name) VALUES ('7','7','generation-vii');
+INSERT INTO generations (id,region_id,name) VALUES ('8','8','generation-viii');
+
 -- locations (region)
 -- items (generation only)
 -- natures
