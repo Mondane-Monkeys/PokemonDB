@@ -1605,6 +1605,22 @@ INSERT INTO abilities (id,name,is_main_series) VALUES ('10059','decoy','0');
 INSERT INTO abilities (id,name,is_main_series) VALUES ('10060','shield','0');
 
 -- egg_groups
+INSERT INTO egg_groups (id,name) VALUES ('1','monster');
+INSERT INTO egg_groups (id,name) VALUES ('2','water1');
+INSERT INTO egg_groups (id,name) VALUES ('3','bug');
+INSERT INTO egg_groups (id,name) VALUES ('4','flying');
+INSERT INTO egg_groups (id,name) VALUES ('5','ground');
+INSERT INTO egg_groups (id,name) VALUES ('6','fairy');
+INSERT INTO egg_groups (id,name) VALUES ('7','plant');
+INSERT INTO egg_groups (id,name) VALUES ('8','humanshape');
+INSERT INTO egg_groups (id,name) VALUES ('9','water3');
+INSERT INTO egg_groups (id,name) VALUES ('10','mineral');
+INSERT INTO egg_groups (id,name) VALUES ('11','indeterminate');
+INSERT INTO egg_groups (id,name) VALUES ('12','water2');
+INSERT INTO egg_groups (id,name) VALUES ('13','ditto');
+INSERT INTO egg_groups (id,name) VALUES ('14','dragon');
+INSERT INTO egg_groups (id,name) VALUES ('15','no-eggs');
+
 -- go_moves (type)
 -- exp_level_thresholds
 -- type_effectiveness (type)

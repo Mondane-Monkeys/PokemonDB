@@ -1,16 +1,16 @@
-id,identifier
-1,monster
-2,water1
-3,bug
-4,flying
-5,ground
-6,fairy
-7,plant
-8,humanshape
-9,water3
-10,mineral
-11,indeterminate
-12,water2
-13,ditto
-14,dragon
-15,no-eggs
+id,name,,
+1,monster,,"INSERT INTO egg_groups (id,name) VALUES ('1','monster');"
+2,water1,,"INSERT INTO egg_groups (id,name) VALUES ('2','water1');"
+3,bug,,"INSERT INTO egg_groups (id,name) VALUES ('3','bug');"
+4,flying,,"INSERT INTO egg_groups (id,name) VALUES ('4','flying');"
+5,ground,,"INSERT INTO egg_groups (id,name) VALUES ('5','ground');"
+6,fairy,,"INSERT INTO egg_groups (id,name) VALUES ('6','fairy');"
+7,plant,,"INSERT INTO egg_groups (id,name) VALUES ('7','plant');"
+8,humanshape,,"INSERT INTO egg_groups (id,name) VALUES ('8','humanshape');"
+9,water3,,"INSERT INTO egg_groups (id,name) VALUES ('9','water3');"
+10,mineral,,"INSERT INTO egg_groups (id,name) VALUES ('10','mineral');"
+11,indeterminate,,"INSERT INTO egg_groups (id,name) VALUES ('11','indeterminate');"
+12,water2,,"INSERT INTO egg_groups (id,name) VALUES ('12','water2');"
+13,ditto,,"INSERT INTO egg_groups (id,name) VALUES ('13','ditto');"
+14,dragon,,"INSERT INTO egg_groups (id,name) VALUES ('14','dragon');"
+15,no-eggs,,"INSERT INTO egg_groups (id,name) VALUES ('15','no-eggs');"
