@@ -19,6 +19,9 @@ Important note from importing:
 	- also find status effect data
 - missing description for abilities
 - find pokemon go data
+- complete the items table
+	- information from this table is in different locations 
+	need to be stiched together
 
 Import Data (No reference tables)
    card_packs
