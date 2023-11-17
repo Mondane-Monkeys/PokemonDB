@@ -413,7 +413,7 @@ CREATE TABLE IF NOT EXISTS stats(
 CREATE TABLE IF NOT EXISTS pokemon_stats(
    pokemon_id INT PRIMARY KEY,
    stat_id INT REFERENCES stats(id),
-   base_stat INT
+   base_stat INT,
    FOREIGN KEY (pokemon_id) REFERENCES pokemon(id)
 );
 
@@ -3371,6 +3371,15 @@ INSERT INTO locations (id,region_id,name) VALUES ('798','7','malie-city--outer-c
 -- items (generation only)
 
 -- stats
+INSERT INTO stats (id,name) VALUES ('1','hp');
+INSERT INTO stats (id,name) VALUES ('2','attack');
+INSERT INTO stats (id,name) VALUES ('3','defense');
+INSERT INTO stats (id,name) VALUES ('4','special-attack');
+INSERT INTO stats (id,name) VALUES ('5','special-defense');
+INSERT INTO stats (id,name) VALUES ('6','speed');
+INSERT INTO stats (id,name) VALUES ('7','accuracy');
+INSERT INTO stats (id,name) VALUES ('8','evasion');
+
 -- pokemon_stats (stats,pokemon)
 -- natures (stats)
 -- languages
