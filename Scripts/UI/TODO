@@ -14,6 +14,9 @@ Test stuff
 Server changes
  - Print correct hostname to connect to
 
+Important note from importing:
+need to review moves and move effects table
+
 Import Data (No reference tables)
    card_packs
    card_colors
