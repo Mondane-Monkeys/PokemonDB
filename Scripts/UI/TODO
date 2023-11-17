@@ -17,6 +17,7 @@ Server changes
 Important note from importing:
 - need to review moves and move effects table
 - missing description for abilities
+- find pokemon go data
 
 Import Data (No reference tables)
    card_packs
