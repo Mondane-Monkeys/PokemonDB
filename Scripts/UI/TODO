@@ -15,7 +15,8 @@ Server changes
  - Print correct hostname to connect to
 
 Important note from importing:
-need to review moves and move effects table
+- need to review moves and move effects table
+- missing description for abilities
 
 Import Data (No reference tables)
    card_packs
