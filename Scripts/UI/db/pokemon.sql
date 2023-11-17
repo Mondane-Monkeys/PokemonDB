@@ -9934,6 +9934,32 @@ INSERT INTO pokemon_stats (pokemon_id,stat_id,base_stat) VALUES ('10194','5','10
 INSERT INTO pokemon_stats (pokemon_id,stat_id,base_stat) VALUES ('10194','6','150');
 
 -- natures (stats)
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('1','hardy','2','2','1','1');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('2','bold','2','3','1','5');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('3','modest','2','4','1','2');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('4','calm','2','5','1','4');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('5','timid','2','6','1','3');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('6','lonely','3','2','5','1');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('7','docile','3','3','5','5');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('8','mild','3','4','5','2');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('9','gentle','3','5','5','4');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('10','hasty','3','6','5','3');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('11','adamant','4','2','2','1');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('12','impish','4','3','2','5');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('13','bashful','4','4','2','2');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('14','careful','4','5','2','4');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('15','rash','5','4','4','2');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('16','jolly','4','6','2','3');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('17','naughty','5','2','4','1');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('18','lax','5','3','4','5');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('19','quirky','5','5','4','4');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('20','naive','5','6','4','3');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('21','brave','6','2','3','1');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('22','relaxed','6','3','3','5');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('23','quiet','6','4','3','2');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('24','sassy','6','5','3','4');
+INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('25','serious','6','6','3','3');
+
 -- languages
 
 --HAS DEPENDANCIES
