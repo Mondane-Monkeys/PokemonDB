@@ -2552,6 +2552,15 @@ INSERT INTO type_effectiveness (offense_type_id,defense_type_id,damage_modifier)
 
 -- status_effects
 -- regions
+INSERT INTO regions (id,name) VALUES ('1','kanto');
+INSERT INTO regions (id,name) VALUES ('2','johto');
+INSERT INTO regions (id,name) VALUES ('3','hoenn');
+INSERT INTO regions (id,name) VALUES ('4','sinnoh');
+INSERT INTO regions (id,name) VALUES ('5','unova');
+INSERT INTO regions (id,name) VALUES ('6','kalos');
+INSERT INTO regions (id,name) VALUES ('7','alola');
+INSERT INTO regions (id,name) VALUES ('8','galar');
+
 -- generations (regions)
 -- locations (region)
 -- items (generation only)
