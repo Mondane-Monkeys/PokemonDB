@@ -22,6 +22,7 @@ Important note from importing:
 - complete the items table
 	- information from this table is in different locations 
 	need to be stiched together
+- look into the (disliked+favourite)_flavor column and what it means
 
 Import Data (No reference tables)
    card_packs
