@@ -408,6 +408,27 @@ CREATE TABLE IF NOT EXISTS location_translations(
 -- card_packs
 -- card_colors
 -- types
+INSERT INTO types (id,name) VALUES ('1','normal');
+INSERT INTO types (id,name) VALUES ('2','fighting');
+INSERT INTO types (id,name) VALUES ('3','flying');
+INSERT INTO types (id,name) VALUES ('4','poison');
+INSERT INTO types (id,name) VALUES ('5','ground');
+INSERT INTO types (id,name) VALUES ('6','rock');
+INSERT INTO types (id,name) VALUES ('7','bug');
+INSERT INTO types (id,name) VALUES ('8','ghost');
+INSERT INTO types (id,name) VALUES ('9','steel');
+INSERT INTO types (id,name) VALUES ('10','fire');
+INSERT INTO types (id,name) VALUES ('11','water');
+INSERT INTO types (id,name) VALUES ('12','grass');
+INSERT INTO types (id,name) VALUES ('13','electric');
+INSERT INTO types (id,name) VALUES ('14','psychic');
+INSERT INTO types (id,name) VALUES ('15','ice');
+INSERT INTO types (id,name) VALUES ('16','dragon');
+INSERT INTO types (id,name) VALUES ('17','dark');
+INSERT INTO types (id,name) VALUES ('18','fairy');
+INSERT INTO types (id,name) VALUES ('10001','unknown');
+INSERT INTO types (id,name) VALUES ('10002','shadow');
+
 -- moves (just type)
 -- abilities
 -- egg_groups
