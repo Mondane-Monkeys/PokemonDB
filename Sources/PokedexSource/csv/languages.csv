@@ -1,14 +1,14 @@
-id,iso639,iso3166,identifier,official,order
-1,ja,jp,Japanese-Hrkt,1,1
-2,ja,jp,Japanese-Roomaji,1,3
-3,ko,kr,Korean,1,4
-4,zh,cn,Chinese-Hant,1,5
-5,fr,fr,French,1,8
-6,de,de,German,1,9
-7,es,es,Spanish,1,10
-8,it,it,Italian,1,11
-9,en,us,English,1,7
-10,cs,cz,Czech,0,12
-11,ja,jp,Japanese,1,2
-12,zh,cn,Chinese-Hans,1,6
-13,pt-BR,br,Portuguese-BR,0,13
+id,iso639,iso3166,name,official,order,,
+1,ja,jp,Japanese-Hrkt,1,1,,"INSERT INTO languages (id,name) VALUES ('1','Japanese-Hrkt');"
+2,ja,jp,Japanese-Roomaji,1,3,,"INSERT INTO languages (id,name) VALUES ('2','Japanese-Roomaji');"
+3,ko,kr,Korean,1,4,,"INSERT INTO languages (id,name) VALUES ('3','Korean');"
+4,zh,cn,Chinese-Hant,1,5,,"INSERT INTO languages (id,name) VALUES ('4','Chinese-Hant');"
+5,fr,fr,French,1,8,,"INSERT INTO languages (id,name) VALUES ('5','French');"
+6,de,de,German,1,9,,"INSERT INTO languages (id,name) VALUES ('6','German');"
+7,es,es,Spanish,1,10,,"INSERT INTO languages (id,name) VALUES ('7','Spanish');"
+8,it,it,Italian,1,11,,"INSERT INTO languages (id,name) VALUES ('8','Italian');"
+9,en,us,English,1,7,,"INSERT INTO languages (id,name) VALUES ('9','English');"
+10,cs,cz,Czech,0,12,,"INSERT INTO languages (id,name) VALUES ('10','Czech');"
+11,ja,jp,Japanese,1,2,,"INSERT INTO languages (id,name) VALUES ('11','Japanese');"
+12,zh,cn,Chinese-Hans,1,6,,"INSERT INTO languages (id,name) VALUES ('12','Chinese-Hans');"
+13,pt-BR,br,Portuguese-BR,0,13,,"INSERT INTO languages (id,name) VALUES ('13','Portuguese-BR');"

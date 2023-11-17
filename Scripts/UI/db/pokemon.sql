@@ -9976,44 +9976,46 @@ INSERT INTO languages (id,name) VALUES ('12','Chinese-Hans');
 INSERT INTO languages (id,name) VALUES ('13','Portuguese-BR');
 
 --HAS DEPENDANCIES
--- card_metadata
--- trainer_cards
--- energy_cards
--- energy_card_contents
--- pkmn_cards
--- retreat_cost
--- pkmn_card_evolutions
--- card_attacks
--- card_attack_costs
+---CARDS:
+----- card_metadata
+----- trainer_cards
+----- energy_cards
+----- energy_card_contents
+----- pkmn_cards
+----- retreat_cost
+----- pkmn_card_evolutions
+----- card_attacks
+----- card_attack_costs
+---POKEMON: 
+----- go_stats
+----- pokemon_evolution_condition
+----- pokemon_abilities
+----- pokemon_moves
+----- pokemon_egg_groups
+----- move_effects
+----- type_immunity
+---GAME
+----- starters
+----- trainers
+----- catch_locations
+----- game_pokemon
+----- trainer_teams
+----- berry_locations
+----- berry_effects
+----- game_locations
+----- game_items
+---LANGUAGE
+----- language_translations
+----- move_translations
+----- type_translations
+----- ability_translations
+----- generation_translations
+----- region_translations
+----- game_translations
+----- item_translations
+----- nature_translations
+----- location_translations
 -- pokemon
--- go_stats
--- pokemon_evolution_condition
--- pokemon_abilities
--- pokemon_moves
--- pokemon_egg_groups
--- move_effects
--- type_immunity
--- games
--- starters
--- trainers
--- catch_locations
--- game_pokemon
--- trainer_teams
--- berry_locations
--- berry_effects
--- game_locations
--- game_items
--- language_translations
--- move_translations
--- type_translations
--- ability_translations
--- generation_translations
--- region_translations
--- game_translations
--- item_translations
--- nature_translations
--- location_translations
--- POKEMON
 INSERT INTO pokemon (id,name,species_id,height,weight,base_exp,"order",is_default) VALUES ('1','bulbasaur','1','69','7','64','1','1');
 INSERT INTO pokemon (id,name,species_id,height,weight,base_exp,"order",is_default) VALUES ('2','ivysaur','2','130','10','142','2','1');
 INSERT INTO pokemon (id,name,species_id,height,weight,base_exp,"order",is_default) VALUES ('3','venusaur','3','1000','20','263','3','1');
