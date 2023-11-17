@@ -414,6 +414,7 @@ CREATE TABLE IF NOT EXISTS pokemon_stats(
    pokemon_id INT PRIMARY KEY,
    stat_id INT REFERENCES stats(id),
    base_stat INT
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id)
 );
 
 --NO DEPENDANCIES
@@ -3366,8 +3367,12 @@ INSERT INTO locations (id,region_id,name) VALUES ('796','7','aether-paradise');
 INSERT INTO locations (id,region_id,name) VALUES ('797','7','ultra-space');
 INSERT INTO locations (id,region_id,name) VALUES ('798','7','malie-city--outer-cape');
 
+
 -- items (generation only)
--- natures
+
+-- stats
+-- pokemon_stats (stats,pokemon)
+-- natures (stats)
 -- languages
 
 --HAS DEPENDANCIES
