@@ -302,7 +302,9 @@ CREATE TABLE IF NOT EXISTS natures(
    name TEXT,
    favourite_flavor TEXT,
    disliked_flavor TEXT,
-   game_index INT
+   game_index INT,
+   increased_stat_id INT REFERENCES stats(id),
+   decreased_stat_id INT REFERENCES stats(id)
 );
 CREATE TABLE IF NOT EXISTS berry_effects(
    nature_id INT,
@@ -404,6 +406,16 @@ CREATE TABLE IF NOT EXISTS location_translations(
    FOREIGN KEY (location_id) REFERENCES locations(id),
    PRIMARY KEY (location_id, language_id)
 );
+CREATE TABLE IF NOT EXISTS stats(
+   id INT PRIMARY KEY,
+   name TEXT
+);
+CREATE TABLE IF NOT EXISTS pokemon_stats(
+   pokemon_id INT PRIMARY KEY,
+   stat_id INT REFERENCES stats(id),
+   base_stat INT
+);
+
 --NO DEPENDANCIES
 -- card_packs
 -- card_colors
