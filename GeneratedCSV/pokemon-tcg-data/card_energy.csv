@@ -1,0 +1,360 @@
+id,name,subtypes
+base1-96,Double Colorless Energy,Special
+base1-97,Fighting Energy,Basic
+base1-98,Fire Energy,Basic
+base1-99,Grass Energy,Basic
+base1-100,Lightning Energy,Basic
+base1-101,Psychic Energy,Basic
+base1-102,Water Energy,Basic
+base4-124,Double Colorless Energy,Special
+base4-125,Fighting Energy,Basic
+base4-126,Fire Energy,Basic
+base4-127,Grass Energy,Basic
+base4-128,Lightning Energy,Basic
+base4-129,Psychic Energy,Basic
+base4-130,Water Energy,Basic
+base5-17,Rainbow Energy,Special
+base5-80,Rainbow Energy,Special
+base5-81,Full Heal Energy,Special
+base5-82,Potion Energy,Special
+base6-100,Full Heal Energy,Special
+base6-101,Potion Energy,Special
+bw1-105,Grass Energy,Basic
+bw1-106,Fire Energy,Basic
+bw1-107,Water Energy,Basic
+bw1-108,Lightning Energy,Basic
+bw1-109,Psychic Energy,Basic
+bw1-110,Fighting Energy,Basic
+bw1-111,Darkness Energy,Basic
+bw1-112,Metal Energy,Basic
+bw10-91,Plasma Energy,"Special, Team Plasma"
+bw11-113,Double Colorless Energy,Special
+bw4-92,Double Colorless Energy,Special
+bw4-93,Prism Energy,Special
+bw6-117,Blend Energy GrassFirePsychicDarkness,Special
+bw6-118,Blend Energy WaterLightningFightingMetal,Special
+bw8-127,Plasma Energy,"Special, Team Plasma"
+bw9-106,Plasma Energy,"Special, Team Plasma"
+col1-86,Darkness Energy,Special
+col1-87,Metal Energy,Special
+col1-88,Grass Energy,Basic
+col1-89,Fire Energy,Basic
+col1-90,Water Energy,Basic
+col1-91,Lightning Energy,Basic
+col1-92,Psychic Energy,Basic
+col1-93,Fighting Energy,Basic
+col1-94,Darkness Energy,Basic
+col1-95,Metal Energy,Basic
+dc1-33,Double Aqua Energy,Special
+dc1-34,Double Magma Energy,Special
+dp1-123,Grass Energy,Basic
+dp1-124,Fire Energy,Basic
+dp1-125,Water Energy,Basic
+dp1-126,Lightning Energy,Basic
+dp1-127,Psychic Energy,Basic
+dp1-128,Fighting Energy,Basic
+dp1-129,Darkness Energy,Basic
+dp1-130,Metal Energy,Basic
+dp2-118,Multi Energy,Special
+dp2-119,Darkness Energy,Special
+dp2-120,Metal Energy,Special
+dp3-129,Darkness Energy,Special
+dp3-130,Metal Energy,Special
+dp5-92,Call Energy,Special
+dp5-93,Darkness Energy,Special
+dp5-94,Health Energy,Special
+dp5-95,Metal Energy,Special
+dp5-96,Recover Energy,Special
+dp7-94,Cyclone Energy,Special
+dp7-95,Warp Energy,Special
+ecard1-158,Darkness Energy,Special
+ecard1-159,Metal Energy,Special
+ecard1-160,Fighting Energy,Basic
+ecard1-161,Fire Energy,Basic
+ecard1-162,Grass Energy,Basic
+ecard1-163,Lightning Energy,Basic
+ecard1-164,Psychic Energy,Basic
+ecard1-165,Water Energy,Basic
+ecard2-142,Darkness Energy,Special
+ecard2-143,Metal Energy,Special
+ecard2-144,Rainbow Energy,Special
+ecard2-145,Boost Energy,Special
+ecard2-146,Crystal Energy,Special
+ecard2-147,Warp Energy,Special
+ecard3-142,Bounce Energy,Special
+ecard3-143,Cyclone Energy,Special
+ecard3-144,Retro Energy,Special
+ex1-93,Darkness Energy,Special
+ex1-94,Metal Energy,Special
+ex1-95,Rainbow Energy,Special
+ex1-104,Grass Energy,Basic
+ex1-105,Fighting Energy,Basic
+ex1-106,Water Energy,Basic
+ex1-107,Psychic Energy,Basic
+ex1-108,Fire Energy,Basic
+ex1-109,Lightning Energy,Basic
+ex10-96,Darkness Energy,Special
+ex10-97,Metal Energy,Special
+ex10-98,Boost Energy,Special
+ex10-99,Cyclone Energy,Special
+ex10-100,Warp Energy,Special
+ex11-103,Darkness Energy,Special
+ex11-104,Holon Energy FF,Special
+ex11-105,Holon Energy GL,Special
+ex11-106,Holon Energy WP,Special
+ex11-107,Metal Energy,Special
+ex12-81,Rainbow Energy,Special
+ex12-82,React Energy,Special
+ex13-94,Darkness Energy,Special
+ex13-95,Metal Energy,Special
+ex13-96,Multi Energy,Special
+ex13-97,Dark Metal Energy,Special
+ex13-98,δ Rainbow Energy,Special
+ex13-105,Grass Energy,Basic
+ex13-106,Fire Energy,Basic
+ex13-107,Water Energy,Basic
+ex13-108,Lightning Energy,Basic
+ex13-109,Psychic Energy,Basic
+ex13-110,Fighting Energy,Basic
+ex14-88,Double Rainbow Energy,Special
+ex15-84,Holon Energy FF,Special
+ex15-85,Holon Energy GL,Special
+ex15-86,Holon Energy WP,Special
+ex15-87,Boost Energy,Special
+ex15-88,δ Rainbow Energy,Special
+ex15-89,Scramble Energy,Special
+ex16-87,Darkness Energy,Special
+ex16-88,Metal Energy,Special
+ex16-89,Multi Energy,Special
+ex16-90,Cyclone Energy,Special
+ex16-91,Warp Energy,Special
+ex16-103,Grass Energy,Basic
+ex16-104,Fire Energy,Basic
+ex16-105,Water Energy,Basic
+ex16-106,Lightning Energy,Basic
+ex16-107,Psychic Energy,Basic
+ex16-108,Fighting Energy,Basic
+ex2-93,Multi Energy,Special
+ex4-86,Aqua Energy,Special
+ex4-87,Magma Energy,Special
+ex4-88,Double Rainbow Energy,Special
+ex6-103,Multi Energy,Special
+ex7-94,Dark Metal Energy,Special
+ex7-95,R Energy,Special
+ex8-93,Boost Energy,Special
+ex8-94,Heal Energy,Special
+ex8-95,Scramble Energy,Special
+ex9-86,Darkness Energy,Special
+ex9-87,Double Rainbow Energy,Special
+ex9-88,Metal Energy,Special
+ex9-89,Multi Energy,Special
+ex9-101,Grass Energy,Basic
+ex9-102,Fire Energy,Basic
+ex9-103,Water Energy,Basic
+ex9-104,Lightning Energy,Basic
+ex9-105,Psychic Energy,Basic
+ex9-106,Fighting Energy,Basic
+g1-74,Double Colorless Energy,Special
+g1-75,Grass Energy,Basic
+g1-76,Fire Energy,Basic
+g1-77,Water Energy,Basic
+g1-78,Lightning Energy,Basic
+g1-79,Psychic Energy,Basic
+g1-80,Fighting Energy,Basic
+g1-81,Darkness Energy,Basic
+g1-82,Metal Energy,Basic
+g1-83,Fairy Energy,Basic
+gym1-127,Fighting Energy,Basic
+gym1-128,Fire Energy,Basic
+gym1-129,Grass Energy,Basic
+gym1-130,Lightning Energy,Basic
+gym1-131,Psychic Energy,Basic
+gym1-132,Water Energy,Basic
+gym2-127,Fighting Energy,Basic
+gym2-128,Fire Energy,Basic
+gym2-129,Grass Energy,Basic
+gym2-130,Lightning Energy,Basic
+gym2-131,Psychic Energy,Basic
+gym2-132,Water Energy,Basic
+hgss1-103,Double Colorless Energy,Special
+hgss1-104,Rainbow Energy,Special
+hgss1-115,Grass Energy,Basic
+hgss1-116,Fire Energy,Basic
+hgss1-117,Water Energy,Basic
+hgss1-118,Lightning Energy,Basic
+hgss1-119,Psychic Energy,Basic
+hgss1-120,Fighting Energy,Basic
+hgss1-121,Darkness Energy,Basic
+hgss1-122,Metal Energy,Basic
+hgss3-79,Darkness Energy,Special
+hgss3-80,Metal Energy,Special
+hgss4-90,Rescue Energy,Special
+neo1-19,Metal Energy,Special
+neo1-104,Darkness Energy,Special
+neo1-105,Recycle Energy,Special
+neo1-106,Fighting Energy,Basic
+neo1-107,Fire Energy,Basic
+neo1-108,Grass Energy,Basic
+neo1-109,Lightning Energy,Basic
+neo1-110,Psychic Energy,Basic
+neo1-111,Water Energy,Basic
+neo4-16,Miracle Energy,Special
+pl1-121,Rainbow Energy,Special
+pl2-99,Darkness Energy,Special
+pl2-100,Metal Energy,Special
+pl2-101,SP Energy,Special
+pl2-102,Upper Energy,Special
+pop4-8,Heal Energy,Special
+pop4-10,Scramble Energy,Special
+pop5-4,Double Rainbow Energy,Special
+pop5-8,Boost Energy,Special
+pop5-9,δ Rainbow Energy,Special
+sm1-136,Double Colorless Energy,Special
+sm1-137,Rainbow Energy,Special
+sm1-162,Psychic Energy,Basic
+sm1-163,Metal Energy,Basic
+sm1-164,Grass Energy,Basic
+sm1-165,Fire Energy,Basic
+sm1-166,Water Energy,Basic
+sm1-167,Lightning Energy,Basic
+sm1-168,Psychic Energy,Basic
+sm1-169,Fighting Energy,Basic
+sm1-170,Darkness Energy,Basic
+sm1-171,Metal Energy,Basic
+sm1-172,Fairy Energy,Basic
+sm10-190,Triple Acceleration Energy,Special
+sm10-234,Triple Acceleration Energy,Special
+sm11-212,Recycle Energy,Special
+sm11-213,Weakness Guard Energy,Special
+sm11-257,Recycle Energy,Special
+sm11-258,Weakness Guard Energy,Special
+sm12-209,Draw Energy,Special
+sm12-271,Draw Energy,Special
+sm2-166,Double Colorless Energy,Special
+sm2-167,Grass Energy,Basic
+sm2-168,Lightning Energy,Basic
+sm2-169,Fighting Energy,Basic
+sm3-167,Fire Energy,Basic
+sm3-168,Darkness Energy,Basic
+sm3-169,Fairy Energy,Basic
+sm35-69,Double Colorless Energy,Special
+sm35-70,Warp Energy,Special
+sm4-100,Counter Energy,Special
+sm4-122,Counter Energy,Special
+sm4-123,Warp Energy,Special
+sm4-124,Water Energy,Basic
+sm5-136,Super Boost Energy ◇,"Special, Prism Star"
+sm5-137,Unit Energy GrassFireWater,Special
+sm5-138,Unit Energy LightningPsychicMetal,Special
+sm5-170,Unit Energy GrassFireWater,Special
+sm5-171,Unit Energy LightningPsychicMetal,Special
+sm6-117,Beast Energy ◇,"Special, Prism Star"
+sm6-118,Unit Energy FightingDarknessFairy,Special
+sm6-146,Unit Energy FightingDarknessFairy,Special
+sm7-151,Rainbow Energy,Special
+sm7-183,Rainbow Energy,Special
+sm8-194,Memory Energy,Special
+sv1-257,Basic Lightning Energy,Basic
+sv1-258,Basic Fighting Energy,Basic
+sv2-190,Jet Energy,Special
+sv2-191,Luminous Energy,Special
+sv2-192,Reversal Energy,Special
+sv2-193,Therapeutic Energy,Special
+sv2-278,Basic Grass Energy,Basic
+sv2-279,Basic Water Energy,Basic
+sv3-230,Basic Fire Energy,
+sv3pt5-207,Basic Psychic Energy,Basic
+sve-1,Basic Grass Energy,Basic
+sve-2,Basic Fire Energy,Basic
+sve-3,Basic Water Energy,Basic
+sve-4,Basic Lightning Energy,Basic
+sve-5,Basic Psychic Energy,Basic
+sve-6,Basic Fighting Energy,Basic
+sve-7,Basic Darkness Energy,Basic
+sve-8,Basic Metal Energy,Basic
+swsh1-186,Aurora Energy,Special
+swsh10-216,Double Turbo Energy,Special
+swsh11-171,Gift Energy,Special
+swsh12-168,Regenerative Energy,Special
+swsh12-169,V Guard Energy,Special
+swsh12-215,V Guard Energy,Special
+swsh12pt5-152,Grass Energy,Basic
+swsh12pt5-153,Fire Energy,Basic
+swsh12pt5-154,Water Energy,Basic
+swsh12pt5-155,Lightning Energy,Basic
+swsh12pt5-156,Psychic Energy,Basic
+swsh12pt5-157,Fighting Energy,Basic
+swsh12pt5-158,Darkness Energy,Basic
+swsh12pt5-159,Metal Energy,Basic
+swsh2-171,Capture Energy,Special
+swsh2-172,Horror Psychic Energy,Special
+swsh2-173,Speed Lightning Energy,Special
+swsh2-174,Twin Energy,Special
+swsh2-209,Twin Energy,Special
+swsh3-174,Heat Fire Energy,Special
+swsh3-175,Hiding Darkness Energy,Special
+swsh3-176,Powerful Colorless Energy,Special
+swsh3-201,Capture Energy,Special
+swsh4-162,Aromatic Grass Energy,Special
+swsh4-163,Coating Metal Energy,Special
+swsh4-164,Stone Fighting Energy,Special
+swsh4-165,Wash Water Energy,Special
+swsh5-140,Rapid Strike Energy,"Special, Rapid Strike"
+swsh5-141,Single Strike Energy,"Special, Single Strike"
+swsh5-182,Rapid Strike Energy,"Special, Rapid Strike"
+swsh5-183,Single Strike Energy,"Special, Single Strike"
+swsh6-157,Impact Energy,"Special, Single Strike"
+swsh6-158,Lucky Energy,Special
+swsh6-159,Spiral Energy,"Special, Rapid Strike"
+swsh6-231,Water Energy,Basic
+swsh6-232,Psychic Energy,Basic
+swsh6-233,Fighting Energy,Basic
+swsh7-165,Treasure Energy,Special
+swsh7-235,Lightning Energy,Basic
+swsh7-236,Darkness Energy,Basic
+swsh7-237,Metal Energy,Basic
+swsh8-244,Fusion Strike Energy,"Fusion Strike, Special"
+swsh8-283,Grass Energy,Basic
+swsh8-284,Fire Energy,Basic
+swsh9-151,Double Turbo Energy,Special
+tk1a-10,Fire Energy,Basic
+tk1b-10,Lightning Energy,Basic
+tk2a-11,Lightning Energy,Basic
+tk2a-12,Psychic Energy,Basic
+tk2b-11,Fire Energy,Basic
+tk2b-12,Lightning Energy,Basic
+xy1-130,Double Colorless Energy,Special
+xy1-131,Rainbow Energy,Special
+xy1-132,Grass Energy,Basic
+xy1-133,Fire Energy,Basic
+xy1-134,Water Energy,Basic
+xy1-135,Lightning Energy,Basic
+xy1-136,Psychic Energy,Basic
+xy1-137,Fighting Energy,Basic
+xy1-138,Darkness Energy,Basic
+xy1-139,Metal Energy,Basic
+xy1-140,Fairy Energy,Basic
+xy10-114,Double Colorless Energy,Special
+xy10-115,Strong Energy,Special
+xy12-90,Double Colorless Energy,Special
+xy12-91,Grass Energy,Basic
+xy12-92,Fire Energy,Basic
+xy12-93,Water Energy,Basic
+xy12-94,Lightning Energy,Basic
+xy12-95,Psychic Energy,Basic
+xy12-96,Fighting Energy,Basic
+xy12-97,Darkness Energy,Basic
+xy12-98,Metal Energy,Basic
+xy12-99,Fairy Energy,Basic
+xy3-103,Herbal Energy,Special
+xy3-104,Strong Energy,Special
+xy4-111,Double Colorless Energy,Special
+xy4-112,Mystery Energy,Special
+xy5-143,Shield Energy,Special
+xy5-144,Wonder Energy,Special
+xy6-97,Double Dragon Energy,Special
+xy7-82,Dangerous Energy,Special
+xy7-83,Flash Energy,Special
+xy8-151,Burning Energy,Special
+xy8-152,Rainbow Energy,Special
+xy9-113,Splash Energy,Special

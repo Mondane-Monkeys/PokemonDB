@@ -1,0 +1,481 @@
+id,name,level,hp,types,rules,subtypes,pokemon_id,cost,convertedEnergyCost,damage,text,attack_name,type
+base1-1,Alakazam,42,80,Psychic,,,,,,,,,
+base1-2,Blastoise,52,100,Water,,,,,,,,,
+base1-3,Chansey,55,120,Colorless,,,,,,,,,
+base1-4,Charizard,76,120,Fire,,,,,,,,,
+base1-5,Clefairy,14,40,Colorless,,,,,,,,,
+base1-6,Gyarados,41,100,Water,,,,,,,,,
+base1-7,Hitmonchan,33,70,Fighting,,,,,,,,,
+base1-8,Machamp,67,100,Fighting,,,,,,,,,
+base1-9,Magneton,28,60,Lightning,,,,,,,,,
+base1-10,Mewtwo,53,60,Psychic,,,,,,,,,
+base1-11,Nidoking,23,90,Grass,,,,,,,,,
+base1-12,Ninetales,32,80,Fire,,,,,,,,,
+base1-13,Poliwrath,48,90,Water,,,,,,,,,
+base1-14,Raichu,40,80,Lightning,,,,,,,,,
+base1-15,Venusaur,67,100,Grass,,,,,,,,,
+base1-16,Zapdos,64,90,Lightning,,,,,,,,,
+base1-17,Beedrill,32,80,Grass,,,,,,,,,
+base1-18,Dragonair,33,80,Colorless,,,,,,,,,
+base1-19,Dugtrio,36,70,Fighting,,,,,,,,,
+base1-20,Electabuzz,35,70,Lightning,,,,,,,,,
+base1-21,Electrode,40,80,Lightning,,,,,,,,,
+base1-22,Pidgeotto,36,60,Colorless,,,,,,,,,
+base1-23,Arcanine,45,100,Fire,,,,,,,,,
+base1-24,Charmeleon,32,80,Fire,,,,,,,,,
+base1-25,Dewgong,42,80,Water,,,,,,,,,
+base1-26,Dratini,10,40,Colorless,,,,,,,,,
+base1-27,Farfetch'd,20,50,Colorless,,,,,,,,,
+base1-28,Growlithe,18,60,Fire,,,,,,,,,
+base1-29,Haunter,22,60,Psychic,,,,,,,,,
+base1-30,Ivysaur,20,60,Grass,,,,,,,,,
+base1-31,Jynx,23,70,Psychic,,,,,,,,,
+base1-32,Kadabra,38,60,Psychic,,,,,,,,,
+base1-33,Kakuna,23,80,Grass,,,,,,,,,
+base1-34,Machoke,40,80,Fighting,,,,,,,,,
+base1-35,Magikarp,8,30,Water,,,,,,,,,
+base1-36,Magmar,24,50,Fire,,,,,,,,,
+base1-37,Nidorino,25,60,Grass,,,,,,,,,
+base1-38,Poliwhirl,28,60,Water,,,,,,,,,
+base1-39,Porygon,12,30,Colorless,,,,,,,,,
+base1-40,Raticate,41,60,Colorless,,,,,,,,,
+base1-41,Seel,12,60,Water,,,,,,,,,
+base1-42,Wartortle,22,70,Water,,,,,,,,,
+base1-43,Abra,10,30,Psychic,,,,,,,,,
+base1-44,Bulbasaur,13,40,Grass,,,,,,,,,
+base1-45,Caterpie,13,40,Grass,,,,,,,,,
+base1-46,Charmander,10,50,Fire,,,,,,,,,
+base1-47,Diglett,8,30,Fighting,,,,,,,,,
+base1-48,Doduo,10,50,Colorless,,,,,,,,,
+base1-49,Drowzee,10,50,Psychic,,,,,,,,,
+base1-50,Gastly,8,30,Psychic,,,,,,,,,
+base1-51,Koffing,13,50,Grass,,,,,,,,,
+base1-52,Machop,20,50,Fighting,,,,,,,,,
+base1-53,Magnemite,13,40,Lightning,,,,,,,,,
+base1-54,Metapod,21,70,Grass,,,,,,,,,
+base1-55,Nidoran ♂,20,40,Grass,,,,,,,,,
+base1-56,Onix,12,90,Fighting,,,,,,,,,
+base1-57,Pidgey,8,40,Colorless,,,,,,,,,
+base1-58,Pikachu,12,40,Lightning,,,,,,,,,
+base1-59,Poliwag,13,40,Water,,,,,,,,,
+base1-60,Ponyta,10,40,Fire,,,,,,,,,
+base1-61,Rattata,9,30,Colorless,,,,,,,,,
+base1-62,Sandshrew,12,40,Fighting,,,,,,,,,
+base1-63,Squirtle,8,40,Water,,,,,,,,,
+base1-64,Starmie,28,60,Water,,,,,,,,,
+base1-65,Staryu,15,40,Water,,,,,,,,,
+base1-66,Tangela,8,50,Grass,,,,,,,,,
+base1-67,Voltorb,10,40,Lightning,,,,,,,,,
+base1-68,Vulpix,11,50,Fire,,,,,,,,,
+base1-69,Weedle,12,40,Grass,,,,,,,,,
+base1-70,Clefairy Doll,,,,"Play Clefairy Doll as if it were a Basic Pokémon. While in play, Clefairy Doll counts a a Pokémon (instead of a Trainer card). Clefairy Doll has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Clefairy Doll is Knocked Out, it doesn't count as a Knocked Out Pokémon. At any time during your turn before your attack, you may discard Clefairy Doll.",,,,,,,,
+base1-71,Computer Search,,,,Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward.,,,,,,,,
+base1-72,Devolution Spray,,,,"Choose 1 of your own Pokémon in play and a Stage of Evolution. Discard all Evolution cards of that Stage or higher attached to that Pokémon. That Pokémon is no longer Asleep, Confused, Paralyzed, Poisoned, or anything else that might be the result of an attack (just as if you had evolved it).",,,,,,,,
+base1-73,Impostor Professor Oak,,,,"Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",,,,,,,,
+base1-74,Item Finder,,,,Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.,,,,,,,,
+base1-75,Lass,,,,"You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.",,,,,,,,
+base1-76,Pokémon Breeder,,,,Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway.,,,,,,,,
+base1-77,Pokémon Trader,,,,Trade 1 of the Basic Pokémon or Evolution cards in your hand for 1 of the Basic Pokémon or Evolution cards from your deck. Show both cards to your opponent. Shuffle your deck afterward.,,,,,,,,
+base1-78,Scoop Up,,,,Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.),,,,,,,,
+base1-79,Super Energy Removal,,,,Discard 1 Energy card attached to 1 of your Pokémon in order to choose 1 of your opponent's Pokémon and up to 2 Energy cards attached to it. Discard those Energy cards.,,,,,,,,
+base1-80,Defender,,,,"Attach Defender to 1 of your Pokémon. At the end of your opponent's next turn, discard Defender. Damage done to that Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",,,,,,,,
+base1-81,Energy Retrieval,,,,Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile.,,,,,,,,
+base1-82,Full Heal,,,,"Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",,,,,,,,
+base1-83,Maintenance,,,,Shuffle 2 of the other cards from your hand into your deck in order to draw a card.,,,,,,,,
+base1-84,PlusPower,,,,"Attach PlusPower to your Active Pokémon. At the end of your turn, discard PlusPower. If this Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage to the Defending Pokémon.",,,,,,,,
+base1-85,Pokémon Center,,,,"Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.",,,,,,,,
+base1-86,Pokémon Flute,,,,Choose 1 Basic Pokémon card from your opponent's discard pile and put it onto his or her Bench. (You can't play Pokémon Flute if your opponent's Bench is full.),,,,,,,,
+base1-87,Pokédex,,,,Look at up to 5 cards from the top of your deck and rearrange them as you like.,,,,,,,,
+base1-88,Professor Oak,,,,"Discard your hand, then draw 7 cards.",,,,,,,,
+base1-89,Revive,,,,Put 1 Basic Pokémon card from your discard pile onto your Bench. Put damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can't play Revive if your Bench is full.),,,,,,,,
+base1-90,Super Potion,,,,Discard 1 Energy card attached to your own Pokémon in order to remove up to 4 damage counters from that Pokémon.,,,,,,,,
+base1-91,Bill,,,,Draw 2 cards.,,,,,,,,
+base1-92,Energy Removal,,,,Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.,,,,,,,,
+base1-93,Gust of Wind,,,,Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.,,,,,,,,
+base1-94,Potion,,,,Remove up to 2 damage counters from 1 of your Pokémon.,,,,,,,,
+base1-95,Switch,,,,Switch 1 of your own Benched Pokémon with your Active Pokémon.,,,,,,,,
+base1-96,Double Colorless Energy,,,,,Special,,,,,,,
+base1-97,Fighting Energy,,,,,Basic,,,,,,,
+base1-98,Fire Energy,,,,,Basic,,,,,,,
+base1-99,Grass Energy,,,,,Basic,,,,,,,
+base1-100,Lightning Energy,,,,,Basic,,,,,,,
+base1-101,Psychic Energy,,,,,Basic,,,,,,,
+base1-102,Water Energy,,,,,Basic,,,,,,,
+,Confuse Ray,,,,,,base1-1,"Psychic, Psychic, Psychic",3.0,30,"Flip a coin. If heads, the Defending Pokémon is now Confused.",,
+,Hydro Pump,,,,,,base1-2,"Water, Water, Water",3.0,40+,Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.,,
+,Scrunch,,,,,,base1-3,"Colorless, Colorless",2.0,,"Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",,
+,Double-edge,,,,,,base1-3,"Colorless, Colorless, Colorless, Colorless",4.0,80,Chansey does 80 damage to itself.,,
+,Fire Spin,,,,,,base1-4,"Fire, Fire, Fire, Fire",4.0,100,Discard 2 Energy cards attached to Charizard in order to use this attack.,,
+,Sing,,,,,,base1-5,Colorless,1.0,,"Flip a coin. If heads, the Defending Pokémon is now Asleep.",,
+,Metronome,,,,,,base1-5,"Colorless, Colorless, Colorless",3.0,,"Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefairy's type is still Colorless.)",,
+,Dragon Rage,,,,,,base1-6,"Water, Water, Water",3.0,50,,,
+,Bubblebeam,,,,,,base1-6,"Water, Water, Water, Water",4.0,40,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Jab,,,,,,base1-7,Fighting,1.0,20,,,
+,Special Punch,,,,,,base1-7,"Fighting, Fighting, Colorless",3.0,40,,,
+,Seismic Toss,,,,,,base1-8,"Fighting, Fighting, Fighting, Colorless",4.0,60,,,
+,Thunder Wave,,,,,,base1-9,"Lightning, Lightning, Colorless",3.0,30,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Selfdestruct,,,,,,base1-9,"Lightning, Lightning, Colorless, Colorless",4.0,80,Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself.,,
+,Psychic,,,,,,base1-10,"Psychic, Colorless",2.0,10+,Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.,,
+,Barrier,,,,,,base1-10,"Psychic, Psychic",2.0,,"Discard 1 Psychic Energy card attached to Mewtwo in order to prevent all effects of attacks, including damage, done to Mewtwo during your opponent's next turn.",,
+,Thrash,,,,,,base1-11,"Grass, Colorless, Colorless",3.0,30+,"Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.",,
+,Toxic,,,,,,base1-11,"Grass, Grass, Grass",3.0,20,The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).,,
+,Lure,,,,,,base1-12,"Colorless, Colorless",2.0,,"If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.",,
+,Fire Blast,,,,,,base1-12,"Fire, Fire, Fire, Fire",4.0,80,Discard 1 Fire Energy card attached to Ninetales in order to use this attack.,,
+,Water Gun,,,,,,base1-13,"Water, Water, Colorless",3.0,30+,Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.,,
+,Whirlpool,,,,,,base1-13,"Water, Water, Colorless, Colorless",4.0,40,"If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",,
+,Agility,,,,,,base1-14,"Lightning, Colorless, Colorless",3.0,20,"Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Raichu.",,
+,Thunder,,,,,,base1-14,"Lightning, Lightning, Lightning, Colorless",4.0,60,"Flip a coin. If tails, Raichu does 30 damage to itself.",,
+,Solarbeam,,,,,,base1-15,"Grass, Grass, Grass, Grass",4.0,60,,,
+,Thunder,,,,,,base1-16,"Lightning, Lightning, Lightning, Colorless",4.0,60,"Flip a coin. If tails, Zapdos does 30 damage to itself.",,
+,Thunderbolt,,,,,,base1-16,"Lightning, Lightning, Lightning, Lightning",4.0,100,Discard all Energy cards attached to Zapdos in order to use this attack.,,
+,Twineedle,,,,,,base1-17,"Colorless, Colorless, Colorless",3.0,30×,Flip 2 coins. This attack does 30 damage times the number of heads.,,
+,Poison Sting,,,,,,base1-17,"Grass, Grass, Grass",3.0,40,"Flip a coin. If heads, the Defending Pokémon is now Poisoned.",,
+,Slam,,,,,,base1-18,"Colorless, Colorless, Colorless",3.0,30×,Flip 2 coins. This attack does 30 damage times the number of heads.,,
+,Hyper Beam,,,,,,base1-18,"Colorless, Colorless, Colorless, Colorless",4.0,20,"If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",,
+,Slash,,,,,,base1-19,"Fighting, Fighting, Colorless",3.0,40,,,
+,Earthquake,,,,,,base1-19,"Fighting, Fighting, Fighting, Fighting",4.0,70,Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.),,
+,Thundershock,,,,,,base1-20,Lightning,1.0,10,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Thunderpunch,,,,,,base1-20,"Lightning, Colorless",2.0,30+,"Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage plus Electabuzz does 10 damage to itself.",,
+,Electric Shock,,,,,,base1-21,"Lightning, Lightning, Lightning",3.0,50,"Flip a coin. If tails, Electrode does 10 damage to itself.",,
+,Whirlwind,,,,,,base1-22,"Colorless, Colorless",2.0,20,"If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",,
+,Mirror Move,,,,,,base1-22,"Colorless, Colorless, Colorless",3.0,,"If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon.",,
+,Flamethrower,,,,,,base1-23,"Fire, Fire, Colorless",3.0,50,Discard 1 Fire Energy card attached to Arcanine in order to use this attack.,,
+,Take Down,,,,,,base1-23,"Fire, Fire, Colorless, Colorless",4.0,80,Arcanine does 30 damage to itself.,,
+,Slash,,,,,,base1-24,"Colorless, Colorless, Colorless",3.0,30,,,
+,Flamethrower,,,,,,base1-24,"Fire, Fire, Colorless",3.0,50,Discard 1 Fire Energy card attached to Charmeleon in order to use this attack.,,
+,Aurora Beam,,,,,,base1-25,"Water, Water, Colorless",3.0,50,,,
+,Ice Beam,,,,,,base1-25,"Water, Water, Colorless, Colorless",4.0,30,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Pound,,,,,,base1-26,Colorless,1.0,10,,,
+,Leek Slap,,,,,,base1-27,Colorless,1.0,30,"Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again).",,
+,Pot Smash,,,,,,base1-27,"Colorless, Colorless, Colorless",3.0,30,,,
+,Flare,,,,,,base1-28,"Fire, Colorless",2.0,20,,,
+,Hypnosis,,,,,,base1-29,Psychic,1.0,,The Defending Pokémon is now Asleep.,,
+,Dream Eater,,,,,,base1-29,"Psychic, Psychic",2.0,50,You can't use this attack unless the Defending Pokémon is Asleep.,,
+,Vine Whip,,,,,,base1-30,"Grass, Colorless, Colorless",3.0,30,,,
+,Poisonpowder,,,,,,base1-30,"Grass, Grass, Grass",3.0,20,The Defending Pokémon is now Poisoned.,,
+,Doubleslap,,,,,,base1-31,Psychic,1.0,10×,Flip 2 coins. This attack does 10 damage times the number of heads.,,
+,Meditate,,,,,,base1-31,"Psychic, Psychic, Colorless",3.0,20+,Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.,,
+,Recover,,,,,,base1-32,"Psychic, Psychic",2.0,,Discard 1 Psychic Energy card attached to Kadabra in order to use this attack. Remove all damage counters from Kadabra.,,
+,Super Psy,,,,,,base1-32,"Psychic, Psychic, Colorless",3.0,50,,,
+,Stiffen,,,,,,base1-33,"Colorless, Colorless",2.0,,"Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",,
+,Poisonpowder,,,,,,base1-33,"Grass, Grass",2.0,20,"Flip a coin. If heads, the Defending Pokémon is now Poisoned.",,
+,Karate Chop,,,,,,base1-34,"Fighting, Fighting, Colorless",3.0,50-,Does 50 damage minus 10 damage for each damage counter on Machoke.,,
+,Submission,,,,,,base1-34,"Fighting, Fighting, Colorless, Colorless",4.0,60,Machoke does 20 damage to itself.,,
+,Tackle,,,,,,base1-35,Colorless,1.0,10,,,
+,Flail,,,,,,base1-35,Water,1.0,10×,Does 10 damage times the number of damage counters on Magikarp.,,
+,Fire Punch,,,,,,base1-36,"Fire, Fire",2.0,30,,,
+,Flamethrower,,,,,,base1-36,"Fire, Fire, Colorless",3.0,50,Discard 1 Fire Energy card attached to Magmar in order to use this attack.,,
+,Double Kick,,,,,,base1-37,"Grass, Colorless, Colorless",3.0,30×,Flip 2 coins. This attack does 30 damage times the number of heads.,,
+,Horn Drill,,,,,,base1-37,"Grass, Grass, Colorless, Colorless",4.0,50,,,
+,Amnesia,,,,,,base1-38,"Water, Water",2.0,,Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.,,
+,Doubleslap,,,,,,base1-38,"Water, Water, Colorless",3.0,30×,Flip 2 coins. This attack does 30 damage times the number of heads.,,
+,Conversion 1,,,,,,base1-39,Colorless,1.0,,"If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless.",,
+,Conversion 2,,,,,,base1-39,"Colorless, Colorless",2.0,,Change Porygon's Resistance to a type of your choice other than Colorless.,,
+,Bite,,,,,,base1-40,Colorless,1.0,20,,,
+,Super Fang,,,,,,base1-40,"Colorless, Colorless, Colorless",3.0,,Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).,,
+,Headbutt,,,,,,base1-41,Water,1.0,10,,,
+,Withdraw,,,,,,base1-42,"Water, Colorless",2.0,,"Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",,
+,Bite,,,,,,base1-42,"Water, Colorless, Colorless",3.0,40,,,
+,Psyshock,,,,,,base1-43,Psychic,1.0,10,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Leech Seed,,,,,,base1-44,"Grass, Grass",2.0,20,"Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",,
+,String Shot,,,,,,base1-45,Grass,1.0,10,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Scratch,,,,,,base1-46,Colorless,1.0,10,,,
+,Ember,,,,,,base1-46,"Fire, Colorless",2.0,30,Discard 1 Fire Energy card attached to Charmander in order to use this attack.,,
+,Dig,,,,,,base1-47,Fighting,1.0,10,,,
+,Mud Slap,,,,,,base1-47,"Fighting, Fighting",2.0,30,,,
+,Fury Attack,,,,,,base1-48,Colorless,1.0,10×,Flip 2 coins. This attack does 10 damage times the number of heads.,,
+,Pound,,,,,,base1-49,Colorless,1.0,10,,,
+,Confuse Ray,,,,,,base1-49,"Psychic, Psychic",2.0,10,"Flip a coin. If heads, the Defending Pokémon is now Confused.",,
+,Sleeping Gas,,,,,,base1-50,Psychic,1.0,,"Flip a coin. If heads, the Defending Pokémon is now Asleep.",,
+,Destiny Bond,,,,,,base1-50,"Psychic, Colorless",2.0,,"Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.",,
+,Foul Gas,,,,,,base1-51,"Grass, Grass",2.0,10,"Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.",,
+,Low Kick,,,,,,base1-52,Fighting,1.0,20,,,
+,Thunder Wave,,,,,,base1-53,Lightning,1.0,10,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Selfdestruct,,,,,,base1-53,"Lightning, Colorless",2.0,40,Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself.,,
+,Stiffen,,,,,,base1-54,"Colorless, Colorless",2.0,,"Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",,
+,Stun Spore,,,,,,base1-54,"Grass, Grass",2.0,20,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Horn Hazard,,,,,,base1-55,Grass,1.0,30,"Flip a coin. If tails, this attack does nothing.",,
+,Rock Throw,,,,,,base1-56,Fighting,1.0,10,,,
+,Harden,,,,,,base1-56,"Fighting, Fighting",2.0,,"During your opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",,
+,Whirlwind,,,,,,base1-57,"Colorless, Colorless",2.0,10,"If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",,
+,Gnaw,,,,,,base1-58,Colorless,1.0,10,,,
+,Thunder Jolt,,,,,,base1-58,"Lightning, Colorless",2.0,30,"Flip a coin. If tails, Pikachu does 10 damage to itself.",,
+,Water Gun,,,,,,base1-59,Water,1.0,10+,Does 10 damage plus 10 more damage for each Water Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd don't count.,,
+,Smash Kick,,,,,,base1-60,"Colorless, Colorless",2.0,20,,,
+,Flame Tail,,,,,,base1-60,"Fire, Fire",2.0,30,,,
+,Bite,,,,,,base1-61,Colorless,1.0,20,,,
+,Sand-attack,,,,,,base1-62,Fighting,1.0,10,"If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",,
+,Bubble,,,,,,base1-63,Water,1.0,10,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Withdraw,,,,,,base1-63,"Water, Colorless",2.0,,"Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)",,
+,Recover,,,,,,base1-64,"Water, Water",2.0,,Discard 1 Water Energy card attached to Starmie in order to use this attack. Remove all damage counters from Starmie.,,
+,Star Freeze,,,,,,base1-64,"Water, Colorless, Colorless",3.0,20,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Slap,,,,,,base1-65,Water,1.0,20,,,
+,Bind,,,,,,base1-66,"Grass, Colorless",2.0,20,"Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",,
+,Poisonpowder,,,,,,base1-66,"Grass, Grass, Grass",3.0,20,The Defending Pokémon is now Poisoned.,,
+,Tackle,,,,,,base1-67,Colorless,1.0,10,,,
+,Confuse Ray,,,,,,base1-68,"Fire, Fire",2.0,10,"Flip a coin. If heads, the Defending Pokémon is now Confused.",,
+,Poison Sting,,,,,,base1-69,Grass,1.0,10,"Flip a coin. If heads, the Defending Pokémon is now Poisoned.",,
+,,,,,,,base1-1,,,,,Confuse Ray,Psychic
+,,,,,,,base1-1,,,,,Confuse Ray,Psychic
+,,,,,,,base1-1,,,,,Confuse Ray,Psychic
+,,,,,,,base1-2,,,,,Hydro Pump,Water
+,,,,,,,base1-2,,,,,Hydro Pump,Water
+,,,,,,,base1-2,,,,,Hydro Pump,Water
+,,,,,,,base1-3,,,,,Scrunch,Colorless
+,,,,,,,base1-3,,,,,Scrunch,Colorless
+,,,,,,,base1-3,,,,,Double-edge,Colorless
+,,,,,,,base1-3,,,,,Double-edge,Colorless
+,,,,,,,base1-3,,,,,Double-edge,Colorless
+,,,,,,,base1-3,,,,,Double-edge,Colorless
+,,,,,,,base1-4,,,,,Fire Spin,Fire
+,,,,,,,base1-4,,,,,Fire Spin,Fire
+,,,,,,,base1-4,,,,,Fire Spin,Fire
+,,,,,,,base1-4,,,,,Fire Spin,Fire
+,,,,,,,base1-5,,,,,Sing,Colorless
+,,,,,,,base1-5,,,,,Metronome,Colorless
+,,,,,,,base1-5,,,,,Metronome,Colorless
+,,,,,,,base1-5,,,,,Metronome,Colorless
+,,,,,,,base1-6,,,,,Dragon Rage,Water
+,,,,,,,base1-6,,,,,Dragon Rage,Water
+,,,,,,,base1-6,,,,,Dragon Rage,Water
+,,,,,,,base1-6,,,,,Bubblebeam,Water
+,,,,,,,base1-6,,,,,Bubblebeam,Water
+,,,,,,,base1-6,,,,,Bubblebeam,Water
+,,,,,,,base1-6,,,,,Bubblebeam,Water
+,,,,,,,base1-7,,,,,Jab,Fighting
+,,,,,,,base1-7,,,,,Special Punch,Fighting
+,,,,,,,base1-7,,,,,Special Punch,Fighting
+,,,,,,,base1-7,,,,,Special Punch,Colorless
+,,,,,,,base1-8,,,,,Seismic Toss,Fighting
+,,,,,,,base1-8,,,,,Seismic Toss,Fighting
+,,,,,,,base1-8,,,,,Seismic Toss,Fighting
+,,,,,,,base1-8,,,,,Seismic Toss,Colorless
+,,,,,,,base1-9,,,,,Thunder Wave,Lightning
+,,,,,,,base1-9,,,,,Thunder Wave,Lightning
+,,,,,,,base1-9,,,,,Thunder Wave,Colorless
+,,,,,,,base1-9,,,,,Selfdestruct,Lightning
+,,,,,,,base1-9,,,,,Selfdestruct,Lightning
+,,,,,,,base1-9,,,,,Selfdestruct,Colorless
+,,,,,,,base1-9,,,,,Selfdestruct,Colorless
+,,,,,,,base1-10,,,,,Psychic,Psychic
+,,,,,,,base1-10,,,,,Psychic,Colorless
+,,,,,,,base1-10,,,,,Barrier,Psychic
+,,,,,,,base1-10,,,,,Barrier,Psychic
+,,,,,,,base1-11,,,,,Thrash,Grass
+,,,,,,,base1-11,,,,,Thrash,Colorless
+,,,,,,,base1-11,,,,,Thrash,Colorless
+,,,,,,,base1-11,,,,,Toxic,Grass
+,,,,,,,base1-11,,,,,Toxic,Grass
+,,,,,,,base1-11,,,,,Toxic,Grass
+,,,,,,,base1-12,,,,,Lure,Colorless
+,,,,,,,base1-12,,,,,Lure,Colorless
+,,,,,,,base1-12,,,,,Fire Blast,Fire
+,,,,,,,base1-12,,,,,Fire Blast,Fire
+,,,,,,,base1-12,,,,,Fire Blast,Fire
+,,,,,,,base1-12,,,,,Fire Blast,Fire
+,,,,,,,base1-13,,,,,Water Gun,Water
+,,,,,,,base1-13,,,,,Water Gun,Water
+,,,,,,,base1-13,,,,,Water Gun,Colorless
+,,,,,,,base1-13,,,,,Whirlpool,Water
+,,,,,,,base1-13,,,,,Whirlpool,Water
+,,,,,,,base1-13,,,,,Whirlpool,Colorless
+,,,,,,,base1-13,,,,,Whirlpool,Colorless
+,,,,,,,base1-14,,,,,Agility,Lightning
+,,,,,,,base1-14,,,,,Agility,Colorless
+,,,,,,,base1-14,,,,,Agility,Colorless
+,,,,,,,base1-14,,,,,Thunder,Lightning
+,,,,,,,base1-14,,,,,Thunder,Lightning
+,,,,,,,base1-14,,,,,Thunder,Lightning
+,,,,,,,base1-14,,,,,Thunder,Colorless
+,,,,,,,base1-15,,,,,Solarbeam,Grass
+,,,,,,,base1-15,,,,,Solarbeam,Grass
+,,,,,,,base1-15,,,,,Solarbeam,Grass
+,,,,,,,base1-15,,,,,Solarbeam,Grass
+,,,,,,,base1-16,,,,,Thunder,Lightning
+,,,,,,,base1-16,,,,,Thunder,Lightning
+,,,,,,,base1-16,,,,,Thunder,Lightning
+,,,,,,,base1-16,,,,,Thunder,Colorless
+,,,,,,,base1-16,,,,,Thunderbolt,Lightning
+,,,,,,,base1-16,,,,,Thunderbolt,Lightning
+,,,,,,,base1-16,,,,,Thunderbolt,Lightning
+,,,,,,,base1-16,,,,,Thunderbolt,Lightning
+,,,,,,,base1-17,,,,,Twineedle,Colorless
+,,,,,,,base1-17,,,,,Twineedle,Colorless
+,,,,,,,base1-17,,,,,Twineedle,Colorless
+,,,,,,,base1-17,,,,,Poison Sting,Grass
+,,,,,,,base1-17,,,,,Poison Sting,Grass
+,,,,,,,base1-17,,,,,Poison Sting,Grass
+,,,,,,,base1-18,,,,,Slam,Colorless
+,,,,,,,base1-18,,,,,Slam,Colorless
+,,,,,,,base1-18,,,,,Slam,Colorless
+,,,,,,,base1-18,,,,,Hyper Beam,Colorless
+,,,,,,,base1-18,,,,,Hyper Beam,Colorless
+,,,,,,,base1-18,,,,,Hyper Beam,Colorless
+,,,,,,,base1-18,,,,,Hyper Beam,Colorless
+,,,,,,,base1-19,,,,,Slash,Fighting
+,,,,,,,base1-19,,,,,Slash,Fighting
+,,,,,,,base1-19,,,,,Slash,Colorless
+,,,,,,,base1-19,,,,,Earthquake,Fighting
+,,,,,,,base1-19,,,,,Earthquake,Fighting
+,,,,,,,base1-19,,,,,Earthquake,Fighting
+,,,,,,,base1-19,,,,,Earthquake,Fighting
+,,,,,,,base1-20,,,,,Thundershock,Lightning
+,,,,,,,base1-20,,,,,Thunderpunch,Lightning
+,,,,,,,base1-20,,,,,Thunderpunch,Colorless
+,,,,,,,base1-21,,,,,Electric Shock,Lightning
+,,,,,,,base1-21,,,,,Electric Shock,Lightning
+,,,,,,,base1-21,,,,,Electric Shock,Lightning
+,,,,,,,base1-22,,,,,Whirlwind,Colorless
+,,,,,,,base1-22,,,,,Whirlwind,Colorless
+,,,,,,,base1-22,,,,,Mirror Move,Colorless
+,,,,,,,base1-22,,,,,Mirror Move,Colorless
+,,,,,,,base1-22,,,,,Mirror Move,Colorless
+,,,,,,,base1-23,,,,,Flamethrower,Fire
+,,,,,,,base1-23,,,,,Flamethrower,Fire
+,,,,,,,base1-23,,,,,Flamethrower,Colorless
+,,,,,,,base1-23,,,,,Take Down,Fire
+,,,,,,,base1-23,,,,,Take Down,Fire
+,,,,,,,base1-23,,,,,Take Down,Colorless
+,,,,,,,base1-23,,,,,Take Down,Colorless
+,,,,,,,base1-24,,,,,Slash,Colorless
+,,,,,,,base1-24,,,,,Slash,Colorless
+,,,,,,,base1-24,,,,,Slash,Colorless
+,,,,,,,base1-24,,,,,Flamethrower,Fire
+,,,,,,,base1-24,,,,,Flamethrower,Fire
+,,,,,,,base1-24,,,,,Flamethrower,Colorless
+,,,,,,,base1-25,,,,,Aurora Beam,Water
+,,,,,,,base1-25,,,,,Aurora Beam,Water
+,,,,,,,base1-25,,,,,Aurora Beam,Colorless
+,,,,,,,base1-25,,,,,Ice Beam,Water
+,,,,,,,base1-25,,,,,Ice Beam,Water
+,,,,,,,base1-25,,,,,Ice Beam,Colorless
+,,,,,,,base1-25,,,,,Ice Beam,Colorless
+,,,,,,,base1-26,,,,,Pound,Colorless
+,,,,,,,base1-27,,,,,Leek Slap,Colorless
+,,,,,,,base1-27,,,,,Pot Smash,Colorless
+,,,,,,,base1-27,,,,,Pot Smash,Colorless
+,,,,,,,base1-27,,,,,Pot Smash,Colorless
+,,,,,,,base1-28,,,,,Flare,Fire
+,,,,,,,base1-28,,,,,Flare,Colorless
+,,,,,,,base1-29,,,,,Hypnosis,Psychic
+,,,,,,,base1-29,,,,,Dream Eater,Psychic
+,,,,,,,base1-29,,,,,Dream Eater,Psychic
+,,,,,,,base1-30,,,,,Vine Whip,Grass
+,,,,,,,base1-30,,,,,Vine Whip,Colorless
+,,,,,,,base1-30,,,,,Vine Whip,Colorless
+,,,,,,,base1-30,,,,,Poisonpowder,Grass
+,,,,,,,base1-30,,,,,Poisonpowder,Grass
+,,,,,,,base1-30,,,,,Poisonpowder,Grass
+,,,,,,,base1-31,,,,,Doubleslap,Psychic
+,,,,,,,base1-31,,,,,Meditate,Psychic
+,,,,,,,base1-31,,,,,Meditate,Psychic
+,,,,,,,base1-31,,,,,Meditate,Colorless
+,,,,,,,base1-32,,,,,Recover,Psychic
+,,,,,,,base1-32,,,,,Recover,Psychic
+,,,,,,,base1-32,,,,,Super Psy,Psychic
+,,,,,,,base1-32,,,,,Super Psy,Psychic
+,,,,,,,base1-32,,,,,Super Psy,Colorless
+,,,,,,,base1-33,,,,,Stiffen,Colorless
+,,,,,,,base1-33,,,,,Stiffen,Colorless
+,,,,,,,base1-33,,,,,Poisonpowder,Grass
+,,,,,,,base1-33,,,,,Poisonpowder,Grass
+,,,,,,,base1-34,,,,,Karate Chop,Fighting
+,,,,,,,base1-34,,,,,Karate Chop,Fighting
+,,,,,,,base1-34,,,,,Karate Chop,Colorless
+,,,,,,,base1-34,,,,,Submission,Fighting
+,,,,,,,base1-34,,,,,Submission,Fighting
+,,,,,,,base1-34,,,,,Submission,Colorless
+,,,,,,,base1-34,,,,,Submission,Colorless
+,,,,,,,base1-35,,,,,Tackle,Colorless
+,,,,,,,base1-35,,,,,Flail,Water
+,,,,,,,base1-36,,,,,Fire Punch,Fire
+,,,,,,,base1-36,,,,,Fire Punch,Fire
+,,,,,,,base1-36,,,,,Flamethrower,Fire
+,,,,,,,base1-36,,,,,Flamethrower,Fire
+,,,,,,,base1-36,,,,,Flamethrower,Colorless
+,,,,,,,base1-37,,,,,Double Kick,Grass
+,,,,,,,base1-37,,,,,Double Kick,Colorless
+,,,,,,,base1-37,,,,,Double Kick,Colorless
+,,,,,,,base1-37,,,,,Horn Drill,Grass
+,,,,,,,base1-37,,,,,Horn Drill,Grass
+,,,,,,,base1-37,,,,,Horn Drill,Colorless
+,,,,,,,base1-37,,,,,Horn Drill,Colorless
+,,,,,,,base1-38,,,,,Amnesia,Water
+,,,,,,,base1-38,,,,,Amnesia,Water
+,,,,,,,base1-38,,,,,Doubleslap,Water
+,,,,,,,base1-38,,,,,Doubleslap,Water
+,,,,,,,base1-38,,,,,Doubleslap,Colorless
+,,,,,,,base1-39,,,,,Conversion 1,Colorless
+,,,,,,,base1-39,,,,,Conversion 2,Colorless
+,,,,,,,base1-39,,,,,Conversion 2,Colorless
+,,,,,,,base1-40,,,,,Bite,Colorless
+,,,,,,,base1-40,,,,,Super Fang,Colorless
+,,,,,,,base1-40,,,,,Super Fang,Colorless
+,,,,,,,base1-40,,,,,Super Fang,Colorless
+,,,,,,,base1-41,,,,,Headbutt,Water
+,,,,,,,base1-42,,,,,Withdraw,Water
+,,,,,,,base1-42,,,,,Withdraw,Colorless
+,,,,,,,base1-42,,,,,Bite,Water
+,,,,,,,base1-42,,,,,Bite,Colorless
+,,,,,,,base1-42,,,,,Bite,Colorless
+,,,,,,,base1-43,,,,,Psyshock,Psychic
+,,,,,,,base1-44,,,,,Leech Seed,Grass
+,,,,,,,base1-44,,,,,Leech Seed,Grass
+,,,,,,,base1-45,,,,,String Shot,Grass
+,,,,,,,base1-46,,,,,Scratch,Colorless
+,,,,,,,base1-46,,,,,Ember,Fire
+,,,,,,,base1-46,,,,,Ember,Colorless
+,,,,,,,base1-47,,,,,Dig,Fighting
+,,,,,,,base1-47,,,,,Mud Slap,Fighting
+,,,,,,,base1-47,,,,,Mud Slap,Fighting
+,,,,,,,base1-48,,,,,Fury Attack,Colorless
+,,,,,,,base1-49,,,,,Pound,Colorless
+,,,,,,,base1-49,,,,,Confuse Ray,Psychic
+,,,,,,,base1-49,,,,,Confuse Ray,Psychic
+,,,,,,,base1-50,,,,,Sleeping Gas,Psychic
+,,,,,,,base1-50,,,,,Destiny Bond,Psychic
+,,,,,,,base1-50,,,,,Destiny Bond,Colorless
+,,,,,,,base1-51,,,,,Foul Gas,Grass
+,,,,,,,base1-51,,,,,Foul Gas,Grass
+,,,,,,,base1-52,,,,,Low Kick,Fighting
+,,,,,,,base1-53,,,,,Thunder Wave,Lightning
+,,,,,,,base1-53,,,,,Selfdestruct,Lightning
+,,,,,,,base1-53,,,,,Selfdestruct,Colorless
+,,,,,,,base1-54,,,,,Stiffen,Colorless
+,,,,,,,base1-54,,,,,Stiffen,Colorless
+,,,,,,,base1-54,,,,,Stun Spore,Grass
+,,,,,,,base1-54,,,,,Stun Spore,Grass
+,,,,,,,base1-55,,,,,Horn Hazard,Grass
+,,,,,,,base1-56,,,,,Rock Throw,Fighting
+,,,,,,,base1-56,,,,,Harden,Fighting
+,,,,,,,base1-56,,,,,Harden,Fighting
+,,,,,,,base1-57,,,,,Whirlwind,Colorless
+,,,,,,,base1-57,,,,,Whirlwind,Colorless
+,,,,,,,base1-58,,,,,Gnaw,Colorless
+,,,,,,,base1-58,,,,,Thunder Jolt,Lightning
+,,,,,,,base1-58,,,,,Thunder Jolt,Colorless
+,,,,,,,base1-59,,,,,Water Gun,Water
+,,,,,,,base1-60,,,,,Smash Kick,Colorless
+,,,,,,,base1-60,,,,,Smash Kick,Colorless
+,,,,,,,base1-60,,,,,Flame Tail,Fire
+,,,,,,,base1-60,,,,,Flame Tail,Fire
+,,,,,,,base1-61,,,,,Bite,Colorless
+,,,,,,,base1-62,,,,,Sand-attack,Fighting
+,,,,,,,base1-63,,,,,Bubble,Water
+,,,,,,,base1-63,,,,,Withdraw,Water
+,,,,,,,base1-63,,,,,Withdraw,Colorless
+,,,,,,,base1-64,,,,,Recover,Water
+,,,,,,,base1-64,,,,,Recover,Water
+,,,,,,,base1-64,,,,,Star Freeze,Water
+,,,,,,,base1-64,,,,,Star Freeze,Colorless
+,,,,,,,base1-64,,,,,Star Freeze,Colorless
+,,,,,,,base1-65,,,,,Slap,Water
+,,,,,,,base1-66,,,,,Bind,Grass
+,,,,,,,base1-66,,,,,Bind,Colorless
+,,,,,,,base1-66,,,,,Poisonpowder,Grass
+,,,,,,,base1-66,,,,,Poisonpowder,Grass
+,,,,,,,base1-66,,,,,Poisonpowder,Grass
+,,,,,,,base1-67,,,,,Tackle,Colorless
+,,,,,,,base1-68,,,,,Confuse Ray,Fire
+,,,,,,,base1-68,,,,,Confuse Ray,Fire
+,,,,,,,base1-69,,,,,Poison Sting,Grass

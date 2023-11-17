@@ -1,1 +1,1 @@
-Select id, name from pokemon where id > ?;
+Select id, name from pokemon where id > ? and id = ?;
