@@ -9961,6 +9961,19 @@ INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor
 INSERT INTO natures (id,name,decreased_stat_id,increased_stat_id,disliked_flavor,favourite_flavor) VALUES ('25','serious','6','6','3','3');
 
 -- languages
+INSERT INTO languages (id,name) VALUES ('1','Japanese-Hrkt');
+INSERT INTO languages (id,name) VALUES ('2','Japanese-Roomaji');
+INSERT INTO languages (id,name) VALUES ('3','Korean');
+INSERT INTO languages (id,name) VALUES ('4','Chinese-Hant');
+INSERT INTO languages (id,name) VALUES ('5','French');
+INSERT INTO languages (id,name) VALUES ('6','German');
+INSERT INTO languages (id,name) VALUES ('7','Spanish');
+INSERT INTO languages (id,name) VALUES ('8','Italian');
+INSERT INTO languages (id,name) VALUES ('9','English');
+INSERT INTO languages (id,name) VALUES ('10','Czech');
+INSERT INTO languages (id,name) VALUES ('11','Japanese');
+INSERT INTO languages (id,name) VALUES ('12','Chinese-Hans');
+INSERT INTO languages (id,name) VALUES ('13','Portuguese-BR');
 
 --HAS DEPENDANCIES
 -- card_metadata
