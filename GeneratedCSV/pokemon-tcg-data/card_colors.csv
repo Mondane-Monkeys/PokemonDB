@@ -1,0 +1,11 @@
+name,introduction_pack,IntroDate,
+Fighting,base1,1999-01-09,"insert into card_colors (name,introduction_pack) values('Fighting','base1');"
+Fire,base1,1999-01-09,"insert into card_colors (name,introduction_pack) values('Fire','base1');"
+Grass,base1,1999-01-09,"insert into moves (name,introduction_pack) values('Grass','base1');"
+Lightning,base1,1999-01-09,"insert into moves (name,introduction_pack) values('Lightning','base1');"
+Psychic,base1,1999-01-09,"insert into moves (name,introduction_pack) values('Psychic','base1');"
+Water,base1,1999-01-09,"insert into moves (name,introduction_pack) values('Water','base1');"
+Colorless,base1,1999-01-09,"insert into moves (name,introduction_pack) values('Colorless','base1');"
+Darkness,base6,1999-06-16,"insert into moves (name,introduction_pack) values('Darkness','base6');"
+Metal,bw1,2000-04-24,"insert into moves (name,introduction_pack) values('Metal','bw1');"
+Fairy,ecard1,2002-09-15,"insert into moves (name,introduction_pack) values('Fairy','ecard1');"

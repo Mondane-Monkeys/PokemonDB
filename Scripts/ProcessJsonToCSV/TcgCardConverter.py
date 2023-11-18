@@ -286,6 +286,7 @@ def flatten_objects(cards, meta_list, pokemon_list, trainer_list, energy_list, a
                 "id": card["id"],
                 "name": card["name"],
                 "subtypes": ", ".join(card.get("subtypes", [])),
+                "rules":", ".join(card.get("rules", [])),
                 # Add other fields as needed
             }
             energy_list.append(energy)
