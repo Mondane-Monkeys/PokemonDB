@@ -23,6 +23,9 @@ Important note from importing:
 	- information from this table is in different locations 
 	need to be stiched together
 - look into the (disliked+favourite)_flavor column and what it means
+- Card prices missing
+- Energy contents is empty (removable?)
+- pkmn_card_evolutions contents is empty (removable?)
 
 Import Data (No reference tables)
    card_packs

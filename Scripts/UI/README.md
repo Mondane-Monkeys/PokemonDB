@@ -82,3 +82,26 @@ When a client wants to run a query, this is what the message should contain
     }
 # General Notes
 In queries.json, "type", "options", & "flags" are used exclusively by the frontend, and will be passed with the rest of the metadata if any are present. 
+
+# Pulling data from EXCEL CSVs
+    CONCATENATE(
+        "INSERT INTO pokemon_cards (",
+        TEXTJOIN(",", TRUE, A$1, B$1, C$1, E$1, G$1, F$1, H$1, I$1, J$1, K$1, L$1, M$1, N$1),
+        ") VALUES (",
+        TEXTJOIN(",", FALSE,
+            IF(A2<>"", "'" & A2 & "'", "NULL"),
+            IF(B2<>"", "'" & B2 & "'", "NULL"),
+            IF(C2<>"", "'" & C2 & "'", "NULL"),
+            IF(E2<>"", "'" & E2 & "'", "NULL"),
+            IF(G2<>"", "'" & G2 & "'", "NULL"),
+            IF(F2<>"", "'" & F2 & "'", "NULL"),
+            IF(H2<>"", "'" & H2 & "'", "NULL"),
+            IF(I2<>"", "'" & I2 & "'", "NULL"),
+            IF(J2<>"", "'" & J2 & "'", "NULL"),
+            IF(K2<>"", "'" & K2 & "'", "NULL"),
+            IF(L2<>"", "'" & L2 & "'", "NULL"),
+            IF(M2<>"", "'" & M2 & "'", "NULL"),
+            IF(N2<>"", "'" & N2 & "'", "NULL")
+        ),
+        ");"
+    )

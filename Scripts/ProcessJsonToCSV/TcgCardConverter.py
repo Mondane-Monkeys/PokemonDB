@@ -250,11 +250,16 @@ def flatten_objects(cards, meta_list, pokemon_list, trainer_list, energy_list, a
                 "type2":",".join(card.get("types", ["", ""])[1:]),
                 "evolvesFrom":card.get("evolvesFrom", ""),
                 "weaknessColor":card.get("weaknesses", [{"type":""}])[0].get("type", ""),
-                "weaknessModifier":card.get("weaknesses", [{"value":""}])[0].get("value", "")
+                "weaknessModifier":card.get("weaknesses", [{"value":""}])[0].get("value", ""),
+                "ability_name":card.get("abilities", [{"name":""}])[0].get("name", ""),
+                "ability_text":card.get("abilities", [{"text":""}])[0].get("text", ""),
+                "ability_type":card.get("abilities", [{"type":""}])[0].get("type", ""),
                 # Add other fields as needed
             }
             pokemon_list.append(pokemon)
-            retreat_cost_list.append(flatten_retreat_cost(card["id"], card.get("retreatCost", [])))
+            rc = flatten_retreat_cost(card["id"], card.get("retreatCost", []))
+            if len(rc)>0:
+                retreat_cost_list.extend(rc)
             # Extract and flatten attacks
             for attack in card.get("attacks", []):
                 attack_info = {
