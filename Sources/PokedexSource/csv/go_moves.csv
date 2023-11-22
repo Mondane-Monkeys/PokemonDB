@@ -98,23 +98,23 @@
 ,Drill Run,5,80,,2.8,80,,,Charged Attack,,,50,45
 ,Petal Blizzard,12,110,,2.6,110,,,Charged Attack,,,100,65
 ,Mega Drain,12,25,,2.6,25,,,Charged Attack,,,50,55
-,Bug Buzz,7,90,,3.7,100,,,Charged Attack,drop by 1 stage Opponent Defense,0.30,50,60
-,Poison Fang,4,35,,1.7,40,,,Charged Attack,drop by 1 stage Opponent Defense,1.00,33,40
-,Night Slash,17,50,,2.2,50,,,Charged Attack,boost by 2 stages Attack,0.13,33,35
-,Bubble Beam,11,45,,1.9,25,,,Charged Attack,drop by 1 stage Opponent Attack,1.00,33,40
+,Bug Buzz,7,90,,3.7,100,,,Charged Attack,drop by 1 stage Opponent Defense,30,50,60
+,Poison Fang,4,35,,1.7,40,,,Charged Attack,drop by 1 stage Opponent Defense,100,33,40
+,Night Slash,17,50,,2.2,50,,,Charged Attack,boost by 2 stages Attack,13,33,35
+,Bubble Beam,11,45,,1.9,25,,,Charged Attack,drop by 1 stage Opponent Attack,100,33,40
 ,Submission,2,60,,2.2,60,,,Charged Attack,,,50,50
 ,Low Sweep,2,40,,1.9,40,,,Charged Attack,,,33,40
 ,Aqua Jet,11,45,,2.6,45,,,Charged Attack,,,33,45
 ,Aqua Tail,11,50,,1.9,50,,,Charged Attack,,,33,35
 ,Seed Bomb,12,55,,2.1,55,,,Charged Attack,,,33,40
 ,Psyshock,14,65,,2.7,70,,,Charged Attack,,,33,45
-,Ancient Power,6,70,,3.5,60,,,Charged Attack,boost by 1 stage Attack,0.10,33,45
-,Rock Tomb,6,70,,3.2,70,,,Charged Attack,drop by 1 stage Opponent Attack,1.00,50,60
+,Ancient Power,6,70,,3.5,60,,,Charged Attack,boost by 1 stage Attack,10,33,45
+,Rock Tomb,6,70,,3.2,70,,,Charged Attack,drop by 1 stage Opponent Attack,100,50,60
 ,Rock Slide,6,80,,2.7,75,,,Charged Attack,,,50,45
 ,Power Gem,6,80,,2.9,80,,,Charged Attack,,,50,60
 ,Shadow Sneak,8,50,,2.9,50,,,Charged Attack,,,33,45
 ,Shadow Punch,8,40,,1.7,40,,,Charged Attack,,,33,35
-,Ominous Wind,8,50,,2.3,45,,,Charged Attack,boost by 1 stage Attack,0.10,33,45
+,Ominous Wind,8,50,,2.3,45,,,Charged Attack,boost by 1 stage Attack,10,33,45
 ,Shadow Ball,8,100,,3,100,,,Charged Attack,,,50,55
 ,Magnet Bomb,9,70,,2.8,70,,,Charged Attack,,,33,45
 ,Iron Head,9,60,,1.9,70,,,Charged Attack,,,50,50
@@ -128,27 +128,27 @@
 ,Disarming Voice,18,70,,3.9,70,,,Charged Attack,,,33,45
 ,Draining Kiss,18,60,,2.6,60,,,Charged Attack,,,50,55
 ,Dazzling Gleam,18,100,,3.5,110,,,Charged Attack,,,50,70
-,Moonblast,18,130,,3.9,110,,,Charged Attack,drop by 1 stage Opponent Attack,0.10,100,60
+,Moonblast,18,130,,3.9,110,,,Charged Attack,drop by 1 stage Opponent Attack,10,100,60
 ,Play Rough,18,90,,2.9,90,,,Charged Attack,,,50,60
-,Cross Poison,4,40,,1.5,50,,,Charged Attack,boost by 2 stages Attack,0.13,33,35
+,Cross Poison,4,40,,1.5,50,,,Charged Attack,boost by 2 stages Attack,13,33,35
 ,Sludge Bomb,4,80,,2.3,80,,,Charged Attack,,,50,50
 ,Sludge Wave,4,110,,3.2,110,,,Charged Attack,,,100,65
 ,Gunk Shot,4,130,,3.1,130,,,Charged Attack,,,100,75
 ,Bone Club,5,40,,1.6,40,,,Charged Attack,,,33,35
 ,Bulldoze,5,80,,3.5,80,,,Charged Attack,,,50,60
 ,Mud Bomb,5,55,,2.3,55,,,Charged Attack,,,33,40
-,Signal Beam,7,75,,2.9,75,,,Charged Attack,drop by 1 stage Opponent Attack,0.20,50,55
+,Signal Beam,7,75,,2.9,75,,,Charged Attack,drop by 1 stage Opponent Attack,20,50,55
 ,X-Scissor,7,45,,1.6,45,,,Charged Attack,,,33,35
-,Flame Charge,10,70,,3.8,65,,,Charged Attack,boost by 1 stage Attack,1.00,33,50
+,Flame Charge,10,70,,3.8,65,,,Charged Attack,boost by 1 stage Attack,100,33,50
 ,Flame Burst,10,70,,2.6,70,,,Charged Attack,,,50,55
 ,Fire Blast,10,140,,4.2,140,,,Charged Attack,,,100,80
 ,Brine,11,60,,2.3,60,,,Charged Attack,,,50,50
 ,Water Pulse,11,70,,3.2,70,,,Charged Attack,,,50,60
-,Scald,11,80,,3.7,80,,,Charged Attack,drop by 1 stage Opponent Attack,0.30,50,50
+,Scald,11,80,,3.7,80,,,Charged Attack,drop by 1 stage Opponent Attack,30,50,50
 ,Hydro Pump,11,130,,3.3,130,,,Charged Attack,,,100,75
-,14,14,90,,2.8,90,,,Charged Attack,drop by 1 stage Opponent Defense,0.10,50,55
+,14,14,90,,2.8,90,,,Charged Attack,drop by 1 stage Opponent Defense,10,50,55
 ,Psystrike,14,90,,2.3,90,,,Charged Attack,,,50,45
-,Icy Wind,15,60,,3.3,60,,,Charged Attack,drop by 1 stage Opponent Attack,1.00,33,45
+,Icy Wind,15,60,,3.3,60,,,Charged Attack,drop by 1 stage Opponent Attack,100,33,45
 ,Giga Drain,12,50,,3.9,50,,,Charged Attack,,,100,80
 ,Fire Punch,10,55,,2.2,55,,,Charged Attack,,,33,40
 ,Solar Beam,12,180,,4.9,150,,,Charged Attack,,,100,80
@@ -168,33 +168,33 @@
 ,Hydro Pump (Blastoise),11,90,,4.5,90,,,Charged Attack,,,100,80
 ,Wrap (Green),1,25,,2.9,25,,,Charged Attack,,,33,45
 ,Wrap (Pink),1,25,,2.9,25,,,Charged Attack,,,33,45
-,Close Combat,2,100,,2.3,100,,,Charged Attack,drop by 2 stages Defense,1.00,100,45
+,Close Combat,2,100,,2.3,100,,,Charged Attack,drop by 2 stages Defense,100,100,45
 ,Dynamic Punch,2,90,,2.7,90,,,Charged Attack,,,50,50
 ,Focus Blast,2,140,,3.5,150,,,Charged Attack,,,100,75
 ,Aurora Beam,15,80,,3.55,80,,,Charged Attack,,,50,60
-,Wild Charge,13,90,,2.6,100,,,Charged Attack,drop by 2 stages Defense,1.00,50,45
-,Zap Cannon,13,140,,3.7,150,,,Charged Attack,drop by 1 stage Opponent Attack,0.66,100,80
+,Wild Charge,13,90,,2.6,100,,,Charged Attack,drop by 2 stages Defense,100,50,45
+,Zap Cannon,13,140,,3.7,150,,,Charged Attack,drop by 1 stage Opponent Attack,66,100,80
 ,Avalanche,15,90,,2.7,90,,,Charged Attack,,,50,45
-,Brave Bird,3,130,,2,130,,,Charged Attack,drop by 3 stages Defense,1.00,100,55
+,Brave Bird,3,130,,2,130,,,Charged Attack,drop by 3 stages Defense,100,100,55
 ,Sky Attack,3,80,,2,75,,,Charged Attack,,,50,45
-,Sand Tomb,5,60,,4,25,,,Charged Attack,drop by 1 stage Opponent Defense,1.00,33,40
+,Sand Tomb,5,60,,4,25,,,Charged Attack,drop by 1 stage Opponent Defense,100,33,40
 ,Rock Blast,6,50,,2.1,50,,,Charged Attack,,,33,40
-,Silver Wind,7,70,,3.7,60,,,Charged Attack,boost by 1 stage Attack,0.10,33,45
+,Silver Wind,7,70,,3.7,60,,,Charged Attack,boost by 1 stage Attack,10,33,45
 ,Night Shade,8,60,,2.6,60,,,Charged Attack,,,50,55
 ,Gyro Ball,9,80,,3.3,80,,,Charged Attack,,,50,60
 ,Heavy Slam,9,70,,2.1,70,,,Charged Attack,,,50,50
-,Overheat,10,160,,4,130,,,Charged Attack,drop by 2 stages Attack,1.00,100,55
+,Overheat,10,160,,4,130,,,Charged Attack,drop by 2 stages Attack,100,100,55
 ,Grass Knot,12,90,,2.6,90,,,Charged Attack,,,50,50
-,Energy Ball,12,90,,3.9,90,,,Charged Attack,drop by 1 stage Opponent Defense,0.10,50,55
+,Energy Ball,12,90,,3.9,90,,,Charged Attack,drop by 1 stage Opponent Defense,10,50,55
 ,Future Sight,14,120,,2.7,120,,,Charged Attack,,,100,65
 ,Mirror Coat,14,60,,2.6,60,,,Charged Attack,,,50,55
 ,Outrage,16,110,,3.9,110,,,Charged Attack,,,50,60
-,Crunch,17,70,,3.2,70,,,Charged Attack,drop by 1 stage Opponent Defense,0.30,33,45
+,Crunch,17,70,,3.2,70,,,Charged Attack,drop by 1 stage Opponent Defense,30,33,45
 ,Foul Play,17,70,,2,70,,,Charged Attack,,,50,45
 ,Surf,11,65,,1.7,65,,,Charged Attack,,,50,40
-,Draco Meteor,16,150,,3.6,150,,,Charged Attack,drop by 2 stages Attack,1.00,100,65
+,Draco Meteor,16,150,,3.6,150,,,Charged Attack,drop by 2 stages Attack,100,100,65
 ,Doom Desire,9,70,,1.7,75,,,Charged Attack,,,33,40
-,Psycho Boost,14,70,,4,70,,,Charged Attack,drop by 2 stages Attack,1.00,50,35
+,Psycho Boost,14,70,,4,70,,,Charged Attack,drop by 2 stages Attack,100,50,35
 ,Origin Pulse,11,130,,1.7,130,,,Charged Attack,,,100,60
 ,Precipice Blades,5,130,,1.7,130,,,Charged Attack,,,100,60
 ,Weather Ball,10,55,,1.6,55,,,Charged Attack,,,33,35
@@ -206,24 +206,24 @@
 ,Hydro Cannon,11,90,,1.9,80,,,Charged Attack,,,50,40
 ,Last Resort,1,90,,2.9,90,,,Charged Attack,,,50,55
 ,Meteor Mash,9,100,,2.6,100,,,Charged Attack,,,50,50
-,Skull Bash,1,130,,3.1,130,,,Charged Attack,boost by 1 stage Defense,1.00,100,75
-,Acid Spray,4,20,,3,20,,,Charged Attack,drop by 2 stages Opponent Defense,1.00,50,45
-,Earth Power,5,100,,3.6,90,,,Charged Attack,drop by 1 stage Opponent Defense,0.10,50,55
-,Crabhammer,11,85,,1.9,80,,,Charged Attack,boost by 2 stages Attack,0.13,50,50
-,Lunge,7,55,,2.9,60,,,Charged Attack,drop by 1 stage Opponent Attack,1.00,33,45
+,Skull Bash,1,130,,3.1,130,,,Charged Attack,boost by 1 stage Defense,100,100,75
+,Acid Spray,4,20,,3,20,,,Charged Attack,drop by 2 stages Opponent Defense,100,50,45
+,Earth Power,5,100,,3.6,90,,,Charged Attack,drop by 1 stage Opponent Defense,10,50,55
+,Crabhammer,11,85,,1.9,80,,,Charged Attack,boost by 2 stages Attack,13,50,50
+,Lunge,7,55,,2.9,60,,,Charged Attack,drop by 1 stage Opponent Attack,100,33,45
 ,Crush Claw,1,,,1.9,,,,Charged Attack,,,,
-,Octazooka,11,50,,2.3,,,,Charged Attack,drop by 2 stages Opponent Attack,0.50,50,50
-,Mirror Shot,9,50,,2.4,,,,Charged Attack,drop by 1 stage Opponent Attack,0.30,33,35
-,Superpower,2,85,,3,,,,Charged Attack,drop by 1 stage Attack,1.00,50,40
-,Fell Stinger,7,50,,2.2,,,,Charged Attack,boost by 1 stage Attack,1.00,33,35
-,Leaf Tornado,12,45,,3.1,,,,Charged Attack,drop by 2 stages Opponent Attack,0.50,33,40
+,Octazooka,11,50,,2.3,,,,Charged Attack,drop by 2 stages Opponent Attack,50,50,50
+,Mirror Shot,9,50,,2.4,,,,Charged Attack,drop by 1 stage Opponent Attack,30,33,35
+,Superpower,2,85,,3,,,,Charged Attack,drop by 1 stage Attack,100,50,40
+,Fell Stinger,7,50,,2.2,,,,Charged Attack,boost by 1 stage Attack,100,33,35
+,Leaf Tornado,12,45,,3.1,,,,Charged Attack,drop by 2 stages Opponent Attack,50,33,40
 ,Leech Life,7,,,2.5,,,,Charged Attack,,,,
-,Drain Punch,2,50,,2.4,,,,Charged Attack,boost by 1 stage Defense,1.00,33,40
-,Shadow Bone,8,80,,2.8,,,,Charged Attack,drop by 1 stage Opponent Defense,0.20,50,45
-,Muddy Water,11,50,,2.2,,,,Charged Attack,drop by 1 stage Opponent Attack,0.30,33,35
+,Drain Punch,2,50,,2.4,,,,Charged Attack,boost by 1 stage Defense,100,33,40
+,Shadow Bone,8,80,,2.8,,,,Charged Attack,drop by 1 stage Opponent Defense,20,50,45
+,Muddy Water,11,50,,2.2,,,,Charged Attack,drop by 1 stage Opponent Attack,30,33,35
 ,Blaze Kick,10,45,,1.2,,,,Charged Attack,,,33,40
-,Razor Shell,11,45,,1.3,,,,Charged Attack,drop by 1 stage Opponent Defense,0.50,33,35
-,Power-Up Punch,2,50,,2,,,,Charged Attack,boost by 1 stage Attack,1.00,33,35
+,Razor Shell,11,45,,1.3,,,,Charged Attack,drop by 1 stage Opponent Defense,50,33,35
+,Power-Up Punch,2,50,,2,,,,Charged Attack,boost by 1 stage Attack,100,33,35
 ,Giga Impact,1,200,,4.7,,,,Charged Attack,,,100,80
 ,Frustration,1,10,,2,,,,Charged Attack,,,33,70
 ,Return,1,35,,0.7,,,,Charged Attack,,,33,70
@@ -235,32 +235,32 @@
 ,Aura Sphere,2,90,,1.8,,,,Charged Attack,,,50,55
 ,Payback,17,100,,2.2,,,,Charged Attack,,,100,60
 ,Rock Wrecker,6,110,,3.6,,,,Charged Attack,,,50,50
-,Aeroblast,3,180,,3.4,,,,Charged Attack,boost by 2 stages Attack,0.13,100,75
+,Aeroblast,3,180,,3.4,,,,Charged Attack,boost by 2 stages Attack,13,100,75
 ,Techno Blast,1,120,,2,,,,Charged Attack,,,100,55
 ,Techno Blast,10,120,,2,,,,Charged Attack,,,100,55
 ,Techno Blast,15,120,,2,,,,Charged Attack,,,100,55
 ,Techno Blast,11,120,,2,,,,Charged Attack,,,100,55
 ,Techno Blast,13,120,,2,,,,Charged Attack,,,100,55
 ,Fly,3,80,,1.8,,,,Charged Attack,,,50,45
-,V-create,10,95,,2.8,,,,Charged Attack,drop by 3 stages Defense,1.00,33,40
-,Leaf Storm,12,130,,2.5,,,,Charged Attack,drop by 2 stages Attack,1.00,100,55
-,Tri Attack,1,75,,2.5,,,,Charged Attack,drop by 1 stage Opponent Attack,0.50,50,50
-,Feather Dance,3,35,,2.8,,,,Charged Attack,drop by 2 stages Opponent Attack,1.00,50,50
+,V-create,10,95,,2.8,,,,Charged Attack,drop by 3 stages Defense,100,33,40
+,Leaf Storm,12,130,,2.5,,,,Charged Attack,drop by 2 stages Attack,100,100,55
+,Tri Attack,1,75,,2.5,,,,Charged Attack,drop by 1 stage Opponent Attack,50,50,50
+,Feather Dance,3,35,,2.8,,,,Charged Attack,drop by 2 stages Opponent Attack,100,50,50
 ,Weather Ball,1,55,,1.6,,,,Charged Attack,,,33,35
-,Sacred Fire,10,120,,2.6,,,,Charged Attack,drop by 1 stage Opponent Attack,0.50,100,65
+,Sacred Fire,10,120,,2.6,,,,Charged Attack,drop by 1 stage Opponent Attack,50,100,65
 ,Icicle Spear,15,60,,2.2,,,,Charged Attack,,,33,40
-,Aeroblast+,3,200,,3.4,,,,Charged Attack,boost by 2 stages Attack,0.13,100,75
-,Aeroblast++,3,225,,3.4,,,,Charged Attack,boost by 2 stages Attack,0.13,100,75
-,Sacred Fire+,10,135,,2.6,,,,Charged Attack,drop by 1 stage Opponent Attack,0.50,100,65
-,Sacred Fire++,10,155,,2.6,,,,Charged Attack,drop by 1 stage Opponent Attack,0.50,100,65
+,Aeroblast+,3,200,,3.4,,,,Charged Attack,boost by 2 stages Attack,13,100,75
+,Aeroblast++,3,225,,3.4,,,,Charged Attack,boost by 2 stages Attack,13,100,75
+,Sacred Fire+,10,135,,2.6,,,,Charged Attack,drop by 1 stage Opponent Attack,50,100,65
+,Sacred Fire++,10,155,,2.6,,,,Charged Attack,drop by 1 stage Opponent Attack,50,100,65
 ,Acrobatics,3,100,,2.6,,,,Charged Attack,,,100,60
-,Luster Purge,14,100,,1.5,,,,Charged Attack,drop by 1 stage Opponent Defense,0.50,100,60
-,Mist Ball,14,105,,2,,,,Charged Attack,drop by 1 stage Opponent Attack,0.50,100,60
+,Luster Purge,14,100,,1.5,,,,Charged Attack,drop by 1 stage Opponent Defense,50,100,60
+,Mist Ball,14,105,,2,,,,Charged Attack,drop by 1 stage Opponent Attack,50,100,60
 ,Brutal Swing,17,65,,1.9,,,,Charged Attack,,,33,40
-,Seed Flare,12,120,,2.7,,,,Charged Attack,drop by 2 stages Opponent Defense,0.40,100,75
-,Obstruct,17,20,,1.7,,,,Charged Attack,boost by 1 stage Defense,1.00,33,40
+,Seed Flare,12,120,,2.7,,,,Charged Attack,drop by 2 stages Opponent Defense,40,100,75
+,Obstruct,17,20,,1.7,,,,Charged Attack,boost by 1 stage Defense,100,33,40
 ,Shadow Force,8,140,,1.9,,,,Charged Attack,,,100,90
-,Meteor Beam,6,140,,1.9,,,,Charged Attack,boost by 1 stage Attack,1.00,100,60
+,Meteor Beam,6,140,,1.9,,,,Charged Attack,boost by 1 stage Attack,100,100,60
 ,Poltergeist,8,140,,3.6,,,,Charged Attack,,,100,75
 ,High Horsepower,5,110,,1.6,,,,Charged Attack,,,100,60
-,Liquidation,11,70,,3,,,,Charged Attack,drop by 1 stage Opponent Defense,0.30,33,45
+,Liquidation,11,70,,3,,,,Charged Attack,drop by 1 stage Opponent Defense,300,33,45
