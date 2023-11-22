@@ -15,17 +15,20 @@ Server changes
  - Print correct hostname to connect to
 
 Important note from importing:
-- need to review moves and move effects table
-	- also find status effect data
-- missing description for abilities
-- find pokemon go data
-- complete the items table
-	- information from this table is in different locations 
-	need to be stiched together
-- look into the (disliked+favourite)_flavor column and what it means
-- Card prices missing
-- Energy contents is empty (removable?)
-- pkmn_card_evolutions contents is empty (removable?)
+	- need to review moves and move effects table
+		- also find status effect data
+	- missing description for abilities
+	- find pokemon go data
+	- complete the items table
+		- information from this table is in different locations  need to be stiched together
+	- look into the (disliked+favourite)_flavor column and what it means
+	- Card prices missing
+	- Energy contents is empty (removable?)
+	- pkmn_card_evolutions contents is empty (removable?)
+
+ERRORS encountered:
+-for pokemon_moves use pokemon_moves_without_version.csv to insert data
+	encountered Runtime error near line 223785: UNIQUE constraint failed: pokemon_moves.pokemon_id, pokemon_moves.move_id (19)
 
 Import Data (No reference tables)
    card_packs
