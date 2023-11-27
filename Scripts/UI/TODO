@@ -25,6 +25,7 @@ Important note from importing:
 	- Card prices missing
 	- Energy contents is empty (removable?)
 	- pkmn_card_evolutions contents is empty (removable?)
+   - Trainer pokemon has a lot more data: Need to change trainer_teams data
 
 ERRORS encountered:
 -for pokemon_moves use pokemon_moves_without_version.csv to insert data
