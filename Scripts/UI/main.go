@@ -30,12 +30,14 @@ const port = ":8765"
 
 func main() {
 	// Open SQLite3 database
+	fmt.Println("Opening db...")
 	var err error
 	db, err = sqlx.Open("sqlite3", DbPath)
 	if err != nil {
 		fmt.Println("Error opening database:", err)
 		return
 	}
+	fmt.Println("Db opened successfully")
 	// "defer" closes the connection automatically when main() terminates
 	defer db.Close()
 
