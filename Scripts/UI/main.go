@@ -37,12 +37,12 @@ func main() {
 		fmt.Println("Error opening database:", err)
 		return
 	}
-	fmt.Println("Db opened successfully")
 	// "defer" closes the connection automatically when main() terminates
 	defer db.Close()
-
+	
 	// Create tables if not exists
 	createTables()
+	fmt.Println("Db opened successfully")
 
 	// Load query metadata from queries.json
 	queryMetadata, err := loadQueryMetadata(QueriesMetaPath)
