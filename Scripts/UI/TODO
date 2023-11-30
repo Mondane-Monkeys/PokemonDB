@@ -35,6 +35,11 @@ ERRORS encountered:
 -for pokemon_moves use pokemon_moves_without_version.csv to insert data
 	encountered Runtime error near line 223785: UNIQUE constraint failed: pokemon_moves.pokemon_id, pokemon_moves.move_id (19)
 
+- we need to fix foreign key constraint with locations
+- need to fix foreign key constraint for catch_locations
+
+
+
 Import Data (No reference tables)
    card_packs
    card_colors
