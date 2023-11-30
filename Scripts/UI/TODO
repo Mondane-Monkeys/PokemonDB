@@ -27,6 +27,10 @@ Important note from importing:
 	- pkmn_card_evolutions contents is empty (removable?)
    - Trainer pokemon has a lot more data: Need to change trainer_teams data
 
+changes:
+	- changes scema for catch_location tables to include the level
+	- should we also include the game version?? (We have the data)
+
 ERRORS encountered:
 -for pokemon_moves use pokemon_moves_without_version.csv to insert data
 	encountered Runtime error near line 223785: UNIQUE constraint failed: pokemon_moves.pokemon_id, pokemon_moves.move_id (19)
