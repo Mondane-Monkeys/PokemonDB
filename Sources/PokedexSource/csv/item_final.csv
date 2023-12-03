@@ -1,4 +1,4 @@
-﻿name,category,effects,generation_id,cost,firmness,size,smoothness,growth_time,bitter,dry,sweet,sour,
+﻿name,category,effects,generation_id,cost,firmness,size,smoothness,growth_time,bitter,dry,sweet,sour,spicy
 master-ball,standard-balls,Catches a wild Pok������mon every t,3,0,,,,,,,,,
 master-ball,standard-balls,Catches a wild Pok������mon every t,4,0,,,,,,,,,
 master-ball,standard-balls,Catches a wild Pok������mon every t,5,0,,,,,,,,,
@@ -673,14 +673,14 @@ jaboca-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is
 rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',4,20,very-soft,52,60,24,0,0,0,40,10
 rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',5,20,very-soft,52,60,24,0,0,0,40,10
 rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',6,20,very-soft,52,60,24,0,0,0,40,10
-custap-berry,in-a-pinch,Held: Consumed at 1/4 max HP when using a move to go first.,5,20,super-hard,267,60,24,,,,,
-custap-berry,in-a-pinch,Held: Consumed at 1/4 max HP when using a move to go first.,6,20,super-hard,267,60,24,,,,,
-jaboca-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a physical attack.',4,20,soft,33,60,24,,,,,
-jaboca-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a physical attack.',5,20,soft,33,60,24,,,,,
-jaboca-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a physical attack.',6,20,soft,33,60,24,,,,,
-rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',4,20,very-soft,52,60,24,,,,,
-rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',5,20,very-soft,52,60,24,,,,,
-rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',6,20,very-soft,52,60,24,,,,,
+custap-berry,in-a-pinch,Held: Consumed at 1/4 max HP when using a move to go first.,5,20,super-hard,267,60,24,0,0,0,0,0
+custap-berry,in-a-pinch,Held: Consumed at 1/4 max HP when using a move to go first.,6,20,super-hard,267,60,24,0,0,0,0,0
+jaboca-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a physical attack.',4,20,soft,33,60,24,0,0,0,0,0
+jaboca-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a physical attack.',5,20,soft,33,60,24,0,0,0,0,0
+jaboca-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a physical attack.',6,20,soft,33,60,24,0,0,0,0,0
+rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',4,20,very-soft,52,60,24,0,0,0,0,0
+rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',5,20,very-soft,52,60,24,0,0,0,0,0
+rowap-berry,other,'Held: Consumed to deal 1/8 attacker''s max HP when holder is struck by a special attack.',6,20,very-soft,52,60,24,0,0,0,0,0
 bright-powder,held-items,'Held: Increases the holder''s evasion by 1/9 (11 1/9%).',3,10,,,,,,,,,
 bright-powder,held-items,'Held: Increases the holder''s evasion by 1/9 (11 1/9%).',4,10,,,,,,,,,
 bright-powder,held-items,'Held: Increases the holder''s evasion by 1/9 (11 1/9%).',5,10,,,,,,,,,
