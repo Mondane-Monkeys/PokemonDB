@@ -11,8 +11,9 @@ import (
 	"sort"
 	"strings"
 
+	_ "github.com/denisenkom/go-mssqldb"
 	"github.com/jmoiron/sqlx"
-	_ "github.com/mattn/go-sqlite3"
+	"github.com/pelletier/go-toml"
 )
 
 var db *sqlx.DB
@@ -25,23 +26,34 @@ const SqlPath = "./db/pokemon.sql"
 const QueriesPath = "./db/queries"
 const QueriesMetaPath = "./db/queries.json"
 const QueriesDirectory = "./db/queries/"
+const connectionFile = "connectionStrings.toml"
 
 const port = ":8765"
 
 func main() {
-	// Open SQLite3 database
-	fmt.Println("Opening db...")
 	var err error
-	db, err = sqlx.Open("sqlite3", DbPath)
+	//get congif
+	config, err := loadConfig(connectionFile)
+	if err != nil {
+		log.Fatal("Error loading configuration:", err)
+	}
+
+	connString := fmt.Sprintf("server=%s;user id=%s;password=%s;database=%s;",
+		config.Server.Server, config.Credentials.Username, config.Credentials.Password, config.Server.Database)
+
+	// Open msSQL database
+	fmt.Println("Opening db...")
+	db, err = sqlx.Open("mssql", connString)
 	if err != nil {
 		fmt.Println("Error opening database:", err)
 		return
 	}
 	// "defer" closes the connection automatically when main() terminates
 	defer db.Close()
-	
+
 	// Create tables if not exists
-	createTables()
+	// createTables()
+	testTables()
 	fmt.Println("Db opened successfully")
 
 	// Load query metadata from queries.json
@@ -66,6 +78,23 @@ func main() {
 	http.Handle("/", http.FileServer(http.Dir("./static")))
 	fmt.Println("Server listening on ", port, "...")
 	http.ListenAndServe(port, nil)
+}
+
+func loadConfig(filename string) (*Config, error) {
+	config := &Config{}
+
+	// Load TOML configuration from file
+	tree, err := toml.LoadFile(filename)
+	if err != nil {
+		return nil, err
+	}
+
+	// Unmarshal the TOML data into the Config struct
+	if err := tree.Unmarshal(config); err != nil {
+		return nil, err
+	}
+
+	return config, nil
 }
 
 func createTables() {
@@ -180,6 +209,21 @@ func (q *QueryRequestParam) UnmarshalJSON(b []byte) error {
 		}
 	}
 	return nil
+}
+
+type Credentials struct {
+	Username string `toml:"username"`
+	Password string `toml:"password"`
+}
+
+type ServerConfig struct {
+	Server   string `toml:"server"`
+	Database string `toml:"database"`
+}
+
+type Config struct {
+	Credentials Credentials  `toml:"credentials"`
+	Server      ServerConfig `toml:"server"`
 }
 
 /////////////////////////////////////
