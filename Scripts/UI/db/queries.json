@@ -98,5 +98,122 @@
         ],
         "display": "value",
         "sql_file": "example_query.sql"
+    },
+    "All Card Packs":{
+        "parameters": [
+        ],
+        "return_parameters": [
+            {
+                "name": "Pack_ID",
+                "order": [1],
+                "type": "string"
+            },
+            {
+                "name": "Pack Name",
+                "order": [2],
+                "type": "string"
+            },
+            {
+                "name": "Series",
+                "order": [3],
+                "type": "string"
+            },
+            {
+                "name": "Ptcgo Code",
+                "order": [4],
+                "type": "string"
+            },
+            {
+                "name": "Release Date",
+                "order": [5],
+                "type": "string"
+            },
+            {
+                "name": "Update Date",
+                "order": [6],
+                "type": "string"
+            },
+            {
+                "name": "Symbol",
+                "order": [7],
+                "type": "string"
+            },
+            {
+                "name": "Logo",
+                "order": [8],
+                "type": "string"
+            },
+            {
+                "name": "Legalities Unlimited",
+                "order": [9],
+                "type": "string"
+            },
+            {
+                "name": "Legalities Expanded",
+                "order": [10],
+                "type": "string"
+            },
+            {
+                "name": "Legalities Standard",
+                "order": [11],
+                "type": "string"
+            }
+        ],
+        "display": "value",
+        "sql_file": "all_card_packs.sql",
+        "flags":["All~"]
+    },
+    " All Card Metadata": {
+        "parameters": [
+        ],
+        "return_parameters": [
+            {
+                "name": "Card Metadata id",
+                "order": [1],
+                "type": "string"
+            },
+            {
+                "name": "Pack Id",
+                "order": [2],
+                "type": "string"
+            },
+            {
+                "name": "Name",
+                "order": [3],
+                "type": "string"
+            },
+            {
+                "name": "Supertype",
+                "order": [4],
+                "type": "string"
+            },
+            {
+                "name": "Price",
+                "order": [5],
+                "type": "num"
+            },
+            {
+                "name": "Image Small",
+                "order": [6],
+                "type": "string"
+            },
+            {
+                "name": "Image Large",
+                "order": [7],
+                "type": "string"
+            },
+            {
+                "name": "Artist",
+                "order": [8],
+                "type": "string"
+            },
+            {
+                "name": "Rarity",
+                "order": [9],
+                "type": "string"
+            }
+        ],
+        "display": "value",
+        "sql_file": "all_card_metadata.sql"
     }
 }
