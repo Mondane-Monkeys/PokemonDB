@@ -1,0 +1,1871 @@
+{
+  "All Card Packs": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Series TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Ptcgo Code TEXT",
+        "order": [
+          4
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Release Date TEXT",
+        "order": [
+          5
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Update Date TEXT",
+        "order": [
+          6
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Symbol TEXT",
+        "order": [
+          7
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Logo TEXT",
+        "order": [
+          8
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Legalities Unlimited TEXT",
+        "order": [
+          9
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Legalities Expanded TEXT",
+        "order": [
+          10
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Legalities Standard TEXT",
+        "order": [
+          11
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_card_packs.sql"
+  },
+  "All Card Metadata": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Pack Id TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_card_metadata.sql"
+  },
+  "All Card Colors": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Name TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Introduction Pack TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_card_colors.sql"
+  },
+  "All Trainer Cards": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Rule TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_trainer_cards.sql"
+  },
+  "All Energy Cards": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Subtype TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Rule TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_energy_cards.sql"
+  },
+  "All Energy Card Contents": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Card Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Color Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Count INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_energy_card_contents.sql"
+  },
+  "All Pokemon Cards": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_cards.sql"
+  },
+  "All Retreat Cost": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Card Id TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Color Id TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Count INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_retreat_cost.sql"
+  },
+  "All Pokemon Card Evolutions": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Evolve From INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Evolve Into INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_card_evolutions.sql"
+  },
+  "All Card Attacks": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Name TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Card Id TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Damage INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Text TEXT",
+        "order": [
+          4
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_card_attacks.sql"
+  },
+  "All Card Attack Costs": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Card Attack Name TEXT",
+        "order": [
+          1
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Card Id TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Type Id REFERENCES",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_card_attack_costs.sql"
+  },
+  "All Pokemon": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Species Id INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Weight INT",
+        "order": [
+          4
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Height INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Base Exp INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Is Default INT",
+        "order": [
+          7
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Gender Distribution REAL",
+        "order": [
+          8
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon.sql"
+  },
+  "All Go Stats": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Hp INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Cp INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Stamina INT",
+        "order": [
+          4
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Defense INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Attack INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Gender Ration REAL",
+        "order": [
+          7
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_go_stats.sql"
+  },
+  "All Pokemon Evolution Condition": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Evo Location INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_evolution_condition.sql"
+  },
+  "All Pokemon Abilities": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Ability Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_abilities.sql"
+  },
+  "All Pokemon Moves": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Move Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Version Group Id INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Learn Method TEXT",
+        "order": [
+          4
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Level INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "\"Order\" INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_moves.sql"
+  },
+  "All Pokemon Egg Groups": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Egg Group Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_egg_groups.sql"
+  },
+  "All Moves": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Power INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Type Id INT",
+        "order": [
+          4
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_moves.sql"
+  },
+  "All Abilities": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Is Main Series INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Description TEXT",
+        "order": [
+          4
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_abilities.sql"
+  },
+  "All Egg Groups": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_egg_groups.sql"
+  },
+  "All Go Moves": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Animation Duration FLOAT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Power INT",
+        "order": [
+          4
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Energy Return INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Tb Turns INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Effect TEXT",
+        "order": [
+          7
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Category TEXT",
+        "order": [
+          8
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Tb Energy Cost TEXT",
+        "order": [
+          9
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Energy Cost INT",
+        "order": [
+          10
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Chance Of Effect INT",
+        "order": [
+          11
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Tb Energy Gain INT",
+        "order": [
+          12
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Tb Power INT",
+        "order": [
+          13
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Type Id INT",
+        "order": [
+          14
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_go_moves.sql"
+  },
+  "All Exp Level Thresholds": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Level Group INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Level INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Exp Threshold INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Primary KEY",
+        "order": [
+          4
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Level TEXT",
+        "order": [
+          5
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_exp_level_thresholds.sql"
+  },
+  "All Types": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_types.sql"
+  },
+  "All Type Effectiveness": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Offense Type Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Defense Type Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Damage Modifier NUM",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_type_effectiveness.sql"
+  },
+  "All Move Effects": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Move Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Effect Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_move_effects.sql"
+  },
+  "All Status Effects": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Effect TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_status_effects.sql"
+  },
+  "All Type Immunity": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Effect Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Type Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_type_immunity.sql"
+  },
+  "All Regions": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_regions.sql"
+  },
+  "All Generations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Region Id INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_generations.sql"
+  },
+  "All Version Groups": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Generation Id INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_version_groups.sql"
+  },
+  "All Games": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Generation Id INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_games.sql"
+  },
+  "All Locations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Game Index INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "--References games(id",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_locations.sql"
+  },
+  "All Starters": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Generation Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_starters.sql"
+  },
+  "All Trainers": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Game Id INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_trainers.sql"
+  },
+  "All Catch Locations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Location Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Min Level INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Max Level INT",
+        "order": [
+          4
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Version Id INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Encounter Slot Id INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_catch_locations.sql"
+  },
+  "All Game Pokemon": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Game Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_game_pokemon.sql"
+  },
+  "All Trainer Teams": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Trainer Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Place INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Level INT",
+        "order": [
+          4
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_trainer_teams.sql"
+  },
+  "All Items": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INTEGER",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Category TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Description TEXT",
+        "order": [
+          4
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Cost INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Generation Id INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_items.sql"
+  },
+  "All Berry Locations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Berry Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Location Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_berry_locations.sql"
+  },
+  "All Natures": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Favourite Flavor TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Disliked Flavor TEXT",
+        "order": [
+          4
+        ],
+        "type": "string"
+      },
+      {
+        "name": "Game Index INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Increased Stat Id INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_natures.sql"
+  },
+  "All Berry Effects": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Nature Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Berry Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Attack INT",
+        "order": [
+          3
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Defense INT",
+        "order": [
+          4
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Speed INT",
+        "order": [
+          5
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Sp Attack INT",
+        "order": [
+          6
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Sp Defense INT",
+        "order": [
+          7
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_berry_effects.sql"
+  },
+  "All Game Locations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Game Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Location Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_game_locations.sql"
+  },
+  "All Game Items": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Game Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Item Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_game_items.sql"
+  },
+  "All Languages": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_languages.sql"
+  },
+  "All Language Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Language INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_language_translations.sql"
+  },
+  "All Move Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Move Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_move_translations.sql"
+  },
+  "All Type Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Type Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_type_translations.sql"
+  },
+  "All Ability Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Ability Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_ability_translations.sql"
+  },
+  "All Generation Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Generation Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_generation_translations.sql"
+  },
+  "All Region Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Region Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_region_translations.sql"
+  },
+  "All Game Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Game Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_game_translations.sql"
+  },
+  "All Item Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Item Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_item_translations.sql"
+  },
+  "All Nature Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Nature Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_nature_translations.sql"
+  },
+  "All Location Translations": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Location Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Language Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          3
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_location_translations.sql"
+  },
+  "All Stats": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name TEXT",
+        "order": [
+          2
+        ],
+        "type": "string"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_stats.sql"
+  },
+  "All Pokemon Stats": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_stats.sql"
+  },
+  "All Go Pokemon Learn Moves": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Pokemon Id INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_go_pokemon_learn_moves.sql"
+  },
+  "All Pokemon Items": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Rarity INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Game Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_pokemon_items.sql"
+  },
+  "All Mechanical Moves": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INTEGER",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Generation Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_mechanical_moves.sql"
+  },
+  "All Encounter Method": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Id INTEGER",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Name Text",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_encounter_method.sql"
+  },
+  "All Location Encounter Rate": {
+    "parameters": [],
+    "return_parameters": [
+      {
+        "name": "Encounter Rate INT",
+        "order": [
+          1
+        ],
+        "type": "int"
+      },
+      {
+        "name": "Game Id INT",
+        "order": [
+          2
+        ],
+        "type": "int"
+      }
+    ],
+    "display": "value",
+    "sql_file": "all_location_encounter_rate.sql"
+  }
+}
