@@ -1,35 +1,35 @@
-id,version_group_id,identifier
-1,1,red
-2,1,blue
-3,2,yellow
-4,3,gold
-5,3,silver
-6,4,crystal
-7,5,ruby
-8,5,sapphire
-9,6,emerald
-10,7,firered
-11,7,leafgreen
-12,8,diamond
-13,8,pearl
-14,9,platinum
-15,10,heartgold
-16,10,soulsilver
-17,11,black
-18,11,white
-19,12,colosseum
-20,13,xd
-21,14,black-2
-22,14,white-2
-23,15,x
-24,15,y
-25,16,omega-ruby
-26,16,alpha-sapphire
-27,17,sun
-28,17,moon
-29,18,ultra-sun
-30,18,ultra-moon
-31,19,lets-go-pikachu
-32,19,lets-go-eevee
-33,20,sword
-34,20,shield
+id,version_group_id,name,release_date,,legendary_pokemon_id,generation_id,,
+1,1,red,September 28 1996,,150,1,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('1','red','September 28 1996','150','1');"
+2,1,blue,September 28 1996,,150,1,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('2','blue','September 28 1996','150','1');"
+3,2,yellow,October 19 1998,,25,1,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('3','yellow','October 19 1998','25','1');"
+4,3,gold,November 21 1999,,250,2,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('4','gold','November 21 1999','250','2');"
+5,3,silver,November 21 1999,,249,2,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('5','silver','November 21 1999','249','2');"
+6,4,crystal,December 14 2000,,245,2,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('6','crystal','December 14 2000','245','2');"
+7,5,ruby,November 21 2002,,383,3,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('7','ruby','November 21 2002','383','3');"
+8,5,sapphire,November 21 2002,,382,3,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('8','sapphire','November 21 2002','382','3');"
+9,6,emerald,September 16 2004,,384,3,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('9','emerald','September 16 2004','384','3');"
+10,7,firered,January 29 2004,,6,3,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('10','firered','January 29 2004','6','3');"
+11,7,leafgreen,January 29 2004,,3,3,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('11','leafgreen','January 29 2004','3','3');"
+12,8,diamond,April 22 2007,,483,4,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('12','diamond','April 22 2007','483','4');"
+13,8,pearl,April 22 2007,,484,4,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('13','pearl','April 22 2007','484','4');"
+14,9,platinum,September 13 2008,,487,4,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('14','platinum','September 13 2008','487','4');"
+15,10,heartgold,September 12 2009,,250,4,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('15','heartgold','September 12 2009','250','4');"
+16,10,soulsilver,September 12 2009,,249,4,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('16','soulsilver','September 12 2009','249','4');"
+17,11,black,March 4 2011,,644,5,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('17','black','March 4 2011','644','5');"
+18,11,white,March 4 2011,,643,5,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('18','white','March 4 2011','643','5');"
+19,12,colosseum,,,,,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('19','colosseum','','','');"
+20,13,xd,,,,,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('20','xd','','','');"
+21,14,black-2,June 23 2012,,646,5,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('21','black-2','June 23 2012','646','5');"
+22,14,white-2,June 23 2012,,646,5,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('22','white-2','June 23 2012','646','5');"
+23,15,x,October 12 2013,,716,6,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('23','x','October 12 2013','716','6');"
+24,15,y,October 12 2013,,717,6,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('24','y','October 12 2013','717','6');"
+25,16,omega-ruby,November 21 2014,,383,6,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('25','omega-ruby','November 21 2014','383','6');"
+26,16,alpha-sapphire,November 21 2014,,382,6,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('26','alpha-sapphire','November 21 2014','382','6');"
+27,17,sun,November 18 2016,,791,7,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('27','sun','November 18 2016','791','7');"
+28,17,moon,November 18 2016,,792,7,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('28','moon','November 18 2016','792','7');"
+29,18,ultra-sun,November 17 2017,,791,7,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('29','ultra-sun','November 17 2017','791','7');"
+30,18,ultra-moon,November 17 2017,,792,7,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('30','ultra-moon','November 17 2017','792','7');"
+31,19,lets-go-pikachu,,,,,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('31','lets-go-pikachu','','','');"
+32,19,lets-go-eevee,,,,,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('32','lets-go-eevee','','','');"
+33,20,sword,November 15 2019,,888,8,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('33','sword','November 15 2019','888','8');"
+34,20,shield,November 15 2019,,889,8,,"INSERT INTO games (id,name,release_date,legendary_pokemon_id,generation_id) VALUES ('34','shield','November 15 2019','889','8');"
