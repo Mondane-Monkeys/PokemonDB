@@ -1,20 +1,20 @@
-id,identifier,order
-1,walk,1
-2,old-rod,10
-3,good-rod,11
-4,super-rod,12
-5,surf,14
-6,rock-smash,16
-7,headbutt,17
-8,dark-grass,5
-9,grass-spots,2
-10,cave-spots,3
-11,bridge-spots,4
-12,super-rod-spots,13
-13,surf-spots,15
-14,yellow-flowers,6
-15,purple-flowers,7
-16,red-flowers,8
-17,rough-terrain,9
-18,gift,18
-19,gift-egg,19
+id,name,order,,
+1,walk,1,,INSERT INTO encounter_method (name) VALUES ('walk');
+2,old-rod,10,,INSERT INTO encounter_method (name) VALUES ('old-rod');
+3,good-rod,11,,INSERT INTO encounter_method (name) VALUES ('good-rod');
+4,super-rod,12,,INSERT INTO encounter_method (name) VALUES ('super-rod');
+5,surf,14,,INSERT INTO encounter_method (name) VALUES ('surf');
+6,rock-smash,16,,INSERT INTO encounter_method (name) VALUES ('rock-smash');
+7,headbutt,17,,INSERT INTO encounter_method (name) VALUES ('headbutt');
+8,dark-grass,5,,INSERT INTO encounter_method (name) VALUES ('dark-grass');
+9,grass-spots,2,,INSERT INTO encounter_method (name) VALUES ('grass-spots');
+10,cave-spots,3,,INSERT INTO encounter_method (name) VALUES ('cave-spots');
+11,bridge-spots,4,,INSERT INTO encounter_method (name) VALUES ('bridge-spots');
+12,super-rod-spots,13,,INSERT INTO encounter_method (name) VALUES ('super-rod-spots');
+13,surf-spots,15,,INSERT INTO encounter_method (name) VALUES ('surf-spots');
+14,yellow-flowers,6,,INSERT INTO encounter_method (name) VALUES ('yellow-flowers');
+15,purple-flowers,7,,INSERT INTO encounter_method (name) VALUES ('purple-flowers');
+16,red-flowers,8,,INSERT INTO encounter_method (name) VALUES ('red-flowers');
+17,rough-terrain,9,,INSERT INTO encounter_method (name) VALUES ('rough-terrain');
+18,gift,18,,INSERT INTO encounter_method (name) VALUES ('gift');
+19,gift-egg,19,,INSERT INTO encounter_method (name) VALUES ('gift-egg');
