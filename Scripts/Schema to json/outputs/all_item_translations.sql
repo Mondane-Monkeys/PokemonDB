@@ -1,0 +1,1 @@
+select item_id,language_id,name from item_translations;

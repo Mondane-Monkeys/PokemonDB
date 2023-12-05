@@ -1,0 +1,1 @@
+select id,name,game_id from trainers;

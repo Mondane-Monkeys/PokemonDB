@@ -1,0 +1,1 @@
+select game_id,item_id from game_items;

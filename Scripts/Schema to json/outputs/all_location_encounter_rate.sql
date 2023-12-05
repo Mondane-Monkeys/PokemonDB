@@ -1,0 +1,1 @@
+select encounter_rate,game_id from location_encounter_rate;

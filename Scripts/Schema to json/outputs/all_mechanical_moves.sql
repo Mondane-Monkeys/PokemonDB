@@ -1,0 +1,1 @@
+select id,generation_id from mechanical_moves;

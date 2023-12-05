@@ -1,0 +1,1 @@
+select pokemon_id,egg_group_id from pokemon_egg_groups;

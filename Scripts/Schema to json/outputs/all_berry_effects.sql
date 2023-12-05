@@ -1,0 +1,1 @@
+select nature_id,berry_id,attack,defense,speed,sp_attack,sp_defense from berry_effects;

@@ -1,0 +1,1 @@
+select id,name,is_main_series,description from abilities;

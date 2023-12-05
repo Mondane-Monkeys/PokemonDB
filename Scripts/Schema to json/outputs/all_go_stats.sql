@@ -1,0 +1,1 @@
+select pokemon_id,hp,cp,stamina,defense,attack,gender_ration from go_stats;

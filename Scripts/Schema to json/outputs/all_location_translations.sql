@@ -1,0 +1,1 @@
+select location_id,language_id,name from location_translations;

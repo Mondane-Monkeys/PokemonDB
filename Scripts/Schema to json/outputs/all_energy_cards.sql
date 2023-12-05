@@ -1,0 +1,1 @@
+select id,subtype,rule from energy_cards;

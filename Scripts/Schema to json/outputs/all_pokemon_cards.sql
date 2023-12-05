@@ -1,0 +1,1 @@
+select id,name,pokemon_id from pokemon_cards;

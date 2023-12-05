@@ -1,0 +1,1 @@
+select evolve_from,evolve_into from pokemon_card_evolutions;

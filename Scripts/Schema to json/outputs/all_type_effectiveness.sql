@@ -1,0 +1,1 @@
+select offense_type_id,defense_type_id,damage_modifier from type_effectiveness;

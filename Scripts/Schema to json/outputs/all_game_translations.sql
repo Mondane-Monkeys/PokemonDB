@@ -1,0 +1,1 @@
+select game_id,language_id,name from game_translations;

@@ -1,0 +1,1 @@
+select id,name,region_id from generations;

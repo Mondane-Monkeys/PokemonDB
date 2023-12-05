@@ -1,0 +1,1 @@
+select effect_id,type_id from type_immunity;

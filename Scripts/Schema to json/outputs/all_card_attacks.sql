@@ -1,0 +1,1 @@
+select name,card_id,damage,text from card_attacks;

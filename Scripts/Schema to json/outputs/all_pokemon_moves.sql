@@ -1,0 +1,1 @@
+select pokemon_id,move_id,version_group_id,learn_method,level,"order" from pokemon_moves;

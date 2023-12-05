@@ -1,0 +1,1 @@
+select pokemon_id,game_id from game_pokemon;

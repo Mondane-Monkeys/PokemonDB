@@ -1,0 +1,1 @@
+select card_attack_name,card_id,type_id from card_attack_costs;

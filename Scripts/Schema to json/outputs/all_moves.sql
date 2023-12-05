@@ -1,0 +1,1 @@
+select id,name,power,type_id from moves;

@@ -1,0 +1,1 @@
+select language,language_id,name from language_translations;

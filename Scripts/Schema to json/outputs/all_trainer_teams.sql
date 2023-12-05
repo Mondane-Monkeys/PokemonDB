@@ -1,0 +1,1 @@
+select trainer_id,pokemon_id,place,level from trainer_teams;

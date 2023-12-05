@@ -1,0 +1,1 @@
+select pokemon_id from pokemon_stats;

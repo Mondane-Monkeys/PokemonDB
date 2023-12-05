@@ -1,0 +1,1 @@
+select id,name,generation_id from games;

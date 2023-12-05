@@ -1,0 +1,1 @@
+select pokemon_id,generation_id from starters;

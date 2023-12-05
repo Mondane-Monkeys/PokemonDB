@@ -1,0 +1,1 @@
+select rarity,game_id from pokemon_items;

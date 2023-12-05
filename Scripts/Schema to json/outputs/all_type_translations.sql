@@ -1,0 +1,1 @@
+select type_id,language_id,name from type_translations;

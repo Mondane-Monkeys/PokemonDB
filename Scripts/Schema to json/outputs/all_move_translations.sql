@@ -1,0 +1,1 @@
+select move_id,language_id,name from move_translations;

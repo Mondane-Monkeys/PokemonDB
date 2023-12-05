@@ -1,0 +1,1 @@
+select id,name,species_id,weight,height,base_exp,is_default,gender_distribution from pokemon;

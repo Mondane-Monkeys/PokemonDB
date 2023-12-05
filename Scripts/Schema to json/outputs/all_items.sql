@@ -1,0 +1,1 @@
+select id,name,category,description,cost,generation_id from items;

@@ -1,0 +1,1 @@
+select game_id,location_id from game_locations;

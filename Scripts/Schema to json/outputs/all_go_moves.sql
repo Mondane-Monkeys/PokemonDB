@@ -1,0 +1,1 @@
+select id,name,animation_duration,power,energy_return,tb_turns,effect,category,tb_energy_cost,energy_cost,chance_of_effect,tb_energy_Gain,tb_power,type_id from go_moves;

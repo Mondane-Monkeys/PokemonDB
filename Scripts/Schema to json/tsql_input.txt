@@ -1,0 +1,485 @@
+CREATE TABLE card_packs(
+   id NVARCHAR(255) PRIMARY KEY,
+   name NVARCHAR(255),
+   series NVARCHAR(255),
+   ptcgo_code NVARCHAR(255),
+   release_date NVARCHAR(255),
+   update_date NVARCHAR(255),
+   symbol NVARCHAR(255),
+   logo NVARCHAR(255),
+   legalities_unlimited NVARCHAR(255),
+   legalities_expanded NVARCHAR(255),
+   legalities_standard NVARCHAR(255)
+);
+CREATE TABLE abilities(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   is_main_series INT,
+   description NVARCHAR(255)
+);
+CREATE TABLE stats(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255)
+);
+CREATE TABLE egg_groups(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255)
+);
+CREATE TABLE exp_level_thresholds(
+   level_group INT,
+   level INT,
+   exp_threshold INT,
+   PRIMARY KEY (level_group, level)
+);
+CREATE TABLE types(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255)
+);
+CREATE TABLE type_effectiveness(
+   offense_type_id INT,
+   defense_type_id INT,
+   damage_modifier REAL,
+   FOREIGN KEY (offense_type_id) REFERENCES types(id),
+   FOREIGN KEY (defense_type_id) REFERENCES types(id),
+   PRIMARY KEY (offense_type_id, defense_type_id)
+);
+CREATE TABLE status_effects(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   effect NVARCHAR(255)
+);
+CREATE TABLE regions(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255)
+);
+CREATE TABLE languages(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255)
+);
+CREATE TABLE encounter_method(
+   id INTEGER IDENTITY(1,1) PRIMARY KEY,
+   name NVARCHAR(255)
+);
+
+--locations branch
+CREATE TABLE generations(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   region_id INT REFERENCES regions(id)
+);
+CREATE TABLE version_groups(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   generation_id INT REFERENCES generations(id),
+   chronological_order INT
+);
+--pokemon
+CREATE TABLE pokemon(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   species_id INT,
+   weight INT,
+   height INT,
+   base_exp INT,
+   is_default INT,
+   gender_distribution REAL CHECK (gender_distribution>0 AND gender_distribution<=1),
+   "order" INT,
+   evolve_from INT REFERENCES pokemon(id),
+   primary_type INT REFERENCES types(id),
+   secondary_type INT REFERENCES types(id),
+   hidden_ability INT REFERENCES abilities(id)
+);
+
+CREATE TABLE moves(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   power INT,
+   type_id INT REFERENCES types(id),
+   pp INT,
+   accuracy INT,
+   priority INT,
+   target NVARCHAR(255),
+   damage_class NVARCHAR(255),
+   description NVARCHAR(255)
+);
+
+CREATE TABLE pokemon_abilities(
+   pokemon_id INT,
+   ability_id INT,
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id),
+   FOREIGN KEY (ability_id) REFERENCES abilities(id),
+   PRIMARY KEY (pokemon_id, ability_id)
+);
+CREATE TABLE pokemon_moves(
+   pokemon_id INT,
+   move_id INT,
+   version_group_id INT,
+   learn_method NVARCHAR(255),
+   level INT,
+   "order" INT,
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id),
+   FOREIGN KEY (move_id) REFERENCES moves(id),
+   FOREIGN KEY (version_group_id) REFERENCES version_groups(id),
+   PRIMARY KEY (pokemon_id, move_id, version_group_id, learn_method, level, "order")
+);
+CREATE TABLE pokemon_stats(
+   pokemon_id INT REFERENCES pokemon(id),
+   stat_id INT REFERENCES stats(id),
+   base_stat INT,
+   PRIMARY KEY(pokemon_id, stat_id)
+);
+CREATE TABLE pokemon_egg_groups(
+   pokemon_id INT,
+   egg_group_id INT,
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id),
+   FOREIGN KEY (egg_group_id) REFERENCES egg_groups(id),
+   PRIMARY KEY (pokemon_id, egg_group_id)
+);
+CREATE TABLE move_effects(
+   move_id INT,
+   effect_id INT,
+   FOREIGN KEY (move_id) REFERENCES moves(id),
+   FOREIGN KEY (effect_id) REFERENCES status_effects(id),
+   PRIMARY KEY (move_id, effect_id)
+);
+CREATE TABLE type_immunity(
+   effect_id INT,
+   type_id INT,
+   FOREIGN KEY (effect_id) REFERENCES status_effects(id),
+   FOREIGN KEY (type_id) REFERENCES types(id),
+   PRIMARY KEY (effect_id, type_id)
+);
+CREATE TABLE go_stats(
+   pokemon_id INT PRIMARY KEY,
+   hp INT,
+   cp INT,
+   stamina INT,
+   defense INT,
+   attack INT,
+   gender_ration REAL CHECK (gender_ration >0 AND gender_ration <=1),
+   capture_rate REAL CHECK (capture_rate >=0 AND capture_rate <=1),
+   raid_available INT,
+   egg_available INT,
+   wild_available INT,
+   flee_rate REAL CHECK (flee_rate>=0 AND flee_rate<=1)
+);
+CREATE TABLE go_moves(
+	id INT PRIMARY KEY,
+	name NVARCHAR(255),
+	animation_duration FLOAT,
+	power INT,
+	energy_return INT,
+	tb_turns INT,
+	effect NVARCHAR(255),
+	category NVARCHAR(255),
+	tb_energy_cost INT,
+	energy_cost INT,
+	chance_of_effect INT,
+	tb_energy_Gain INT,
+	tb_power INT,
+	type_id INT REFERENCES types(id)
+);
+CREATE TABLE go_pokemon_learn_moves(
+   pokemon_id INT REFERENCES pokemon(id),
+   go_move_id INT REFERENCES go_moves(id),
+   PRIMARY KEY(pokemon_id, go_move_id)
+);
+--world data
+CREATE TABLE games(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   generation_id INT REFERENCES generations(id),
+   legendary_pokemon_id INT REFERENCES pokemon(id),
+   release_date NVARCHAR(255)
+);
+CREATE TABLE locations(    
+   id INT PRIMARY KEY,    
+   game_index INT,
+   area NVARCHAR(255),    
+   name NVARCHAR(255),    
+   region_id INT
+);
+CREATE TABLE game_locations(
+   game_id INT,
+   location_id INT,
+   FOREIGN KEY (game_id) REFERENCES games(id),
+   FOREIGN KEY (location_id) REFERENCES locations(id),
+   PRIMARY KEY (game_id, location_id)
+);
+CREATE TABLE starters(
+   pokemon_id INT,
+   generation_id INT,
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id),
+   FOREIGN KEY (generation_id) REFERENCES generations(id),
+   PRIMARY KEY (pokemon_id, generation_id)
+);
+CREATE TABLE trainers(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   game_id INT REFERENCES games(id),
+   location_id INT REFERENCES locations(id),
+   is_gym_leader INT
+);
+CREATE TABLE catch_locations(
+   pokemon_id INT,
+   location_id INT,
+   min_level INT,
+   max_level INT,
+   version_id INT,
+   encounter_slot_id INT,
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id),
+   FOREIGN KEY (location_id) REFERENCES locations(id),
+   PRIMARY KEY (pokemon_id, location_id, version_id, encounter_slot_id )
+);
+CREATE TABLE game_pokemon(
+   pokemon_id INT,
+   game_id INT,
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id),
+   FOREIGN KEY (game_id) REFERENCES games(id),
+   PRIMARY KEY (pokemon_id, game_id)
+);
+CREATE TABLE trainer_teams(
+   trainer_id INT,
+   pokemon_id INT,
+   place INT,
+   level INT,
+   FOREIGN KEY (trainer_id) REFERENCES trainers(id),
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id),
+   PRIMARY KEY (trainer_id, pokemon_id, place)
+);
+--items
+CREATE TABLE items(
+   id INTEGER IDENTITY(1,1) PRIMARY KEY,
+   name NVARCHAR(255),
+   category NVARCHAR(255),
+   description NVARCHAR(255),
+   cost INT,
+   generation_id INT REFERENCES generations(id),
+   berry_dryness INT,
+   berry_spiciness INT,
+   berry_sourness INT,
+   berry_firmness NVARCHAR(255),
+   berry_size NVARCHAR(255),
+   berry_smoothness NVARCHAR(255),
+   berry_growth_time NVARCHAR(255),
+   berry_sweetness INT,
+   berry_bitterness INT
+);
+CREATE TABLE berry_locations(
+   berry_id INT,
+   location_id INT,
+   FOREIGN KEY (berry_id) REFERENCES items(id),
+   FOREIGN KEY (location_id) REFERENCES locations(id),
+   PRIMARY KEY (berry_id, location_id)
+);
+CREATE TABLE natures(
+   id INT PRIMARY KEY,
+   name NVARCHAR(255),
+   favourite_flavor NVARCHAR(255),
+   disliked_flavor NVARCHAR(255),
+   game_index INT,
+   increased_stat_id INT REFERENCES stats(id),
+   decreased_stat_id INT REFERENCES stats(id)
+);
+CREATE TABLE berry_effects(
+   nature_id INT,
+   berry_id INT,
+   attack INT,
+   defense INT,
+   speed INT,
+   sp_attack INT,
+   sp_defense INT,
+   FOREIGN KEY (nature_id) REFERENCES natures(id),
+   FOREIGN KEY (berry_id) REFERENCES items(id)
+);
+CREATE TABLE game_items(
+   game_id INT,
+   item_id INT,
+   FOREIGN KEY (game_id) REFERENCES games(id),
+   FOREIGN KEY (item_id) REFERENCES items(id),
+   PRIMARY KEY (game_id, item_id)
+);
+--cards branch
+CREATE TABLE card_metadata(
+   id NVARCHAR(255) PRIMARY KEY,
+   pack_id NVARCHAR(255) REFERENCES card_packs(id),
+   name NVARCHAR(255),
+   supertype NVARCHAR(255),
+   price REAL,
+   image_small NVARCHAR(255),
+   image_large NVARCHAR(255),
+   artist NVARCHAR(255),
+   rarity NVARCHAR(255)
+);
+CREATE TABLE card_colors(
+   name NVARCHAR(255) PRIMARY KEY,
+   introduction_pack NVARCHAR(255) REFERENCES card_packs(id)
+);
+CREATE TABLE trainer_cards(
+   id NVARCHAR(255) PRIMARY KEY,
+   card_rule NVARCHAR(511),
+   FOREIGN KEY (id) REFERENCES card_metadata(id)
+);
+CREATE TABLE energy_cards(
+   id NVARCHAR(255) PRIMARY KEY,
+   subtype NVARCHAR(255),
+   card_rule NVARCHAR(511),
+   FOREIGN KEY (id) REFERENCES card_metadata(id)
+);
+CREATE TABLE energy_card_contents(
+   card_id NVARCHAR(255),
+   color_id NVARCHAR(255),
+   count INT,
+   FOREIGN KEY (card_id) REFERENCES energy_cards(id),
+   FOREIGN KEY (color_id) REFERENCES card_colors(name),
+   PRIMARY KEY (card_id, color_id)
+);
+CREATE TABLE pokemon_cards(
+   id NVARCHAR(255) PRIMARY KEY,
+   name NVARCHAR(255),
+   pokemon_id INT REFERENCES pokemon(id),
+   weakness NVARCHAR(255) REFERENCES card_colors(name),
+   weakness_modifier NVARCHAR(255),
+   level INT,
+   hp INT,
+   ability_text NVARCHAR(255),
+   ability_name NVARCHAR(255),
+   ability_type NVARCHAR(255),
+   evolve_from NVARCHAR(255),
+   primary_color NVARCHAR(255) REFERENCES card_colors(name),
+   secondary_color NVARCHAR(255) REFERENCES card_colors(name),
+   FOREIGN KEY (id) REFERENCES card_metadata(id)
+);
+CREATE TABLE retreat_cost(
+   card_id NVARCHAR(255),
+   color_id NVARCHAR(255),
+   count INT,
+   FOREIGN KEY (card_id) REFERENCES pokemon_cards(id),
+   FOREIGN KEY (color_id) REFERENCES card_colors(name),
+   PRIMARY KEY (card_id, color_id)
+);
+CREATE TABLE card_attacks(
+   name NVARCHAR(255),
+   card_id NVARCHAR(255),
+   damage INT,
+   text NVARCHAR(255),
+   FOREIGN KEY (card_id) REFERENCES pokemon_cards(id),
+   PRIMARY KEY (name, card_id)
+);
+CREATE TABLE card_attack_costs(
+   card_attack_name  NVARCHAR(255),
+   card_id NVARCHAR(255),
+   type_id NVARCHAR(255) REFERENCES card_colors(name),
+   count INT,
+   FOREIGN KEY (card_attack_name, card_id) REFERENCES card_attacks(name, card_id),
+   PRIMARY KEY (card_attack_name, card_id, type_id)
+);
+CREATE TABLE pokemon_evolution_condition(
+   pokemon_id INT PRIMARY KEY,
+   evo_location INT REFERENCES locations(id),
+   evo_region INT REFERENCES regions(id),
+   evo_game INT REFERENCES games(id),
+   evo_knows_move INT REFERENCES moves(id),
+   evo_time REAL,
+   evo_lets_go INT,
+   evo_friendship INT,
+   evo_item INT REFERENCES items(id),
+   evo_other NVARCHAR(255),
+   evo_level INT,
+   evo_gender NVARCHAR(255),
+   evo_trading INT,
+   FOREIGN KEY (pokemon_id) REFERENCES pokemon(id)
+);
+CREATE TABLE pokemon_items(
+   rarity INT,
+   game_id INT REFERENCES games(id),
+   pokemon_id INT REFERENCES pokemon(id),
+   item_id INT REFERENCES items(id),
+   PRIMARY KEY(pokemon_id, item_id,game_id)
+);
+CREATE TABLE mechanical_moves(
+   id INTEGER IDENTITY(1,1) PRIMARY KEY,
+   generation_id INT REFERENCES generations(id),
+   item_id INT REFERENCES items(id),
+   move_id INT REFERENCES moves(id)
+);
+CREATE TABLE location_encounter_rate(
+   encounter_rate INT,
+   game_id INT REFERENCES games(id),
+   location_id INT REFERENCES locations(id),
+   encounter_method INT REFERENCES encounter_method(id),
+   PRIMARY KEY(game_id,location_id,encounter_method,encounter_rate)
+);
+
+--translations
+CREATE TABLE language_translations(
+   language INT,
+   language_id INT,
+   name  NVARCHAR(255),
+   FOREIGN KEY (language) REFERENCES languages(id),
+   FOREIGN KEY (language) REFERENCES languages(id),
+   PRIMARY KEY (language_id, language)
+);
+CREATE TABLE move_translations(
+   move_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (move_id) REFERENCES moves(id),
+   PRIMARY KEY (move_id, language_id)
+);
+CREATE TABLE type_translations(
+   type_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (type_id) REFERENCES types(id),
+   PRIMARY KEY (type_id, language_id)
+);
+CREATE TABLE ability_translations(
+   ability_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (ability_id) REFERENCES abilities(id),
+   PRIMARY KEY (ability_id, language_id)
+);
+CREATE TABLE generation_translations(
+   generation_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (generation_id) REFERENCES generations(id),
+   PRIMARY KEY (generation_id, language_id)
+);
+CREATE TABLE region_translations(
+   region_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (region_id) REFERENCES regions(id),
+   PRIMARY KEY (region_id, language_id)
+);
+CREATE TABLE game_translations(
+   game_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (game_id) REFERENCES games(id),
+   PRIMARY KEY (game_id, language_id)
+);
+CREATE TABLE item_translations(
+   item_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (item_id) REFERENCES items(id),
+   PRIMARY KEY (item_id, language_id)
+);
+CREATE TABLE nature_translations(
+   nature_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (nature_id) REFERENCES natures(id),
+   PRIMARY KEY (nature_id, language_id)
+);
+CREATE TABLE location_translations(
+   location_id INT,
+   language_id INT,
+   name NVARCHAR(255),
+   FOREIGN KEY (location_id) REFERENCES locations(id),
+   PRIMARY KEY (location_id, language_id)
+);

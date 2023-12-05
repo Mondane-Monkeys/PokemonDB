@@ -1,0 +1,1 @@
+select card_id,color_id,count from retreat_cost;

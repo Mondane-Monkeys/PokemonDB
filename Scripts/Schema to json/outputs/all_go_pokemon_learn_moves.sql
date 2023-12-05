@@ -1,0 +1,1 @@
+select pokemon_id from go_pokemon_learn_moves;

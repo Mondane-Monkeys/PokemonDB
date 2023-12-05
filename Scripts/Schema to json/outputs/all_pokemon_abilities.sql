@@ -1,0 +1,1 @@
+select pokemon_id,ability_id from pokemon_abilities;

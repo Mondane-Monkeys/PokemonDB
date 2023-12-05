@@ -1,0 +1,1 @@
+select id,name,effect from status_effects;

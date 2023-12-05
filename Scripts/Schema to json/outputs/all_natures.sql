@@ -1,0 +1,1 @@
+select id,name,favourite_flavor,disliked_flavor,game_index,increased_stat_id from natures;

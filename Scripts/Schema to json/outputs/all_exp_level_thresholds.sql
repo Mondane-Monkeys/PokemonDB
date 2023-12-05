@@ -1,0 +1,1 @@
+select level_group,level,exp_threshold,level from exp_level_thresholds;

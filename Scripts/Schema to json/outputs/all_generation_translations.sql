@@ -1,0 +1,1 @@
+select generation_id,language_id,name from generation_translations;

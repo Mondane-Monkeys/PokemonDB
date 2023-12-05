@@ -1,0 +1,1 @@
+select id,name,series,ptcgo_code,release_date,update_date,symbol,logo,legalities_unlimited,legalities_expanded,legalities_standard from card_packs;

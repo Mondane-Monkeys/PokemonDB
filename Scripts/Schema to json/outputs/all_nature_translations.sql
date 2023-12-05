@@ -1,0 +1,1 @@
+select nature_id,language_id,name from nature_translations;

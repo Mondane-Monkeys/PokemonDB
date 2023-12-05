@@ -1,0 +1,1 @@
+select id,game_index,--REFERENCES from locations;
